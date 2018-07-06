@@ -214,6 +214,10 @@ Public Class Form2
                         GrdRedLast()
                         'GamePad.SetVibration(payerIndex, 1, 0)
                     End If
+                ElseIf (gamePadState.Buttons.Back = Input.ButtonState.Pressed) Then
+                    MessageBox.Show("is back button")
+                ElseIf (gamePadState.Buttons.Start = ButtonState.Pressed) Then
+                    MessageBox.Show("is start")
                 Else
                     isRedInput = False
                     lbl_J_R_1.BackColor = Color.Black
