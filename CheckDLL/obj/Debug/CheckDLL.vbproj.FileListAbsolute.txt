@@ -1,0 +1,117 @@
+G:\TKD_SQL_Version2\CheckDLL\bin\Debug\CheckDLL.dll
+G:\TKD_SQL_Version2\CheckDLL\bin\Debug\CheckDLL.pdb
+G:\TKD_SQL_Version2\CheckDLL\bin\Debug\CheckDLL.xml
+G:\TKD_SQL_Version2\CheckDLL\obj\Debug\ResolveAssemblyReference.cache
+G:\TKD_SQL_Version2\CheckDLL\obj\Debug\CheckDLL.Resources.resources
+G:\TKD_SQL_Version2\CheckDLL\obj\Debug\CheckDLL.vbproj.GenerateResource.Cache
+G:\TKD_SQL_Version2\CheckDLL\obj\Debug\CheckDLL.dll
+G:\TKD_SQL_Version2\CheckDLL\obj\Debug\CheckDLL.xml
+G:\TKD_SQL_Version2\CheckDLL\obj\Debug\CheckDLL.pdb
+F:\TKD_SQL_Version2\CheckDLL\bin\Debug\CheckDLL.dll
+F:\TKD_SQL_Version2\CheckDLL\bin\Debug\CheckDLL.pdb
+F:\TKD_SQL_Version2\CheckDLL\bin\Debug\CheckDLL.xml
+F:\TKD_SQL_Version2\CheckDLL\obj\Debug\ResolveAssemblyReference.cache
+F:\TKD_SQL_Version2\CheckDLL\obj\Debug\CheckDLL.Resources.resources
+F:\TKD_SQL_Version2\CheckDLL\obj\Debug\CheckDLL.vbproj.GenerateResource.Cache
+F:\TKD_SQL_Version2\CheckDLL\obj\Debug\CheckDLL.dll
+F:\TKD_SQL_Version2\CheckDLL\obj\Debug\CheckDLL.xml
+F:\TKD_SQL_Version2\CheckDLL\obj\Debug\CheckDLL.pdb
+G:\Work TKD\TKD_SQL_Version2\CheckDLL\bin\Debug\CheckDLL.dll
+G:\Work TKD\TKD_SQL_Version2\CheckDLL\bin\Debug\CheckDLL.pdb
+G:\Work TKD\TKD_SQL_Version2\CheckDLL\bin\Debug\CheckDLL.xml
+G:\Work TKD\TKD_SQL_Version2\CheckDLL\obj\Debug\ResolveAssemblyReference.cache
+G:\Work TKD\TKD_SQL_Version2\CheckDLL\obj\Debug\CheckDLL.Resources.resources
+G:\Work TKD\TKD_SQL_Version2\CheckDLL\obj\Debug\CheckDLL.vbproj.GenerateResource.Cache
+G:\Work TKD\TKD_SQL_Version2\CheckDLL\obj\Debug\CheckDLL.dll
+G:\Work TKD\TKD_SQL_Version2\CheckDLL\obj\Debug\CheckDLL.xml
+G:\Work TKD\TKD_SQL_Version2\CheckDLL\obj\Debug\CheckDLL.pdb
+F:\Work TKD\TKD_SQL_Version2\CheckDLL\bin\Debug\CheckDLL.dll
+F:\Work TKD\TKD_SQL_Version2\CheckDLL\bin\Debug\CheckDLL.pdb
+F:\Work TKD\TKD_SQL_Version2\CheckDLL\bin\Debug\CheckDLL.xml
+F:\Work TKD\TKD_SQL_Version2\CheckDLL\obj\Debug\ResolveAssemblyReference.cache
+F:\Work TKD\TKD_SQL_Version2\CheckDLL\obj\Debug\CheckDLL.Resources.resources
+F:\Work TKD\TKD_SQL_Version2\CheckDLL\obj\Debug\CheckDLL.vbproj.GenerateResource.Cache
+F:\Work TKD\TKD_SQL_Version2\CheckDLL\obj\Debug\CheckDLL.dll
+F:\Work TKD\TKD_SQL_Version2\CheckDLL\obj\Debug\CheckDLL.xml
+F:\Work TKD\TKD_SQL_Version2\CheckDLL\obj\Debug\CheckDLL.pdb
+G:\Work TKD\TKD_Score_20130625\CheckDLL\bin\Debug\CheckDLL.dll
+G:\Work TKD\TKD_Score_20130625\CheckDLL\bin\Debug\CheckDLL.pdb
+G:\Work TKD\TKD_Score_20130625\CheckDLL\bin\Debug\CheckDLL.xml
+G:\Work TKD\TKD_Score_20130625\CheckDLL\obj\Debug\ResolveAssemblyReference.cache
+G:\Work TKD\TKD_Score_20130625\CheckDLL\obj\Debug\CheckDLL.Resources.resources
+G:\Work TKD\TKD_Score_20130625\CheckDLL\obj\Debug\CheckDLL.vbproj.GenerateResource.Cache
+G:\Work TKD\TKD_Score_20130625\CheckDLL\obj\Debug\CheckDLL.dll
+G:\Work TKD\TKD_Score_20130625\CheckDLL\obj\Debug\CheckDLL.xml
+G:\Work TKD\TKD_Score_20130625\CheckDLL\obj\Debug\CheckDLL.pdb
+F:\Work TKD\TKD_Score_20130625\CheckDLL\bin\Debug\CheckDLL.dll
+F:\Work TKD\TKD_Score_20130625\CheckDLL\bin\Debug\CheckDLL.pdb
+F:\Work TKD\TKD_Score_20130625\CheckDLL\bin\Debug\CheckDLL.xml
+F:\Work TKD\TKD_Score_20130625\CheckDLL\obj\Debug\ResolveAssemblyReference.cache
+F:\Work TKD\TKD_Score_20130625\CheckDLL\obj\Debug\CheckDLL.Resources.resources
+F:\Work TKD\TKD_Score_20130625\CheckDLL\obj\Debug\CheckDLL.vbproj.GenerateResource.Cache
+F:\Work TKD\TKD_Score_20130625\CheckDLL\obj\Debug\CheckDLL.dll
+F:\Work TKD\TKD_Score_20130625\CheckDLL\obj\Debug\CheckDLL.xml
+F:\Work TKD\TKD_Score_20130625\CheckDLL\obj\Debug\CheckDLL.pdb
+F:\Work TKD\Update Detail 20150218\colour xbox\code superxbox\TKD_Score_20130625\CheckDLL\bin\Debug\CheckDLL.dll
+F:\Work TKD\Update Detail 20150218\colour xbox\code superxbox\TKD_Score_20130625\CheckDLL\bin\Debug\CheckDLL.pdb
+F:\Work TKD\Update Detail 20150218\colour xbox\code superxbox\TKD_Score_20130625\CheckDLL\bin\Debug\CheckDLL.xml
+F:\Work TKD\Update Detail 20150218\colour xbox\code superxbox\TKD_Score_20130625\CheckDLL\obj\Debug\ResolveAssemblyReference.cache
+F:\Work TKD\Update Detail 20150218\colour xbox\code superxbox\TKD_Score_20130625\CheckDLL\obj\Debug\CheckDLL.Resources.resources
+F:\Work TKD\Update Detail 20150218\colour xbox\code superxbox\TKD_Score_20130625\CheckDLL\obj\Debug\CheckDLL.vbproj.GenerateResource.Cache
+F:\Work TKD\Update Detail 20150218\colour xbox\code superxbox\TKD_Score_20130625\CheckDLL\obj\Debug\CheckDLL.dll
+F:\Work TKD\Update Detail 20150218\colour xbox\code superxbox\TKD_Score_20130625\CheckDLL\obj\Debug\CheckDLL.xml
+F:\Work TKD\Update Detail 20150218\colour xbox\code superxbox\TKD_Score_20130625\CheckDLL\obj\Debug\CheckDLL.pdb
+F:\Score_20150623\TKD_Fix สีกระพริบ\CheckDLL\bin\Debug\CheckDLL.dll
+F:\Score_20150623\TKD_Fix สีกระพริบ\CheckDLL\bin\Debug\CheckDLL.pdb
+F:\Score_20150623\TKD_Fix สีกระพริบ\CheckDLL\bin\Debug\CheckDLL.xml
+F:\Score_20150623\TKD_Fix สีกระพริบ\CheckDLL\obj\Debug\ResolveAssemblyReference.cache
+F:\Score_20150623\TKD_Fix สีกระพริบ\CheckDLL\obj\Debug\CheckDLL.Resources.resources
+F:\Score_20150623\TKD_Fix สีกระพริบ\CheckDLL\obj\Debug\CheckDLL.vbproj.GenerateResource.Cache
+F:\Score_20150623\TKD_Fix สีกระพริบ\CheckDLL\obj\Debug\CheckDLL.dll
+F:\Score_20150623\TKD_Fix สีกระพริบ\CheckDLL\obj\Debug\CheckDLL.xml
+F:\Score_20150623\TKD_Fix สีกระพริบ\CheckDLL\obj\Debug\CheckDLL.pdb
+G:\TKD_Score เปลี่ยนจอนอก\CheckDLL\bin\Debug\CheckDLL.dll
+G:\TKD_Score เปลี่ยนจอนอก\CheckDLL\bin\Debug\CheckDLL.pdb
+G:\TKD_Score เปลี่ยนจอนอก\CheckDLL\bin\Debug\CheckDLL.xml
+G:\TKD_Score เปลี่ยนจอนอก\CheckDLL\obj\Debug\ResolveAssemblyReference.cache
+G:\TKD_Score เปลี่ยนจอนอก\CheckDLL\obj\Debug\CheckDLL.Resources.resources
+G:\TKD_Score เปลี่ยนจอนอก\CheckDLL\obj\Debug\CheckDLL.vbproj.GenerateResource.Cache
+G:\TKD_Score เปลี่ยนจอนอก\CheckDLL\obj\Debug\CheckDLL.dll
+G:\TKD_Score เปลี่ยนจอนอก\CheckDLL\obj\Debug\CheckDLL.xml
+G:\TKD_Score เปลี่ยนจอนอก\CheckDLL\obj\Debug\CheckDLL.pdb
+C:\Users\Rattapol\Documents\Visual Studio 2008\Projects\TKD Work\TKD_Score เปลี่ยนจอนอก\CheckDLL\bin\Debug\CheckDLL.dll
+C:\Users\Rattapol\Documents\Visual Studio 2008\Projects\TKD Work\TKD_Score เปลี่ยนจอนอก\CheckDLL\bin\Debug\CheckDLL.pdb
+C:\Users\Rattapol\Documents\Visual Studio 2008\Projects\TKD Work\TKD_Score เปลี่ยนจอนอก\CheckDLL\bin\Debug\CheckDLL.xml
+C:\Users\Rattapol\Documents\Visual Studio 2008\Projects\TKD Work\TKD_Score เปลี่ยนจอนอก\CheckDLL\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Rattapol\Documents\Visual Studio 2008\Projects\TKD Work\TKD_Score เปลี่ยนจอนอก\CheckDLL\obj\Debug\CheckDLL.Resources.resources
+C:\Users\Rattapol\Documents\Visual Studio 2008\Projects\TKD Work\TKD_Score เปลี่ยนจอนอก\CheckDLL\obj\Debug\CheckDLL.vbproj.GenerateResource.Cache
+C:\Users\Rattapol\Documents\Visual Studio 2008\Projects\TKD Work\TKD_Score เปลี่ยนจอนอก\CheckDLL\obj\Debug\CheckDLL.dll
+C:\Users\Rattapol\Documents\Visual Studio 2008\Projects\TKD Work\TKD_Score เปลี่ยนจอนอก\CheckDLL\obj\Debug\CheckDLL.xml
+C:\Users\Rattapol\Documents\Visual Studio 2008\Projects\TKD Work\TKD_Score เปลี่ยนจอนอก\CheckDLL\obj\Debug\CheckDLL.pdb
+C:\Users\Rattapol\Documents\Visual Studio 2008\Projects\TKD Work\ต่อสู้\TKD_Score เปลี่ยนจอนอก\CheckDLL\bin\Debug\CheckDLL.dll
+C:\Users\Rattapol\Documents\Visual Studio 2008\Projects\TKD Work\ต่อสู้\TKD_Score เปลี่ยนจอนอก\CheckDLL\bin\Debug\CheckDLL.pdb
+C:\Users\Rattapol\Documents\Visual Studio 2008\Projects\TKD Work\ต่อสู้\TKD_Score เปลี่ยนจอนอก\CheckDLL\bin\Debug\CheckDLL.xml
+C:\Users\Rattapol\Documents\Visual Studio 2008\Projects\TKD Work\ต่อสู้\TKD_Score เปลี่ยนจอนอก\CheckDLL\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Rattapol\Documents\Visual Studio 2008\Projects\TKD Work\ต่อสู้\TKD_Score เปลี่ยนจอนอก\CheckDLL\obj\Debug\CheckDLL.Resources.resources
+C:\Users\Rattapol\Documents\Visual Studio 2008\Projects\TKD Work\ต่อสู้\TKD_Score เปลี่ยนจอนอก\CheckDLL\obj\Debug\CheckDLL.vbproj.GenerateResource.Cache
+C:\Users\Rattapol\Documents\Visual Studio 2008\Projects\TKD Work\ต่อสู้\TKD_Score เปลี่ยนจอนอก\CheckDLL\obj\Debug\CheckDLL.dll
+C:\Users\Rattapol\Documents\Visual Studio 2008\Projects\TKD Work\ต่อสู้\TKD_Score เปลี่ยนจอนอก\CheckDLL\obj\Debug\CheckDLL.xml
+C:\Users\Rattapol\Documents\Visual Studio 2008\Projects\TKD Work\ต่อสู้\TKD_Score เปลี่ยนจอนอก\CheckDLL\obj\Debug\CheckDLL.pdb
+C:\Users\Rattapol\Documents\Visual Studio 2008\Projects\TKD Work\cr-5\TKD_Score เปลี่ยนจอนอก\CheckDLL\bin\Debug\CheckDLL.dll
+C:\Users\Rattapol\Documents\Visual Studio 2008\Projects\TKD Work\cr-5\TKD_Score เปลี่ยนจอนอก\CheckDLL\bin\Debug\CheckDLL.pdb
+C:\Users\Rattapol\Documents\Visual Studio 2008\Projects\TKD Work\cr-5\TKD_Score เปลี่ยนจอนอก\CheckDLL\bin\Debug\CheckDLL.xml
+C:\Users\Rattapol\Documents\Visual Studio 2008\Projects\TKD Work\cr-5\TKD_Score เปลี่ยนจอนอก\CheckDLL\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Rattapol\Documents\Visual Studio 2008\Projects\TKD Work\cr-5\TKD_Score เปลี่ยนจอนอก\CheckDLL\obj\Debug\CheckDLL.Resources.resources
+C:\Users\Rattapol\Documents\Visual Studio 2008\Projects\TKD Work\cr-5\TKD_Score เปลี่ยนจอนอก\CheckDLL\obj\Debug\CheckDLL.vbproj.GenerateResource.Cache
+C:\Users\Rattapol\Documents\Visual Studio 2008\Projects\TKD Work\cr-5\TKD_Score เปลี่ยนจอนอก\CheckDLL\obj\Debug\CheckDLL.dll
+C:\Users\Rattapol\Documents\Visual Studio 2008\Projects\TKD Work\cr-5\TKD_Score เปลี่ยนจอนอก\CheckDLL\obj\Debug\CheckDLL.xml
+C:\Users\Rattapol\Documents\Visual Studio 2008\Projects\TKD Work\cr-5\TKD_Score เปลี่ยนจอนอก\CheckDLL\obj\Debug\CheckDLL.pdb
+C:\Users\rattapol\Documents\TKD_Score เปลี่ยนจอนอก\CheckDLL\bin\Debug\CheckDLL.dll
+C:\Users\rattapol\Documents\TKD_Score เปลี่ยนจอนอก\CheckDLL\bin\Debug\CheckDLL.pdb
+C:\Users\rattapol\Documents\TKD_Score เปลี่ยนจอนอก\CheckDLL\bin\Debug\CheckDLL.xml
+C:\Users\rattapol\Documents\TKD_Score เปลี่ยนจอนอก\CheckDLL\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\rattapol\Documents\TKD_Score เปลี่ยนจอนอก\CheckDLL\obj\Debug\CheckDLL.Resources.resources
+C:\Users\rattapol\Documents\TKD_Score เปลี่ยนจอนอก\CheckDLL\obj\Debug\CheckDLL.vbproj.GenerateResource.Cache
+C:\Users\rattapol\Documents\TKD_Score เปลี่ยนจอนอก\CheckDLL\obj\Debug\CheckDLL.dll
+C:\Users\rattapol\Documents\TKD_Score เปลี่ยนจอนอก\CheckDLL\obj\Debug\CheckDLL.xml
+C:\Users\rattapol\Documents\TKD_Score เปลี่ยนจอนอก\CheckDLL\obj\Debug\CheckDLL.pdb

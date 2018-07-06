@@ -1,0 +1,433 @@
+C:\Users\masternut\Desktop\TKD_Score_20130625\TKD_Score\TKD_Score\bin\Debug\TKD_Score.exe
+C:\Users\masternut\Desktop\TKD_Score_20130625\TKD_Score\TKD_Score\bin\Debug\TKD_Score.pdb
+C:\Users\masternut\Desktop\TKD_Score_20130625\TKD_Score\TKD_Score\bin\Debug\TKD_Score.xml
+C:\Users\masternut\Desktop\TKD_Score_20130625\TKD_Score\TKD_Score\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\masternut\Desktop\TKD_Score_20130625\TKD_Score\TKD_Score\obj\Debug\TKD_Score.Form1.resources
+C:\Users\masternut\Desktop\TKD_Score_20130625\TKD_Score\TKD_Score\obj\Debug\TKD_Score.Form2.resources
+C:\Users\masternut\Desktop\TKD_Score_20130625\TKD_Score\TKD_Score\obj\Debug\TKD_Score.frmControlSet.resources
+C:\Users\masternut\Desktop\TKD_Score_20130625\TKD_Score\TKD_Score\obj\Debug\TKD_Score.frmInput_Serial.resources
+C:\Users\masternut\Desktop\TKD_Score_20130625\TKD_Score\TKD_Score\obj\Debug\TKD_Score.frmSave.resources
+C:\Users\masternut\Desktop\TKD_Score_20130625\TKD_Score\TKD_Score\obj\Debug\TKD_Score.Resources.resources
+C:\Users\masternut\Desktop\TKD_Score_20130625\TKD_Score\TKD_Score\obj\Debug\TKD_Score.vbproj.GenerateResource.Cache
+C:\Users\masternut\Desktop\TKD_Score_20130625\TKD_Score\TKD_Score\obj\Debug\TKD_Score.exe
+C:\Users\masternut\Desktop\TKD_Score_20130625\TKD_Score\TKD_Score\obj\Debug\TKD_Score.xml
+C:\Users\masternut\Desktop\TKD_Score_20130625\TKD_Score\TKD_Score\obj\Debug\TKD_Score.pdb
+F:\TKD_Score_20130625\TKD_Score\TKD_Score\obj\Debug\TKD_Score.exe
+F:\TKD_Score_20130625\TKD_Score\TKD_Score\obj\Debug\TKD_Score.xml
+F:\TKD_Score_20130625\TKD_Score\TKD_Score\obj\Debug\TKD_Score.pdb
+F:\TKD_Score_20130625\TKD_Score\TKD_Score\obj\Debug\ResolveAssemblyReference.cache
+F:\TKD_Score_20130625\TKD_Score\TKD_Score\obj\Debug\TKD_Score.Form1.resources
+F:\TKD_Score_20130625\TKD_Score\TKD_Score\obj\Debug\TKD_Score.Form2.resources
+F:\TKD_Score_20130625\TKD_Score\TKD_Score\obj\Debug\TKD_Score.frmControlSet.resources
+F:\TKD_Score_20130625\TKD_Score\TKD_Score\obj\Debug\TKD_Score.frmInput_Serial.resources
+F:\TKD_Score_20130625\TKD_Score\TKD_Score\obj\Debug\TKD_Score.frmSave.resources
+F:\TKD_Score_20130625\TKD_Score\TKD_Score\obj\Debug\TKD_Score.Resources.resources
+F:\TKD_Score_20130625\TKD_Score\TKD_Score\obj\Debug\TKD_Score.vbproj.GenerateResource.Cache
+F:\TKD_Score_20130625\TKD_Score\TKD_Score\bin\Debug\TKD_Score.exe
+F:\TKD_Score_20130625\TKD_Score\TKD_Score\bin\Debug\TKD_Score.pdb
+F:\TKD_Score_20130625\TKD_Score\TKD_Score\bin\Debug\TKD_Score.xml
+G:\TKD_Score_20130625\TKD_Score\TKD_Score\bin\Debug\TKD_Score.exe
+G:\TKD_Score_20130625\TKD_Score\TKD_Score\bin\Debug\TKD_Score.pdb
+G:\TKD_Score_20130625\TKD_Score\TKD_Score\bin\Debug\TKD_Score.xml
+G:\TKD_Score_20130625\TKD_Score\TKD_Score\obj\Debug\ResolveAssemblyReference.cache
+G:\TKD_Score_20130625\TKD_Score\TKD_Score\obj\Debug\TKD_Score.Form1.resources
+G:\TKD_Score_20130625\TKD_Score\TKD_Score\obj\Debug\TKD_Score.Form2.resources
+G:\TKD_Score_20130625\TKD_Score\TKD_Score\obj\Debug\TKD_Score.frmControlSet.resources
+G:\TKD_Score_20130625\TKD_Score\TKD_Score\obj\Debug\TKD_Score.frmInput_Serial.resources
+G:\TKD_Score_20130625\TKD_Score\TKD_Score\obj\Debug\TKD_Score.frmSave.resources
+G:\TKD_Score_20130625\TKD_Score\TKD_Score\obj\Debug\TKD_Score.Resources.resources
+G:\TKD_Score_20130625\TKD_Score\TKD_Score\obj\Debug\TKD_Score.vbproj.GenerateResource.Cache
+G:\TKD_Score_20130625\TKD_Score\TKD_Score\obj\Debug\TKD_Score.exe
+G:\TKD_Score_20130625\TKD_Score\TKD_Score\obj\Debug\TKD_Score.xml
+G:\TKD_Score_20130625\TKD_Score\TKD_Score\obj\Debug\TKD_Score.pdb
+F:\Work TKD\TKD_Score_20130625\TKD_Score\TKD_Score\obj\Debug\TKD_Score.exe
+F:\Work TKD\TKD_Score_20130625\TKD_Score\TKD_Score\obj\Debug\TKD_Score.xml
+F:\Work TKD\TKD_Score_20130625\TKD_Score\TKD_Score\obj\Debug\TKD_Score.pdb
+F:\Work TKD\TKD_Score_20130625\TKD_Score\TKD_Score\bin\Debug\TKD_Score.exe
+F:\Work TKD\TKD_Score_20130625\TKD_Score\TKD_Score\bin\Debug\TKD_Score.pdb
+F:\Work TKD\TKD_Score_20130625\TKD_Score\TKD_Score\bin\Debug\TKD_Score.xml
+F:\Work TKD\TKD_Score_20130625\TKD_Score\TKD_Score\obj\Debug\ResolveAssemblyReference.cache
+F:\Work TKD\TKD_Score_20130625\TKD_Score\TKD_Score\obj\Debug\TKD_Score.Form1.resources
+F:\Work TKD\TKD_Score_20130625\TKD_Score\TKD_Score\obj\Debug\TKD_Score.Form2.resources
+F:\Work TKD\TKD_Score_20130625\TKD_Score\TKD_Score\obj\Debug\TKD_Score.frmControlSet.resources
+F:\Work TKD\TKD_Score_20130625\TKD_Score\TKD_Score\obj\Debug\TKD_Score.frmInput_Serial.resources
+F:\Work TKD\TKD_Score_20130625\TKD_Score\TKD_Score\obj\Debug\TKD_Score.frmSave.resources
+F:\Work TKD\TKD_Score_20130625\TKD_Score\TKD_Score\obj\Debug\TKD_Score.Resources.resources
+F:\Work TKD\TKD_Score_20130625\TKD_Score\TKD_Score\obj\Debug\TKD_Score.vbproj.GenerateResource.Cache
+G:\Work TKD\TKD_Score_20130625\TKD_Score\TKD_Score\obj\Debug\TKD_Score.exe
+G:\Work TKD\TKD_Score_20130625\TKD_Score\TKD_Score\obj\Debug\TKD_Score.xml
+G:\Work TKD\TKD_Score_20130625\TKD_Score\TKD_Score\obj\Debug\TKD_Score.pdb
+G:\Work TKD\TKD_Score_20130625\TKD_Score\TKD_Score\bin\Debug\TKD_Score.exe
+G:\Work TKD\TKD_Score_20130625\TKD_Score\TKD_Score\bin\Debug\TKD_Score.pdb
+G:\Work TKD\TKD_Score_20130625\TKD_Score\TKD_Score\bin\Debug\TKD_Score.xml
+G:\Work TKD\TKD_Score_20130625\TKD_Score\TKD_Score\bin\Debug\Microsoft.DirectX.dll
+G:\Work TKD\TKD_Score_20130625\TKD_Score\TKD_Score\obj\Debug\ResolveAssemblyReference.cache
+G:\Work TKD\TKD_Score_20130625\TKD_Score\TKD_Score\obj\Debug\TKD_Score.Form1.resources
+G:\Work TKD\TKD_Score_20130625\TKD_Score\TKD_Score\obj\Debug\TKD_Score.Form2.resources
+G:\Work TKD\TKD_Score_20130625\TKD_Score\TKD_Score\obj\Debug\TKD_Score.frmControlSet.resources
+G:\Work TKD\TKD_Score_20130625\TKD_Score\TKD_Score\obj\Debug\TKD_Score.frmInput_Serial.resources
+G:\Work TKD\TKD_Score_20130625\TKD_Score\TKD_Score\obj\Debug\TKD_Score.frmSave.resources
+G:\Work TKD\TKD_Score_20130625\TKD_Score\TKD_Score\obj\Debug\TKD_Score.Resources.resources
+G:\Work TKD\TKD_Score_20130625\TKD_Score\TKD_Score\obj\Debug\TKD_Score.vbproj.GenerateResource.Cache
+F:\Work TKD\TKD_Score_20130625\TKD_Score\TKD_Score\bin\Debug\CheckDLL.dll
+F:\Work TKD\TKD_Score_20130625\TKD_Score\TKD_Score\bin\Debug\CheckDLL.pdb
+F:\Work TKD\TKD_Score_20130625\TKD_Score\TKD_Score\bin\Debug\CheckDLL.xml
+C:\Users\masternut2\Videos\555555\super xbox\TKD_Score_20130625\TKD_Score_20130625\TKD_Score\TKD_Score\obj\Debug\TKD_Score.exe
+C:\Users\masternut2\Videos\555555\super xbox\TKD_Score_20130625\TKD_Score_20130625\TKD_Score\TKD_Score\obj\Debug\TKD_Score.xml
+C:\Users\masternut2\Videos\555555\super xbox\TKD_Score_20130625\TKD_Score_20130625\TKD_Score\TKD_Score\obj\Debug\TKD_Score.pdb
+D:\super xbox\TKD_Score_20130625\TKD_Score_20130625\TKD_Score\TKD_Score\obj\Debug\TKD_Score.exe
+D:\super xbox\TKD_Score_20130625\TKD_Score_20130625\TKD_Score\TKD_Score\obj\Debug\TKD_Score.xml
+D:\super xbox\TKD_Score_20130625\TKD_Score_20130625\TKD_Score\TKD_Score\obj\Debug\TKD_Score.pdb
+D:\super xbox\TKD_Score_20130625\TKD_Score_20130625\TKD_Score\TKD_Score\bin\Debug\TKD_Score.exe
+D:\super xbox\TKD_Score_20130625\TKD_Score_20130625\TKD_Score\TKD_Score\bin\Debug\TKD_Score.pdb
+D:\super xbox\TKD_Score_20130625\TKD_Score_20130625\TKD_Score\TKD_Score\bin\Debug\TKD_Score.xml
+D:\super xbox\TKD_Score_20130625\TKD_Score_20130625\TKD_Score\TKD_Score\bin\Debug\CheckDLL.dll
+D:\super xbox\TKD_Score_20130625\TKD_Score_20130625\TKD_Score\TKD_Score\bin\Debug\Microsoft.DirectX.dll
+D:\super xbox\TKD_Score_20130625\TKD_Score_20130625\TKD_Score\TKD_Score\bin\Debug\CheckDLL.pdb
+D:\super xbox\TKD_Score_20130625\TKD_Score_20130625\TKD_Score\TKD_Score\bin\Debug\CheckDLL.xml
+D:\super xbox\TKD_Score_20130625\TKD_Score_20130625\TKD_Score\TKD_Score\obj\Debug\ResolveAssemblyReference.cache
+D:\super xbox\TKD_Score_20130625\TKD_Score_20130625\TKD_Score\TKD_Score\obj\Debug\TKD_Score.Form1.resources
+D:\super xbox\TKD_Score_20130625\TKD_Score_20130625\TKD_Score\TKD_Score\obj\Debug\TKD_Score.Form2.resources
+D:\super xbox\TKD_Score_20130625\TKD_Score_20130625\TKD_Score\TKD_Score\obj\Debug\TKD_Score.frmControlSet.resources
+D:\super xbox\TKD_Score_20130625\TKD_Score_20130625\TKD_Score\TKD_Score\obj\Debug\TKD_Score.frmInput_Serial.resources
+D:\super xbox\TKD_Score_20130625\TKD_Score_20130625\TKD_Score\TKD_Score\obj\Debug\TKD_Score.frmSave.resources
+D:\super xbox\TKD_Score_20130625\TKD_Score_20130625\TKD_Score\TKD_Score\obj\Debug\TKD_Score.Resources.resources
+D:\super xbox\TKD_Score_20130625\TKD_Score_20130625\TKD_Score\TKD_Score\obj\Debug\TKD_Score.vbproj.GenerateResource.Cache
+D:\code superxbox\TKD_Score_20130625\TKD_Score\TKD_Score\obj\Debug\TKD_Score.exe
+D:\code superxbox\TKD_Score_20130625\TKD_Score\TKD_Score\obj\Debug\TKD_Score.xml
+D:\code superxbox\TKD_Score_20130625\TKD_Score\TKD_Score\obj\Debug\TKD_Score.pdb
+D:\code superxbox\TKD_Score_20130625\TKD_Score\TKD_Score\bin\Debug\TKD_Score.exe
+D:\code superxbox\TKD_Score_20130625\TKD_Score\TKD_Score\bin\Debug\TKD_Score.pdb
+D:\code superxbox\TKD_Score_20130625\TKD_Score\TKD_Score\bin\Debug\TKD_Score.xml
+D:\code superxbox\TKD_Score_20130625\TKD_Score\TKD_Score\bin\Debug\CheckDLL.dll
+D:\code superxbox\TKD_Score_20130625\TKD_Score\TKD_Score\bin\Debug\CheckDLL.pdb
+D:\code superxbox\TKD_Score_20130625\TKD_Score\TKD_Score\bin\Debug\CheckDLL.xml
+D:\code superxbox\TKD_Score_20130625\TKD_Score\TKD_Score\obj\Debug\ResolveAssemblyReference.cache
+D:\code superxbox\TKD_Score_20130625\TKD_Score\TKD_Score\obj\Debug\TKD_Score.Form1.resources
+D:\code superxbox\TKD_Score_20130625\TKD_Score\TKD_Score\obj\Debug\TKD_Score.Form2.resources
+D:\code superxbox\TKD_Score_20130625\TKD_Score\TKD_Score\obj\Debug\TKD_Score.frmControlSet.resources
+D:\code superxbox\TKD_Score_20130625\TKD_Score\TKD_Score\obj\Debug\TKD_Score.frmInput_Serial.resources
+D:\code superxbox\TKD_Score_20130625\TKD_Score\TKD_Score\obj\Debug\TKD_Score.frmSave.resources
+D:\code superxbox\TKD_Score_20130625\TKD_Score\TKD_Score\obj\Debug\TKD_Score.Resources.resources
+D:\code superxbox\TKD_Score_20130625\TKD_Score\TKD_Score\obj\Debug\TKD_Score.vbproj.GenerateResource.Cache
+H:\2.Score\colour xbox\code superxbox\TKD_Score_20130625\TKD_Score\TKD_Score\obj\Debug\TKD_Score.exe
+H:\2.Score\colour xbox\code superxbox\TKD_Score_20130625\TKD_Score\TKD_Score\obj\Debug\TKD_Score.xml
+H:\2.Score\colour xbox\code superxbox\TKD_Score_20130625\TKD_Score\TKD_Score\obj\Debug\TKD_Score.pdb
+H:\2.Score\colour xbox\code superxbox\TKD_Score_20130625\TKD_Score\TKD_Score\bin\Debug\TKD_Score.exe
+H:\2.Score\colour xbox\code superxbox\TKD_Score_20130625\TKD_Score\TKD_Score\bin\Debug\TKD_Score.pdb
+H:\2.Score\colour xbox\code superxbox\TKD_Score_20130625\TKD_Score\TKD_Score\bin\Debug\TKD_Score.xml
+H:\2.Score\colour xbox\code superxbox\TKD_Score_20130625\TKD_Score\TKD_Score\bin\Debug\CheckDLL.dll
+H:\2.Score\colour xbox\code superxbox\TKD_Score_20130625\TKD_Score\TKD_Score\bin\Debug\CheckDLL.pdb
+H:\2.Score\colour xbox\code superxbox\TKD_Score_20130625\TKD_Score\TKD_Score\bin\Debug\CheckDLL.xml
+H:\2.Score\colour xbox\code superxbox\TKD_Score_20130625\TKD_Score\TKD_Score\obj\Debug\ResolveAssemblyReference.cache
+H:\2.Score\colour xbox\code superxbox\TKD_Score_20130625\TKD_Score\TKD_Score\obj\Debug\TKD_Score.Form1.resources
+H:\2.Score\colour xbox\code superxbox\TKD_Score_20130625\TKD_Score\TKD_Score\obj\Debug\TKD_Score.Form2.resources
+H:\2.Score\colour xbox\code superxbox\TKD_Score_20130625\TKD_Score\TKD_Score\obj\Debug\TKD_Score.frmControlSet.resources
+H:\2.Score\colour xbox\code superxbox\TKD_Score_20130625\TKD_Score\TKD_Score\obj\Debug\TKD_Score.frmInput_Serial.resources
+H:\2.Score\colour xbox\code superxbox\TKD_Score_20130625\TKD_Score\TKD_Score\obj\Debug\TKD_Score.frmSave.resources
+H:\2.Score\colour xbox\code superxbox\TKD_Score_20130625\TKD_Score\TKD_Score\obj\Debug\TKD_Score.Resources.resources
+H:\2.Score\colour xbox\code superxbox\TKD_Score_20130625\TKD_Score\TKD_Score\obj\Debug\TKD_Score.vbproj.GenerateResource.Cache
+F:\Work TKD\Update Detail 20150218\colour xbox\code superxbox\TKD_Score_20130625\TKD_Score\TKD_Score\obj\Debug\TKD_Score.exe
+F:\Work TKD\Update Detail 20150218\colour xbox\code superxbox\TKD_Score_20130625\TKD_Score\TKD_Score\obj\Debug\TKD_Score.xml
+F:\Work TKD\Update Detail 20150218\colour xbox\code superxbox\TKD_Score_20130625\TKD_Score\TKD_Score\obj\Debug\TKD_Score.pdb
+F:\Work TKD\Update Detail 20150218\colour xbox\code superxbox\TKD_Score_20130625\TKD_Score\TKD_Score\obj\Debug\ResolveAssemblyReference.cache
+F:\Work TKD\Update Detail 20150218\colour xbox\code superxbox\TKD_Score_20130625\TKD_Score\TKD_Score\obj\Debug\TKD_Score.Form1.resources
+F:\Work TKD\Update Detail 20150218\colour xbox\code superxbox\TKD_Score_20130625\TKD_Score\TKD_Score\obj\Debug\TKD_Score.Form2.resources
+F:\Work TKD\Update Detail 20150218\colour xbox\code superxbox\TKD_Score_20130625\TKD_Score\TKD_Score\obj\Debug\TKD_Score.frmControlSet.resources
+F:\Work TKD\Update Detail 20150218\colour xbox\code superxbox\TKD_Score_20130625\TKD_Score\TKD_Score\obj\Debug\TKD_Score.frmInput_Serial.resources
+F:\Work TKD\Update Detail 20150218\colour xbox\code superxbox\TKD_Score_20130625\TKD_Score\TKD_Score\obj\Debug\TKD_Score.frmSave.resources
+F:\Work TKD\Update Detail 20150218\colour xbox\code superxbox\TKD_Score_20130625\TKD_Score\TKD_Score\obj\Debug\TKD_Score.Resources.resources
+F:\Work TKD\Update Detail 20150218\colour xbox\code superxbox\TKD_Score_20130625\TKD_Score\TKD_Score\obj\Debug\TKD_Score.vbproj.GenerateResource.Cache
+G:\Work TKD\Update Detail 20150218\colour xbox\code superxbox\TKD_Score_20130625\TKD_Score\TKD_Score\obj\Debug\TKD_Score.exe
+G:\Work TKD\Update Detail 20150218\colour xbox\code superxbox\TKD_Score_20130625\TKD_Score\TKD_Score\obj\Debug\TKD_Score.xml
+G:\Work TKD\Update Detail 20150218\colour xbox\code superxbox\TKD_Score_20130625\TKD_Score\TKD_Score\obj\Debug\TKD_Score.pdb
+G:\Work TKD\Update Detail 20150218\colour xbox\code superxbox\TKD_Score_20130625\TKD_Score\TKD_Score\bin\Debug\TKD_Score.exe
+G:\Work TKD\Update Detail 20150218\colour xbox\code superxbox\TKD_Score_20130625\TKD_Score\TKD_Score\bin\Debug\TKD_Score.pdb
+G:\Work TKD\Update Detail 20150218\colour xbox\code superxbox\TKD_Score_20130625\TKD_Score\TKD_Score\bin\Debug\TKD_Score.xml
+G:\Work TKD\Update Detail 20150218\colour xbox\code superxbox\TKD_Score_20130625\TKD_Score\TKD_Score\bin\Debug\CheckDLL.dll
+G:\Work TKD\Update Detail 20150218\colour xbox\code superxbox\TKD_Score_20130625\TKD_Score\TKD_Score\bin\Debug\Microsoft.DirectX.dll
+G:\Work TKD\Update Detail 20150218\colour xbox\code superxbox\TKD_Score_20130625\TKD_Score\TKD_Score\bin\Debug\CheckDLL.pdb
+G:\Work TKD\Update Detail 20150218\colour xbox\code superxbox\TKD_Score_20130625\TKD_Score\TKD_Score\bin\Debug\CheckDLL.xml
+G:\Work TKD\Update Detail 20150218\colour xbox\code superxbox\TKD_Score_20130625\TKD_Score\TKD_Score\obj\Debug\ResolveAssemblyReference.cache
+G:\Work TKD\Update Detail 20150218\colour xbox\code superxbox\TKD_Score_20130625\TKD_Score\TKD_Score\obj\Debug\TKD_Score.Form1.resources
+G:\Work TKD\Update Detail 20150218\colour xbox\code superxbox\TKD_Score_20130625\TKD_Score\TKD_Score\obj\Debug\TKD_Score.Form2.resources
+G:\Work TKD\Update Detail 20150218\colour xbox\code superxbox\TKD_Score_20130625\TKD_Score\TKD_Score\obj\Debug\TKD_Score.frmControlSet.resources
+G:\Work TKD\Update Detail 20150218\colour xbox\code superxbox\TKD_Score_20130625\TKD_Score\TKD_Score\obj\Debug\TKD_Score.frmInput_Serial.resources
+G:\Work TKD\Update Detail 20150218\colour xbox\code superxbox\TKD_Score_20130625\TKD_Score\TKD_Score\obj\Debug\TKD_Score.frmSave.resources
+G:\Work TKD\Update Detail 20150218\colour xbox\code superxbox\TKD_Score_20130625\TKD_Score\TKD_Score\obj\Debug\TKD_Score.Resources.resources
+G:\Work TKD\Update Detail 20150218\colour xbox\code superxbox\TKD_Score_20130625\TKD_Score\TKD_Score\obj\Debug\TKD_Score.vbproj.GenerateResource.Cache
+F:\Score_20150623\TKD_Fix สีกระพริบ\TKD_Score\TKD_Score\obj\Debug\TKD_Score.exe
+F:\Score_20150623\TKD_Fix สีกระพริบ\TKD_Score\TKD_Score\obj\Debug\TKD_Score.xml
+F:\Score_20150623\TKD_Fix สีกระพริบ\TKD_Score\TKD_Score\obj\Debug\TKD_Score.pdb
+F:\Score_20150623\TKD_Fix สีกระพริบ\TKD_Score\TKD_Score\obj\Debug\ResolveAssemblyReference.cache
+F:\Score_20150623\TKD_Fix สีกระพริบ\TKD_Score\TKD_Score\obj\Debug\TKD_Score.Form1.resources
+F:\Score_20150623\TKD_Fix สีกระพริบ\TKD_Score\TKD_Score\obj\Debug\TKD_Score.Form2.resources
+F:\Score_20150623\TKD_Fix สีกระพริบ\TKD_Score\TKD_Score\obj\Debug\TKD_Score.frmControlSet.resources
+F:\Score_20150623\TKD_Fix สีกระพริบ\TKD_Score\TKD_Score\obj\Debug\TKD_Score.frmInput_Serial.resources
+F:\Score_20150623\TKD_Fix สีกระพริบ\TKD_Score\TKD_Score\obj\Debug\TKD_Score.frmOutSize.resources
+F:\Score_20150623\TKD_Fix สีกระพริบ\TKD_Score\TKD_Score\obj\Debug\TKD_Score.frmSave.resources
+F:\Score_20150623\TKD_Fix สีกระพริบ\TKD_Score\TKD_Score\obj\Debug\TKD_Score.Resources.resources
+F:\Score_20150623\TKD_Fix สีกระพริบ\TKD_Score\TKD_Score\obj\Debug\TKD_Score.vbproj.GenerateResource.Cache
+F:\Score_20150623\TKD_Fix สีกระพริบ\TKD_Score\TKD_Score\bin\Debug\TKD_Score.exe
+F:\Score_20150623\TKD_Fix สีกระพริบ\TKD_Score\TKD_Score\bin\Debug\TKD_Score.pdb
+F:\Score_20150623\TKD_Fix สีกระพริบ\TKD_Score\TKD_Score\bin\Debug\TKD_Score.xml
+F:\Score_20150623\TKD_Fix สีกระพริบ\TKD_Score\TKD_Score\bin\Debug\CheckDLL.dll
+F:\Score_20150623\TKD_Fix สีกระพริบ\TKD_Score\TKD_Score\bin\Debug\Microsoft.DirectX.dll
+F:\Score_20150623\TKD_Fix สีกระพริบ\TKD_Score\TKD_Score\bin\Debug\CheckDLL.pdb
+F:\Score_20150623\TKD_Fix สีกระพริบ\TKD_Score\TKD_Score\bin\Debug\CheckDLL.xml
+G:\Score_20150623\TKD_Score เปลี่ยนจอนอก\TKD_Score\TKD_Score\obj\Debug\TKD_Score.exe
+G:\Score_20150623\TKD_Score เปลี่ยนจอนอก\TKD_Score\TKD_Score\obj\Debug\TKD_Score.xml
+G:\Score_20150623\TKD_Score เปลี่ยนจอนอก\TKD_Score\TKD_Score\obj\Debug\TKD_Score.pdb
+F:\Score_20150623\TKD_Score เปลี่ยนจอนอก\TKD_Score\TKD_Score\obj\Debug\TKD_Score.exe
+F:\Score_20150623\TKD_Score เปลี่ยนจอนอก\TKD_Score\TKD_Score\obj\Debug\TKD_Score.xml
+F:\Score_20150623\TKD_Score เปลี่ยนจอนอก\TKD_Score\TKD_Score\obj\Debug\TKD_Score.pdb
+F:\Score_20150623\TKD_Score เปลี่ยนจอนอก\TKD_Score\TKD_Score\obj\Debug\ResolveAssemblyReference.cache
+F:\Score_20150623\TKD_Score เปลี่ยนจอนอก\TKD_Score\TKD_Score\obj\Debug\TKD_Score.Form1.resources
+F:\Score_20150623\TKD_Score เปลี่ยนจอนอก\TKD_Score\TKD_Score\obj\Debug\TKD_Score.Form2.resources
+F:\Score_20150623\TKD_Score เปลี่ยนจอนอก\TKD_Score\TKD_Score\obj\Debug\TKD_Score.frmControlSet.resources
+F:\Score_20150623\TKD_Score เปลี่ยนจอนอก\TKD_Score\TKD_Score\obj\Debug\TKD_Score.frmInput_Serial.resources
+F:\Score_20150623\TKD_Score เปลี่ยนจอนอก\TKD_Score\TKD_Score\obj\Debug\TKD_Score.frmOutSize.resources
+F:\Score_20150623\TKD_Score เปลี่ยนจอนอก\TKD_Score\TKD_Score\obj\Debug\TKD_Score.frmSave.resources
+F:\Score_20150623\TKD_Score เปลี่ยนจอนอก\TKD_Score\TKD_Score\obj\Debug\TKD_Score.Resources.resources
+F:\Score_20150623\TKD_Score เปลี่ยนจอนอก\TKD_Score\TKD_Score\obj\Debug\TKD_Score.vbproj.GenerateResource.Cache
+F:\Score_20150623\TKD_Score เปลี่ยนจอนอก\TKD_Score\TKD_Score\bin\Debug\TKD_Score.exe
+F:\Score_20150623\TKD_Score เปลี่ยนจอนอก\TKD_Score\TKD_Score\bin\Debug\TKD_Score.pdb
+F:\Score_20150623\TKD_Score เปลี่ยนจอนอก\TKD_Score\TKD_Score\bin\Debug\TKD_Score.xml
+F:\Score_20150623\TKD_Score เปลี่ยนจอนอก\TKD_Score\TKD_Score\bin\Debug\CheckDLL.dll
+F:\Score_20150623\TKD_Score เปลี่ยนจอนอก\TKD_Score\TKD_Score\bin\Debug\Microsoft.DirectX.dll
+F:\Score_20150623\TKD_Score เปลี่ยนจอนอก\TKD_Score\TKD_Score\bin\Debug\CheckDLL.pdb
+F:\Score_20150623\TKD_Score เปลี่ยนจอนอก\TKD_Score\TKD_Score\bin\Debug\CheckDLL.xml
+D:\V.GT++++++++++\program\score gen 1\Outlook.com (9)\TKD_Score เปลี่ยนจอนอก\TKD_Score เปลี่ยนจอนอก\TKD_Score\TKD_Score\obj\Debug\TKD_Score.exe
+D:\V.GT++++++++++\program\score gen 1\Outlook.com (9)\TKD_Score เปลี่ยนจอนอก\TKD_Score เปลี่ยนจอนอก\TKD_Score\TKD_Score\obj\Debug\TKD_Score.xml
+D:\V.GT++++++++++\program\score gen 1\Outlook.com (9)\TKD_Score เปลี่ยนจอนอก\TKD_Score เปลี่ยนจอนอก\TKD_Score\TKD_Score\obj\Debug\TKD_Score.pdb
+D:\V.GT++++++++++\program\score gen 1\Outlook.com (9)\TKD_Score เปลี่ยนจอนอก\TKD_Score เปลี่ยนจอนอก\TKD_Score\TKD_Score\obj\Debug\ResolveAssemblyReference.cache
+D:\V.GT++++++++++\program\score gen 1\Outlook.com (9)\TKD_Score เปลี่ยนจอนอก\TKD_Score เปลี่ยนจอนอก\TKD_Score\TKD_Score\obj\Debug\TKD_Score.Form1.resources
+D:\V.GT++++++++++\program\score gen 1\Outlook.com (9)\TKD_Score เปลี่ยนจอนอก\TKD_Score เปลี่ยนจอนอก\TKD_Score\TKD_Score\obj\Debug\TKD_Score.Form2.resources
+D:\V.GT++++++++++\program\score gen 1\Outlook.com (9)\TKD_Score เปลี่ยนจอนอก\TKD_Score เปลี่ยนจอนอก\TKD_Score\TKD_Score\obj\Debug\TKD_Score.frmControlSet.resources
+D:\V.GT++++++++++\program\score gen 1\Outlook.com (9)\TKD_Score เปลี่ยนจอนอก\TKD_Score เปลี่ยนจอนอก\TKD_Score\TKD_Score\obj\Debug\TKD_Score.frmInput_Serial.resources
+D:\V.GT++++++++++\program\score gen 1\Outlook.com (9)\TKD_Score เปลี่ยนจอนอก\TKD_Score เปลี่ยนจอนอก\TKD_Score\TKD_Score\obj\Debug\TKD_Score.frmOutSize.resources
+D:\V.GT++++++++++\program\score gen 1\Outlook.com (9)\TKD_Score เปลี่ยนจอนอก\TKD_Score เปลี่ยนจอนอก\TKD_Score\TKD_Score\obj\Debug\TKD_Score.frmSave.resources
+D:\V.GT++++++++++\program\score gen 1\Outlook.com (9)\TKD_Score เปลี่ยนจอนอก\TKD_Score เปลี่ยนจอนอก\TKD_Score\TKD_Score\obj\Debug\TKD_Score.Resources.resources
+D:\V.GT++++++++++\program\score gen 1\Outlook.com (9)\TKD_Score เปลี่ยนจอนอก\TKD_Score เปลี่ยนจอนอก\TKD_Score\TKD_Score\obj\Debug\TKD_Score.vbproj.GenerateResource.Cache
+D:\V.GT++++++++++\program\score gen 1\Outlook.com (9)\TKD_Score เปลี่ยนจอนอก\TKD_Score เปลี่ยนจอนอก\TKD_Score\TKD_Score\bin\Debug\TKD_Score.exe
+D:\V.GT++++++++++\program\score gen 1\Outlook.com (9)\TKD_Score เปลี่ยนจอนอก\TKD_Score เปลี่ยนจอนอก\TKD_Score\TKD_Score\bin\Debug\TKD_Score.pdb
+D:\V.GT++++++++++\program\score gen 1\Outlook.com (9)\TKD_Score เปลี่ยนจอนอก\TKD_Score เปลี่ยนจอนอก\TKD_Score\TKD_Score\bin\Debug\TKD_Score.xml
+D:\V.GT++++++++++\program\score gen 1\Outlook.com (9)\TKD_Score เปลี่ยนจอนอก\TKD_Score เปลี่ยนจอนอก\TKD_Score\TKD_Score\bin\Debug\CheckDLL.dll
+D:\V.GT++++++++++\program\score gen 1\Outlook.com (9)\TKD_Score เปลี่ยนจอนอก\TKD_Score เปลี่ยนจอนอก\TKD_Score\TKD_Score\bin\Debug\CheckDLL.pdb
+D:\V.GT++++++++++\program\score gen 1\Outlook.com (9)\TKD_Score เปลี่ยนจอนอก\TKD_Score เปลี่ยนจอนอก\TKD_Score\TKD_Score\bin\Debug\CheckDLL.xml
+F:\program\TKD_Score เปลี่ยนจอนอก\TKD_Score\TKD_Score\obj\Debug\TKD_Score.exe
+F:\program\TKD_Score เปลี่ยนจอนอก\TKD_Score\TKD_Score\obj\Debug\TKD_Score.xml
+F:\program\TKD_Score เปลี่ยนจอนอก\TKD_Score\TKD_Score\obj\Debug\TKD_Score.pdb
+F:\program\TKD_Score เปลี่ยนจอนอก\TKD_Score\TKD_Score\bin\Debug\TKD_Score.exe
+F:\program\TKD_Score เปลี่ยนจอนอก\TKD_Score\TKD_Score\bin\Debug\TKD_Score.pdb
+F:\program\TKD_Score เปลี่ยนจอนอก\TKD_Score\TKD_Score\bin\Debug\TKD_Score.xml
+F:\program\TKD_Score เปลี่ยนจอนอก\TKD_Score\TKD_Score\bin\Debug\CheckDLL.dll
+F:\program\TKD_Score เปลี่ยนจอนอก\TKD_Score\TKD_Score\bin\Debug\CheckDLL.pdb
+F:\program\TKD_Score เปลี่ยนจอนอก\TKD_Score\TKD_Score\bin\Debug\CheckDLL.xml
+F:\program\TKD_Score เปลี่ยนจอนอก\TKD_Score\TKD_Score\obj\Debug\ResolveAssemblyReference.cache
+F:\program\TKD_Score เปลี่ยนจอนอก\TKD_Score\TKD_Score\obj\Debug\TKD_Score.Form1.resources
+F:\program\TKD_Score เปลี่ยนจอนอก\TKD_Score\TKD_Score\obj\Debug\TKD_Score.Form2.resources
+F:\program\TKD_Score เปลี่ยนจอนอก\TKD_Score\TKD_Score\obj\Debug\TKD_Score.frmControlSet.resources
+F:\program\TKD_Score เปลี่ยนจอนอก\TKD_Score\TKD_Score\obj\Debug\TKD_Score.frmInput_Serial.resources
+F:\program\TKD_Score เปลี่ยนจอนอก\TKD_Score\TKD_Score\obj\Debug\TKD_Score.frmOutSize.resources
+F:\program\TKD_Score เปลี่ยนจอนอก\TKD_Score\TKD_Score\obj\Debug\TKD_Score.frmSave.resources
+F:\program\TKD_Score เปลี่ยนจอนอก\TKD_Score\TKD_Score\obj\Debug\TKD_Score.Resources.resources
+F:\program\TKD_Score เปลี่ยนจอนอก\TKD_Score\TKD_Score\obj\Debug\TKD_Score.vbproj.GenerateResource.Cache
+D:\+++ducati++++\TKD_Score เปลี่ยนจอนอก\TKD_Score\TKD_Score\obj\Debug\TKD_Score.exe
+D:\+++ducati++++\TKD_Score เปลี่ยนจอนอก\TKD_Score\TKD_Score\obj\Debug\TKD_Score.xml
+D:\+++ducati++++\TKD_Score เปลี่ยนจอนอก\TKD_Score\TKD_Score\obj\Debug\TKD_Score.pdb
+G:\TKD_Score เปลี่ยนจอนอก\TKD_Score\TKD_Score\obj\Debug\TKD_Score.exe
+G:\TKD_Score เปลี่ยนจอนอก\TKD_Score\TKD_Score\obj\Debug\TKD_Score.xml
+G:\TKD_Score เปลี่ยนจอนอก\TKD_Score\TKD_Score\obj\Debug\TKD_Score.pdb
+G:\TKD_Score เปลี่ยนจอนอก\TKD_Score\TKD_Score\bin\Debug\TKD_Score.exe
+G:\TKD_Score เปลี่ยนจอนอก\TKD_Score\TKD_Score\bin\Debug\TKD_Score.pdb
+G:\TKD_Score เปลี่ยนจอนอก\TKD_Score\TKD_Score\bin\Debug\TKD_Score.xml
+G:\TKD_Score เปลี่ยนจอนอก\TKD_Score\TKD_Score\bin\Debug\CheckDLL.dll
+G:\TKD_Score เปลี่ยนจอนอก\TKD_Score\TKD_Score\bin\Debug\CheckDLL.pdb
+G:\TKD_Score เปลี่ยนจอนอก\TKD_Score\TKD_Score\bin\Debug\CheckDLL.xml
+G:\TKD_Score เปลี่ยนจอนอก\TKD_Score\TKD_Score\obj\Debug\ResolveAssemblyReference.cache
+G:\TKD_Score เปลี่ยนจอนอก\TKD_Score\TKD_Score\obj\Debug\TKD_Score.Form1.resources
+G:\TKD_Score เปลี่ยนจอนอก\TKD_Score\TKD_Score\obj\Debug\TKD_Score.Form2.resources
+G:\TKD_Score เปลี่ยนจอนอก\TKD_Score\TKD_Score\obj\Debug\TKD_Score.frmControlSet.resources
+G:\TKD_Score เปลี่ยนจอนอก\TKD_Score\TKD_Score\obj\Debug\TKD_Score.frmInput_Serial.resources
+G:\TKD_Score เปลี่ยนจอนอก\TKD_Score\TKD_Score\obj\Debug\TKD_Score.frmOutSize.resources
+G:\TKD_Score เปลี่ยนจอนอก\TKD_Score\TKD_Score\obj\Debug\TKD_Score.frmSave.resources
+G:\TKD_Score เปลี่ยนจอนอก\TKD_Score\TKD_Score\obj\Debug\TKD_Score.Resources.resources
+G:\TKD_Score เปลี่ยนจอนอก\TKD_Score\TKD_Score\obj\Debug\TKD_Score.vbproj.GenerateResource.Cache
+G:\TKD_Score เปลี่ยนจอนอก\TKD_Score\TKD_Score\bin\Debug\Microsoft.Xna.Framework.dll
+G:\TKD_Score เปลี่ยนจอนอก\TKD_Score\TKD_Score\bin\Debug\Microsoft.Xna.Framework.Game.dll
+G:\TKD_Score เปลี่ยนจอนอก\TKD_Score\TKD_Score\bin\Debug\Microsoft.Xna.Framework.xml
+G:\TKD_Score เปลี่ยนจอนอก\TKD_Score\TKD_Score\bin\Debug\Microsoft.Xna.Framework.Game.xml
+C:\Users\Rattapol\Documents\TKD Work\TKD_Score เปลี่ยนจอนอก\TKD_Score\TKD_Score\obj\Debug\TKD_Score.exe
+C:\Users\Rattapol\Documents\TKD Work\TKD_Score เปลี่ยนจอนอก\TKD_Score\TKD_Score\obj\Debug\TKD_Score.xml
+C:\Users\Rattapol\Documents\TKD Work\TKD_Score เปลี่ยนจอนอก\TKD_Score\TKD_Score\obj\Debug\TKD_Score.pdb
+C:\Users\Rattapol\Documents\Visual Studio 2008\Projects\TKD Work\TKD_Score เปลี่ยนจอนอก\TKD_Score\TKD_Score\obj\Debug\TKD_Score.exe
+C:\Users\Rattapol\Documents\Visual Studio 2008\Projects\TKD Work\TKD_Score เปลี่ยนจอนอก\TKD_Score\TKD_Score\obj\Debug\TKD_Score.xml
+C:\Users\Rattapol\Documents\Visual Studio 2008\Projects\TKD Work\TKD_Score เปลี่ยนจอนอก\TKD_Score\TKD_Score\obj\Debug\TKD_Score.pdb
+C:\Users\Rattapol\Documents\Visual Studio 2008\Projects\TKD Work\TKD_Score เปลี่ยนจอนอก\TKD_Score\TKD_Score\bin\Debug\CheckDLL.dll
+C:\Users\Rattapol\Documents\Visual Studio 2008\Projects\TKD Work\TKD_Score เปลี่ยนจอนอก\TKD_Score\TKD_Score\bin\Debug\Microsoft.Xna.Framework.dll
+C:\Users\Rattapol\Documents\Visual Studio 2008\Projects\TKD Work\TKD_Score เปลี่ยนจอนอก\TKD_Score\TKD_Score\bin\Debug\Microsoft.Xna.Framework.Game.dll
+C:\Users\Rattapol\Documents\Visual Studio 2008\Projects\TKD Work\TKD_Score เปลี่ยนจอนอก\TKD_Score\TKD_Score\bin\Debug\CheckDLL.pdb
+C:\Users\Rattapol\Documents\Visual Studio 2008\Projects\TKD Work\TKD_Score เปลี่ยนจอนอก\TKD_Score\TKD_Score\bin\Debug\CheckDLL.xml
+C:\Users\Rattapol\Documents\Visual Studio 2008\Projects\TKD Work\TKD_Score เปลี่ยนจอนอก\TKD_Score\TKD_Score\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Rattapol\Documents\Visual Studio 2008\Projects\TKD Work\TKD_Score เปลี่ยนจอนอก\TKD_Score\TKD_Score\obj\Debug\TKD_Score.Form1.resources
+C:\Users\Rattapol\Documents\Visual Studio 2008\Projects\TKD Work\TKD_Score เปลี่ยนจอนอก\TKD_Score\TKD_Score\obj\Debug\TKD_Score.Form2.resources
+C:\Users\Rattapol\Documents\Visual Studio 2008\Projects\TKD Work\TKD_Score เปลี่ยนจอนอก\TKD_Score\TKD_Score\obj\Debug\TKD_Score.frmControlSet.resources
+C:\Users\Rattapol\Documents\Visual Studio 2008\Projects\TKD Work\TKD_Score เปลี่ยนจอนอก\TKD_Score\TKD_Score\obj\Debug\TKD_Score.frmInput_Serial.resources
+C:\Users\Rattapol\Documents\Visual Studio 2008\Projects\TKD Work\TKD_Score เปลี่ยนจอนอก\TKD_Score\TKD_Score\obj\Debug\TKD_Score.frmOutSize.resources
+C:\Users\Rattapol\Documents\Visual Studio 2008\Projects\TKD Work\TKD_Score เปลี่ยนจอนอก\TKD_Score\TKD_Score\obj\Debug\TKD_Score.frmSave.resources
+C:\Users\Rattapol\Documents\Visual Studio 2008\Projects\TKD Work\TKD_Score เปลี่ยนจอนอก\TKD_Score\TKD_Score\obj\Debug\TKD_Score.Resources.resources
+C:\Users\Rattapol\Documents\Visual Studio 2008\Projects\TKD Work\TKD_Score เปลี่ยนจอนอก\TKD_Score\TKD_Score\obj\Debug\TKD_Score.vbproj.GenerateResource.Cache
+C:\Users\Rattapol\Documents\Visual Studio 2008\Projects\TKD Work\TKD_Score เปลี่ยนจอนอก\TKD_Score\TKD_Score\bin\Debug\TKD_Score.exe
+C:\Users\Rattapol\Documents\Visual Studio 2008\Projects\TKD Work\TKD_Score เปลี่ยนจอนอก\TKD_Score\TKD_Score\bin\Debug\TKD_Score.pdb
+C:\Users\Rattapol\Documents\Visual Studio 2008\Projects\TKD Work\TKD_Score เปลี่ยนจอนอก\TKD_Score\TKD_Score\bin\Debug\TKD_Score.xml
+C:\Users\Rattapol\Documents\Visual Studio 2008\Projects\TKD Work\ต่อสู้\TKD_Score เปลี่ยนจอนอก\TKD_Score\TKD_Score\obj\Debug\TKD_Score.exe
+C:\Users\Rattapol\Documents\Visual Studio 2008\Projects\TKD Work\ต่อสู้\TKD_Score เปลี่ยนจอนอก\TKD_Score\TKD_Score\obj\Debug\TKD_Score.xml
+C:\Users\Rattapol\Documents\Visual Studio 2008\Projects\TKD Work\ต่อสู้\TKD_Score เปลี่ยนจอนอก\TKD_Score\TKD_Score\obj\Debug\TKD_Score.pdb
+C:\Users\Rattapol\Documents\Visual Studio 2008\Projects\TKD Work\ต่อสู้\TKD_Score เปลี่ยนจอนอก\TKD_Score\TKD_Score\bin\Debug\TKD_Score.exe
+C:\Users\Rattapol\Documents\Visual Studio 2008\Projects\TKD Work\ต่อสู้\TKD_Score เปลี่ยนจอนอก\TKD_Score\TKD_Score\bin\Debug\TKD_Score.pdb
+C:\Users\Rattapol\Documents\Visual Studio 2008\Projects\TKD Work\ต่อสู้\TKD_Score เปลี่ยนจอนอก\TKD_Score\TKD_Score\bin\Debug\TKD_Score.xml
+C:\Users\Rattapol\Documents\Visual Studio 2008\Projects\TKD Work\ต่อสู้\TKD_Score เปลี่ยนจอนอก\TKD_Score\TKD_Score\bin\Debug\CheckDLL.dll
+C:\Users\Rattapol\Documents\Visual Studio 2008\Projects\TKD Work\ต่อสู้\TKD_Score เปลี่ยนจอนอก\TKD_Score\TKD_Score\bin\Debug\Microsoft.Xna.Framework.dll
+C:\Users\Rattapol\Documents\Visual Studio 2008\Projects\TKD Work\ต่อสู้\TKD_Score เปลี่ยนจอนอก\TKD_Score\TKD_Score\bin\Debug\Microsoft.Xna.Framework.Game.dll
+C:\Users\Rattapol\Documents\Visual Studio 2008\Projects\TKD Work\ต่อสู้\TKD_Score เปลี่ยนจอนอก\TKD_Score\TKD_Score\bin\Debug\CheckDLL.pdb
+C:\Users\Rattapol\Documents\Visual Studio 2008\Projects\TKD Work\ต่อสู้\TKD_Score เปลี่ยนจอนอก\TKD_Score\TKD_Score\bin\Debug\CheckDLL.xml
+C:\Users\Rattapol\Documents\Visual Studio 2008\Projects\TKD Work\ต่อสู้\TKD_Score เปลี่ยนจอนอก\TKD_Score\TKD_Score\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Rattapol\Documents\Visual Studio 2008\Projects\TKD Work\ต่อสู้\TKD_Score เปลี่ยนจอนอก\TKD_Score\TKD_Score\obj\Debug\TKD_Score.Form1.resources
+C:\Users\Rattapol\Documents\Visual Studio 2008\Projects\TKD Work\ต่อสู้\TKD_Score เปลี่ยนจอนอก\TKD_Score\TKD_Score\obj\Debug\TKD_Score.Form2.resources
+C:\Users\Rattapol\Documents\Visual Studio 2008\Projects\TKD Work\ต่อสู้\TKD_Score เปลี่ยนจอนอก\TKD_Score\TKD_Score\obj\Debug\TKD_Score.frmControlSet.resources
+C:\Users\Rattapol\Documents\Visual Studio 2008\Projects\TKD Work\ต่อสู้\TKD_Score เปลี่ยนจอนอก\TKD_Score\TKD_Score\obj\Debug\TKD_Score.frmInput_Serial.resources
+C:\Users\Rattapol\Documents\Visual Studio 2008\Projects\TKD Work\ต่อสู้\TKD_Score เปลี่ยนจอนอก\TKD_Score\TKD_Score\obj\Debug\TKD_Score.frmOutSize.resources
+C:\Users\Rattapol\Documents\Visual Studio 2008\Projects\TKD Work\ต่อสู้\TKD_Score เปลี่ยนจอนอก\TKD_Score\TKD_Score\obj\Debug\TKD_Score.frmSave.resources
+C:\Users\Rattapol\Documents\Visual Studio 2008\Projects\TKD Work\ต่อสู้\TKD_Score เปลี่ยนจอนอก\TKD_Score\TKD_Score\obj\Debug\TKD_Score.Resources.resources
+C:\Users\Rattapol\Documents\Visual Studio 2008\Projects\TKD Work\ต่อสู้\TKD_Score เปลี่ยนจอนอก\TKD_Score\TKD_Score\obj\Debug\TKD_Score.vbproj.GenerateResource.Cache
+C:\Users\sonyfighting\Videos\fight2018-1\cr-3\TKD_Score เปลี่ยนจอนอก_20170406\TKD_Score เปลี่ยนจอนอก\TKD_Score\TKD_Score\obj\Debug\TKD_Score.exe
+C:\Users\sonyfighting\Videos\fight2018-1\cr-3\TKD_Score เปลี่ยนจอนอก_20170406\TKD_Score เปลี่ยนจอนอก\TKD_Score\TKD_Score\obj\Debug\TKD_Score.xml
+C:\Users\sonyfighting\Videos\fight2018-1\cr-3\TKD_Score เปลี่ยนจอนอก_20170406\TKD_Score เปลี่ยนจอนอก\TKD_Score\TKD_Score\obj\Debug\TKD_Score.pdb
+C:\Users\sonyfighting\Videos\fight2018-1\cr-3\TKD_Score เปลี่ยนจอนอก_20170406\TKD_Score เปลี่ยนจอนอก\TKD_Score\TKD_Score\bin\Debug\TKD_Score.exe
+C:\Users\sonyfighting\Videos\fight2018-1\cr-3\TKD_Score เปลี่ยนจอนอก_20170406\TKD_Score เปลี่ยนจอนอก\TKD_Score\TKD_Score\bin\Debug\TKD_Score.pdb
+C:\Users\sonyfighting\Videos\fight2018-1\cr-3\TKD_Score เปลี่ยนจอนอก_20170406\TKD_Score เปลี่ยนจอนอก\TKD_Score\TKD_Score\bin\Debug\TKD_Score.xml
+C:\Users\sonyfighting\Videos\fight2018-1\cr-3\TKD_Score เปลี่ยนจอนอก_20170406\TKD_Score เปลี่ยนจอนอก\TKD_Score\TKD_Score\bin\Debug\CheckDLL.dll
+C:\Users\sonyfighting\Videos\fight2018-1\cr-3\TKD_Score เปลี่ยนจอนอก_20170406\TKD_Score เปลี่ยนจอนอก\TKD_Score\TKD_Score\bin\Debug\Microsoft.Xna.Framework.dll
+C:\Users\sonyfighting\Videos\fight2018-1\cr-3\TKD_Score เปลี่ยนจอนอก_20170406\TKD_Score เปลี่ยนจอนอก\TKD_Score\TKD_Score\bin\Debug\Microsoft.Xna.Framework.Game.dll
+C:\Users\sonyfighting\Videos\fight2018-1\cr-3\TKD_Score เปลี่ยนจอนอก_20170406\TKD_Score เปลี่ยนจอนอก\TKD_Score\TKD_Score\bin\Debug\CheckDLL.pdb
+C:\Users\sonyfighting\Videos\fight2018-1\cr-3\TKD_Score เปลี่ยนจอนอก_20170406\TKD_Score เปลี่ยนจอนอก\TKD_Score\TKD_Score\bin\Debug\CheckDLL.xml
+C:\Users\sonyfighting\Videos\fight2018-1\cr-3\TKD_Score เปลี่ยนจอนอก_20170406\TKD_Score เปลี่ยนจอนอก\TKD_Score\TKD_Score\bin\Debug\Microsoft.Xna.Framework.xml
+C:\Users\sonyfighting\Videos\fight2018-1\cr-3\TKD_Score เปลี่ยนจอนอก_20170406\TKD_Score เปลี่ยนจอนอก\TKD_Score\TKD_Score\bin\Debug\Microsoft.Xna.Framework.Game.xml
+C:\Users\sonyfighting\Videos\fight2018-1\cr-3\TKD_Score เปลี่ยนจอนอก_20170406\TKD_Score เปลี่ยนจอนอก\TKD_Score\TKD_Score\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\sonyfighting\Videos\fight2018-1\cr-3\TKD_Score เปลี่ยนจอนอก_20170406\TKD_Score เปลี่ยนจอนอก\TKD_Score\TKD_Score\obj\Debug\TKD_Score.Form1.resources
+C:\Users\sonyfighting\Videos\fight2018-1\cr-3\TKD_Score เปลี่ยนจอนอก_20170406\TKD_Score เปลี่ยนจอนอก\TKD_Score\TKD_Score\obj\Debug\TKD_Score.Form2.resources
+C:\Users\sonyfighting\Videos\fight2018-1\cr-3\TKD_Score เปลี่ยนจอนอก_20170406\TKD_Score เปลี่ยนจอนอก\TKD_Score\TKD_Score\obj\Debug\TKD_Score.frmControlSet.resources
+C:\Users\sonyfighting\Videos\fight2018-1\cr-3\TKD_Score เปลี่ยนจอนอก_20170406\TKD_Score เปลี่ยนจอนอก\TKD_Score\TKD_Score\obj\Debug\TKD_Score.frmInput_Serial.resources
+C:\Users\sonyfighting\Videos\fight2018-1\cr-3\TKD_Score เปลี่ยนจอนอก_20170406\TKD_Score เปลี่ยนจอนอก\TKD_Score\TKD_Score\obj\Debug\TKD_Score.frmOutSize.resources
+C:\Users\sonyfighting\Videos\fight2018-1\cr-3\TKD_Score เปลี่ยนจอนอก_20170406\TKD_Score เปลี่ยนจอนอก\TKD_Score\TKD_Score\obj\Debug\TKD_Score.frmSave.resources
+C:\Users\sonyfighting\Videos\fight2018-1\cr-3\TKD_Score เปลี่ยนจอนอก_20170406\TKD_Score เปลี่ยนจอนอก\TKD_Score\TKD_Score\obj\Debug\TKD_Score.Resources.resources
+C:\Users\sonyfighting\Videos\fight2018-1\cr-3\TKD_Score เปลี่ยนจอนอก_20170406\TKD_Score เปลี่ยนจอนอก\TKD_Score\TKD_Score\obj\Debug\TKD_Score.vbproj.GenerateResource.Cache
+D:\==--2020--===\cr-3\TKD_Score เปลี่ยนจอนอก_20170406\TKD_Score เปลี่ยนจอนอก\TKD_Score\TKD_Score\obj\Debug\TKD_Score.exe
+D:\==--2020--===\cr-3\TKD_Score เปลี่ยนจอนอก_20170406\TKD_Score เปลี่ยนจอนอก\TKD_Score\TKD_Score\obj\Debug\TKD_Score.xml
+D:\==--2020--===\cr-3\TKD_Score เปลี่ยนจอนอก_20170406\TKD_Score เปลี่ยนจอนอก\TKD_Score\TKD_Score\obj\Debug\TKD_Score.pdb
+D:\==--2020--===\cr-3\TKD_Score เปลี่ยนจอนอก_20170406\TKD_Score เปลี่ยนจอนอก\TKD_Score\TKD_Score\bin\Debug\TKD_Score.exe
+D:\==--2020--===\cr-3\TKD_Score เปลี่ยนจอนอก_20170406\TKD_Score เปลี่ยนจอนอก\TKD_Score\TKD_Score\bin\Debug\TKD_Score.pdb
+D:\==--2020--===\cr-3\TKD_Score เปลี่ยนจอนอก_20170406\TKD_Score เปลี่ยนจอนอก\TKD_Score\TKD_Score\bin\Debug\TKD_Score.xml
+D:\==--2020--===\cr-3\TKD_Score เปลี่ยนจอนอก_20170406\TKD_Score เปลี่ยนจอนอก\TKD_Score\TKD_Score\bin\Debug\CheckDLL.dll
+D:\==--2020--===\cr-3\TKD_Score เปลี่ยนจอนอก_20170406\TKD_Score เปลี่ยนจอนอก\TKD_Score\TKD_Score\bin\Debug\Microsoft.Xna.Framework.dll
+D:\==--2020--===\cr-3\TKD_Score เปลี่ยนจอนอก_20170406\TKD_Score เปลี่ยนจอนอก\TKD_Score\TKD_Score\bin\Debug\Microsoft.Xna.Framework.Game.dll
+D:\==--2020--===\cr-3\TKD_Score เปลี่ยนจอนอก_20170406\TKD_Score เปลี่ยนจอนอก\TKD_Score\TKD_Score\bin\Debug\CheckDLL.pdb
+D:\==--2020--===\cr-3\TKD_Score เปลี่ยนจอนอก_20170406\TKD_Score เปลี่ยนจอนอก\TKD_Score\TKD_Score\bin\Debug\CheckDLL.xml
+D:\==--2020--===\cr-3\TKD_Score เปลี่ยนจอนอก_20170406\TKD_Score เปลี่ยนจอนอก\TKD_Score\TKD_Score\bin\Debug\Microsoft.Xna.Framework.xml
+D:\==--2020--===\cr-3\TKD_Score เปลี่ยนจอนอก_20170406\TKD_Score เปลี่ยนจอนอก\TKD_Score\TKD_Score\bin\Debug\Microsoft.Xna.Framework.Game.xml
+D:\==--2020--===\cr-3\TKD_Score เปลี่ยนจอนอก_20170406\TKD_Score เปลี่ยนจอนอก\TKD_Score\TKD_Score\obj\Debug\ResolveAssemblyReference.cache
+D:\==--2020--===\cr-3\TKD_Score เปลี่ยนจอนอก_20170406\TKD_Score เปลี่ยนจอนอก\TKD_Score\TKD_Score\obj\Debug\TKD_Score.Form1.resources
+D:\==--2020--===\cr-3\TKD_Score เปลี่ยนจอนอก_20170406\TKD_Score เปลี่ยนจอนอก\TKD_Score\TKD_Score\obj\Debug\TKD_Score.Form2.resources
+D:\==--2020--===\cr-3\TKD_Score เปลี่ยนจอนอก_20170406\TKD_Score เปลี่ยนจอนอก\TKD_Score\TKD_Score\obj\Debug\TKD_Score.frmControlSet.resources
+D:\==--2020--===\cr-3\TKD_Score เปลี่ยนจอนอก_20170406\TKD_Score เปลี่ยนจอนอก\TKD_Score\TKD_Score\obj\Debug\TKD_Score.frmInput_Serial.resources
+D:\==--2020--===\cr-3\TKD_Score เปลี่ยนจอนอก_20170406\TKD_Score เปลี่ยนจอนอก\TKD_Score\TKD_Score\obj\Debug\TKD_Score.frmOutSize.resources
+D:\==--2020--===\cr-3\TKD_Score เปลี่ยนจอนอก_20170406\TKD_Score เปลี่ยนจอนอก\TKD_Score\TKD_Score\obj\Debug\TKD_Score.frmSave.resources
+D:\==--2020--===\cr-3\TKD_Score เปลี่ยนจอนอก_20170406\TKD_Score เปลี่ยนจอนอก\TKD_Score\TKD_Score\obj\Debug\TKD_Score.Resources.resources
+D:\==--2020--===\cr-3\TKD_Score เปลี่ยนจอนอก_20170406\TKD_Score เปลี่ยนจอนอก\TKD_Score\TKD_Score\obj\Debug\TKD_Score.vbproj.GenerateResource.Cache
+D:\==--2020--===\cr-4\TKD_Score เปลี่ยนจอนอก_20170406\TKD_Score เปลี่ยนจอนอก\TKD_Score\TKD_Score\obj\Debug\TKD_Score.exe
+D:\==--2020--===\cr-4\TKD_Score เปลี่ยนจอนอก_20170406\TKD_Score เปลี่ยนจอนอก\TKD_Score\TKD_Score\obj\Debug\TKD_Score.xml
+D:\==--2020--===\cr-4\TKD_Score เปลี่ยนจอนอก_20170406\TKD_Score เปลี่ยนจอนอก\TKD_Score\TKD_Score\obj\Debug\TKD_Score.pdb
+D:\==--2020--===\cr-4\TKD_Score เปลี่ยนจอนอก_20170406\TKD_Score เปลี่ยนจอนอก\TKD_Score\TKD_Score\bin\Debug\TKD_Score.exe
+D:\==--2020--===\cr-4\TKD_Score เปลี่ยนจอนอก_20170406\TKD_Score เปลี่ยนจอนอก\TKD_Score\TKD_Score\bin\Debug\TKD_Score.pdb
+D:\==--2020--===\cr-4\TKD_Score เปลี่ยนจอนอก_20170406\TKD_Score เปลี่ยนจอนอก\TKD_Score\TKD_Score\bin\Debug\TKD_Score.xml
+D:\==--2020--===\cr-4\TKD_Score เปลี่ยนจอนอก_20170406\TKD_Score เปลี่ยนจอนอก\TKD_Score\TKD_Score\bin\Debug\CheckDLL.dll
+D:\==--2020--===\cr-4\TKD_Score เปลี่ยนจอนอก_20170406\TKD_Score เปลี่ยนจอนอก\TKD_Score\TKD_Score\bin\Debug\Microsoft.Xna.Framework.dll
+D:\==--2020--===\cr-4\TKD_Score เปลี่ยนจอนอก_20170406\TKD_Score เปลี่ยนจอนอก\TKD_Score\TKD_Score\bin\Debug\Microsoft.Xna.Framework.Game.dll
+D:\==--2020--===\cr-4\TKD_Score เปลี่ยนจอนอก_20170406\TKD_Score เปลี่ยนจอนอก\TKD_Score\TKD_Score\bin\Debug\CheckDLL.pdb
+D:\==--2020--===\cr-4\TKD_Score เปลี่ยนจอนอก_20170406\TKD_Score เปลี่ยนจอนอก\TKD_Score\TKD_Score\bin\Debug\CheckDLL.xml
+D:\==--2020--===\cr-4\TKD_Score เปลี่ยนจอนอก_20170406\TKD_Score เปลี่ยนจอนอก\TKD_Score\TKD_Score\bin\Debug\Microsoft.Xna.Framework.xml
+D:\==--2020--===\cr-4\TKD_Score เปลี่ยนจอนอก_20170406\TKD_Score เปลี่ยนจอนอก\TKD_Score\TKD_Score\bin\Debug\Microsoft.Xna.Framework.Game.xml
+D:\==--2020--===\cr-4\TKD_Score เปลี่ยนจอนอก_20170406\TKD_Score เปลี่ยนจอนอก\TKD_Score\TKD_Score\obj\Debug\ResolveAssemblyReference.cache
+D:\==--2020--===\cr-4\TKD_Score เปลี่ยนจอนอก_20170406\TKD_Score เปลี่ยนจอนอก\TKD_Score\TKD_Score\obj\Debug\TKD_Score.Form1.resources
+D:\==--2020--===\cr-4\TKD_Score เปลี่ยนจอนอก_20170406\TKD_Score เปลี่ยนจอนอก\TKD_Score\TKD_Score\obj\Debug\TKD_Score.Form2.resources
+D:\==--2020--===\cr-4\TKD_Score เปลี่ยนจอนอก_20170406\TKD_Score เปลี่ยนจอนอก\TKD_Score\TKD_Score\obj\Debug\TKD_Score.frmControlSet.resources
+D:\==--2020--===\cr-4\TKD_Score เปลี่ยนจอนอก_20170406\TKD_Score เปลี่ยนจอนอก\TKD_Score\TKD_Score\obj\Debug\TKD_Score.frmInput_Serial.resources
+D:\==--2020--===\cr-4\TKD_Score เปลี่ยนจอนอก_20170406\TKD_Score เปลี่ยนจอนอก\TKD_Score\TKD_Score\obj\Debug\TKD_Score.frmOutSize.resources
+D:\==--2020--===\cr-4\TKD_Score เปลี่ยนจอนอก_20170406\TKD_Score เปลี่ยนจอนอก\TKD_Score\TKD_Score\obj\Debug\TKD_Score.frmSave.resources
+D:\==--2020--===\cr-4\TKD_Score เปลี่ยนจอนอก_20170406\TKD_Score เปลี่ยนจอนอก\TKD_Score\TKD_Score\obj\Debug\TKD_Score.Resources.resources
+D:\==--2020--===\cr-4\TKD_Score เปลี่ยนจอนอก_20170406\TKD_Score เปลี่ยนจอนอก\TKD_Score\TKD_Score\obj\Debug\TKD_Score.vbproj.GenerateResource.Cache
+D:\==--2020--===\cr-5\TKD_Score เปลี่ยนจอนอก\TKD_Score\TKD_Score\obj\Debug\TKD_Score.exe
+D:\==--2020--===\cr-5\TKD_Score เปลี่ยนจอนอก\TKD_Score\TKD_Score\obj\Debug\TKD_Score.xml
+D:\==--2020--===\cr-5\TKD_Score เปลี่ยนจอนอก\TKD_Score\TKD_Score\obj\Debug\TKD_Score.pdb
+D:\==--2020--===\cr-5\TKD_Score เปลี่ยนจอนอก\TKD_Score\TKD_Score\bin\Debug\TKD_Score.exe
+D:\==--2020--===\cr-5\TKD_Score เปลี่ยนจอนอก\TKD_Score\TKD_Score\bin\Debug\TKD_Score.pdb
+D:\==--2020--===\cr-5\TKD_Score เปลี่ยนจอนอก\TKD_Score\TKD_Score\bin\Debug\TKD_Score.xml
+D:\==--2020--===\cr-5\TKD_Score เปลี่ยนจอนอก\TKD_Score\TKD_Score\bin\Debug\CheckDLL.dll
+D:\==--2020--===\cr-5\TKD_Score เปลี่ยนจอนอก\TKD_Score\TKD_Score\bin\Debug\Microsoft.Xna.Framework.dll
+D:\==--2020--===\cr-5\TKD_Score เปลี่ยนจอนอก\TKD_Score\TKD_Score\bin\Debug\Microsoft.Xna.Framework.Game.dll
+D:\==--2020--===\cr-5\TKD_Score เปลี่ยนจอนอก\TKD_Score\TKD_Score\bin\Debug\CheckDLL.pdb
+D:\==--2020--===\cr-5\TKD_Score เปลี่ยนจอนอก\TKD_Score\TKD_Score\bin\Debug\CheckDLL.xml
+D:\==--2020--===\cr-5\TKD_Score เปลี่ยนจอนอก\TKD_Score\TKD_Score\bin\Debug\Microsoft.Xna.Framework.xml
+D:\==--2020--===\cr-5\TKD_Score เปลี่ยนจอนอก\TKD_Score\TKD_Score\bin\Debug\Microsoft.Xna.Framework.Game.xml
+D:\==--2020--===\cr-5\TKD_Score เปลี่ยนจอนอก\TKD_Score\TKD_Score\obj\Debug\ResolveAssemblyReference.cache
+D:\==--2020--===\cr-5\TKD_Score เปลี่ยนจอนอก\TKD_Score\TKD_Score\obj\Debug\TKD_Score.Form1.resources
+D:\==--2020--===\cr-5\TKD_Score เปลี่ยนจอนอก\TKD_Score\TKD_Score\obj\Debug\TKD_Score.Form2.resources
+D:\==--2020--===\cr-5\TKD_Score เปลี่ยนจอนอก\TKD_Score\TKD_Score\obj\Debug\TKD_Score.frmControlSet.resources
+D:\==--2020--===\cr-5\TKD_Score เปลี่ยนจอนอก\TKD_Score\TKD_Score\obj\Debug\TKD_Score.frmInput_Serial.resources
+D:\==--2020--===\cr-5\TKD_Score เปลี่ยนจอนอก\TKD_Score\TKD_Score\obj\Debug\TKD_Score.frmOutSize.resources
+D:\==--2020--===\cr-5\TKD_Score เปลี่ยนจอนอก\TKD_Score\TKD_Score\obj\Debug\TKD_Score.frmSave.resources
+D:\==--2020--===\cr-5\TKD_Score เปลี่ยนจอนอก\TKD_Score\TKD_Score\obj\Debug\TKD_Score.Resources.resources
+D:\==--2020--===\cr-5\TKD_Score เปลี่ยนจอนอก\TKD_Score\TKD_Score\obj\Debug\TKD_Score.vbproj.GenerateResource.Cache
+C:\Users\Rattapol\Documents\Visual Studio 2008\Projects\TKD Work\cr-5\TKD_Score เปลี่ยนจอนอก\TKD_Score\TKD_Score\obj\Debug\TKD_Score.exe
+C:\Users\Rattapol\Documents\Visual Studio 2008\Projects\TKD Work\cr-5\TKD_Score เปลี่ยนจอนอก\TKD_Score\TKD_Score\obj\Debug\TKD_Score.xml
+C:\Users\Rattapol\Documents\Visual Studio 2008\Projects\TKD Work\cr-5\TKD_Score เปลี่ยนจอนอก\TKD_Score\TKD_Score\obj\Debug\TKD_Score.pdb
+C:\Users\Rattapol\Documents\Visual Studio 2008\Projects\TKD Work\cr-5\TKD_Score เปลี่ยนจอนอก\TKD_Score\TKD_Score\bin\Debug\TKD_Score.exe
+C:\Users\Rattapol\Documents\Visual Studio 2008\Projects\TKD Work\cr-5\TKD_Score เปลี่ยนจอนอก\TKD_Score\TKD_Score\bin\Debug\TKD_Score.pdb
+C:\Users\Rattapol\Documents\Visual Studio 2008\Projects\TKD Work\cr-5\TKD_Score เปลี่ยนจอนอก\TKD_Score\TKD_Score\bin\Debug\TKD_Score.xml
+C:\Users\Rattapol\Documents\Visual Studio 2008\Projects\TKD Work\cr-5\TKD_Score เปลี่ยนจอนอก\TKD_Score\TKD_Score\bin\Debug\CheckDLL.dll
+C:\Users\Rattapol\Documents\Visual Studio 2008\Projects\TKD Work\cr-5\TKD_Score เปลี่ยนจอนอก\TKD_Score\TKD_Score\bin\Debug\Microsoft.Xna.Framework.dll
+C:\Users\Rattapol\Documents\Visual Studio 2008\Projects\TKD Work\cr-5\TKD_Score เปลี่ยนจอนอก\TKD_Score\TKD_Score\bin\Debug\Microsoft.Xna.Framework.Game.dll
+C:\Users\Rattapol\Documents\Visual Studio 2008\Projects\TKD Work\cr-5\TKD_Score เปลี่ยนจอนอก\TKD_Score\TKD_Score\bin\Debug\CheckDLL.pdb
+C:\Users\Rattapol\Documents\Visual Studio 2008\Projects\TKD Work\cr-5\TKD_Score เปลี่ยนจอนอก\TKD_Score\TKD_Score\bin\Debug\CheckDLL.xml
+C:\Users\Rattapol\Documents\Visual Studio 2008\Projects\TKD Work\cr-5\TKD_Score เปลี่ยนจอนอก\TKD_Score\TKD_Score\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Rattapol\Documents\Visual Studio 2008\Projects\TKD Work\cr-5\TKD_Score เปลี่ยนจอนอก\TKD_Score\TKD_Score\obj\Debug\TKD_Score.Form1.resources
+C:\Users\Rattapol\Documents\Visual Studio 2008\Projects\TKD Work\cr-5\TKD_Score เปลี่ยนจอนอก\TKD_Score\TKD_Score\obj\Debug\TKD_Score.Form2.resources
+C:\Users\Rattapol\Documents\Visual Studio 2008\Projects\TKD Work\cr-5\TKD_Score เปลี่ยนจอนอก\TKD_Score\TKD_Score\obj\Debug\TKD_Score.frmControlSet.resources
+C:\Users\Rattapol\Documents\Visual Studio 2008\Projects\TKD Work\cr-5\TKD_Score เปลี่ยนจอนอก\TKD_Score\TKD_Score\obj\Debug\TKD_Score.frmInput_Serial.resources
+C:\Users\Rattapol\Documents\Visual Studio 2008\Projects\TKD Work\cr-5\TKD_Score เปลี่ยนจอนอก\TKD_Score\TKD_Score\obj\Debug\TKD_Score.frmOutSize.resources
+C:\Users\Rattapol\Documents\Visual Studio 2008\Projects\TKD Work\cr-5\TKD_Score เปลี่ยนจอนอก\TKD_Score\TKD_Score\obj\Debug\TKD_Score.frmSave.resources
+C:\Users\Rattapol\Documents\Visual Studio 2008\Projects\TKD Work\cr-5\TKD_Score เปลี่ยนจอนอก\TKD_Score\TKD_Score\obj\Debug\TKD_Score.Resources.resources
+C:\Users\Rattapol\Documents\Visual Studio 2008\Projects\TKD Work\cr-5\TKD_Score เปลี่ยนจอนอก\TKD_Score\TKD_Score\obj\Debug\TKD_Score.vbproj.GenerateResource.Cache
+C:\Users\rattapol\Documents\TKD_Score เปลี่ยนจอนอก\TKD_Score\TKD_Score\obj\Debug\TKD_Score.exe
+C:\Users\rattapol\Documents\TKD_Score เปลี่ยนจอนอก\TKD_Score\TKD_Score\obj\Debug\TKD_Score.xml
+C:\Users\rattapol\Documents\TKD_Score เปลี่ยนจอนอก\TKD_Score\TKD_Score\obj\Debug\TKD_Score.pdb
+C:\Users\rattapol\Documents\TKD_Score เปลี่ยนจอนอก\TKD_Score\TKD_Score\bin\Debug\TKD_Score.exe
+C:\Users\rattapol\Documents\TKD_Score เปลี่ยนจอนอก\TKD_Score\TKD_Score\bin\Debug\TKD_Score.pdb
+C:\Users\rattapol\Documents\TKD_Score เปลี่ยนจอนอก\TKD_Score\TKD_Score\bin\Debug\TKD_Score.xml
+C:\Users\rattapol\Documents\TKD_Score เปลี่ยนจอนอก\TKD_Score\TKD_Score\bin\Debug\CheckDLL.dll
+C:\Users\rattapol\Documents\TKD_Score เปลี่ยนจอนอก\TKD_Score\TKD_Score\bin\Debug\Microsoft.Xna.Framework.dll
+C:\Users\rattapol\Documents\TKD_Score เปลี่ยนจอนอก\TKD_Score\TKD_Score\bin\Debug\Microsoft.Xna.Framework.Game.dll
+C:\Users\rattapol\Documents\TKD_Score เปลี่ยนจอนอก\TKD_Score\TKD_Score\bin\Debug\CheckDLL.pdb
+C:\Users\rattapol\Documents\TKD_Score เปลี่ยนจอนอก\TKD_Score\TKD_Score\bin\Debug\CheckDLL.xml
+C:\Users\rattapol\Documents\TKD_Score เปลี่ยนจอนอก\TKD_Score\TKD_Score\bin\Debug\Microsoft.Xna.Framework.xml
+C:\Users\rattapol\Documents\TKD_Score เปลี่ยนจอนอก\TKD_Score\TKD_Score\bin\Debug\Microsoft.Xna.Framework.Game.xml
+C:\Users\rattapol\Documents\TKD_Score เปลี่ยนจอนอก\TKD_Score\TKD_Score\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\rattapol\Documents\TKD_Score เปลี่ยนจอนอก\TKD_Score\TKD_Score\obj\Debug\TKD_Score.Form1.resources
+C:\Users\rattapol\Documents\TKD_Score เปลี่ยนจอนอก\TKD_Score\TKD_Score\obj\Debug\TKD_Score.Form2.resources
+C:\Users\rattapol\Documents\TKD_Score เปลี่ยนจอนอก\TKD_Score\TKD_Score\obj\Debug\TKD_Score.frmControlSet.resources
+C:\Users\rattapol\Documents\TKD_Score เปลี่ยนจอนอก\TKD_Score\TKD_Score\obj\Debug\TKD_Score.frmInput_Serial.resources
+C:\Users\rattapol\Documents\TKD_Score เปลี่ยนจอนอก\TKD_Score\TKD_Score\obj\Debug\TKD_Score.frmOutSize.resources
+C:\Users\rattapol\Documents\TKD_Score เปลี่ยนจอนอก\TKD_Score\TKD_Score\obj\Debug\TKD_Score.frmSave.resources
+C:\Users\rattapol\Documents\TKD_Score เปลี่ยนจอนอก\TKD_Score\TKD_Score\obj\Debug\TKD_Score.Resources.resources
+C:\Users\rattapol\Documents\TKD_Score เปลี่ยนจอนอก\TKD_Score\TKD_Score\obj\Debug\TKD_Score.vbproj.GenerateResource.Cache
