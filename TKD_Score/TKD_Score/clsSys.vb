@@ -11,5 +11,10 @@
     Public Shared Pass As String = ""
     Public Shared Pass2 As String = ""
     Public Shared ProjectorIP As String = ""
+    Public Shared sValueOne As String = "1"
+    Public Shared sValueTwo As String = "2"
+    Public Shared sValueThree As String = "3"
+    Public Shared sValueFour As String = "4"
+    Public Shared sValueFive As String = "5"
 End Class
 

@@ -112,6 +112,12 @@
         If txtIP.Text.Trim = "" Then
             clsScoreControl.sServer_IP = ""
         End If
+
+        clsSys.sValueOne = txtValue1.Text
+        clsSys.sValueTwo = txtValue2.Text
+        clsSys.sValueThree = txtValue3.Text
+        clsSys.sValueFour = txtValue4.Text
+        clsSys.sValueFive = txtValue5.Text
         Me.Close()
     End Sub
 
@@ -134,6 +140,14 @@
             txtField.Visible = True
             txtField.Text = clsScoreControl.FieldName
         End If
+
+        'Set Joy score
+        txtValue1.Text = clsSys.sValueOne
+        txtValue2.Text = clsSys.sValueTwo
+        txtValue3.Text = clsSys.sValueThree
+        txtValue4.Text = clsSys.sValueFour
+        txtValue5.Text = clsSys.sValueFive
+
 
         txtBreak.Text = clsScoreControl.TimeBreak
         cboSound.SelectedIndex = clsScoreControl.iSoundId
