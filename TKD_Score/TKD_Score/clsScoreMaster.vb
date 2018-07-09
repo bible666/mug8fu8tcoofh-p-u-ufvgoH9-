@@ -4,6 +4,7 @@
     Private iKey2 As Integer = 0
     Private iKey3 As Integer = 0
     Private iKey4 As Integer = 0
+    Private iKey5 As Integer = 0
 
 
 
@@ -45,6 +46,16 @@
         End Get
         Set(ByVal value As Integer)
             iKey_Alt_4 = value
+        End Set
+    End Property
+
+    Private iKey_Alt_5 As Integer
+    Public Property Key_Alt_5() As Integer
+        Get
+            Return iKey_Alt_5
+        End Get
+        Set(ByVal value As Integer)
+            iKey_Alt_5 = value
         End Set
     End Property
 #End Region
@@ -90,6 +101,16 @@
             iKey_Ctl_4 = value
         End Set
     End Property
+
+    Private iKey_Ctl_5 As Integer
+    Public Property Key_Ctl_5() As Integer
+        Get
+            Return iKey_Ctl_5
+        End Get
+        Set(ByVal value As Integer)
+            iKey_Ctl_5 = value
+        End Set
+    End Property
 #End Region
 
     Private iJude As Integer
@@ -114,9 +135,9 @@
 
     Public Function SetKeyData(ByVal iKeyData As Integer) As Integer
         Select Case iKeyData
-            Case iKey_Alt_1, iKey_Alt_2, iKey_Alt_3, iKey_Alt_4
+            Case iKey_Alt_1, iKey_Alt_2, iKey_Alt_3, iKey_Alt_4, iKey_Alt_5
                 Return AddScore(iKeyData)
-            Case iKey_Ctl_1, iKey_Ctl_2, iKey_Ctl_3, iKey_Ctl_4
+            Case iKey_Ctl_1, iKey_Ctl_2, iKey_Ctl_3, iKey_Ctl_4, iKey_Ctl_5
                 Return AddScore(iKeyData)
         End Select
         Return 0
@@ -132,6 +153,8 @@
                 iKey3 = 1
             Case iKey_Alt_4, iKey_Ctl_4
                 iKey4 = 1
+            Case iKey_Alt_5, iKey_Ctl_5
+                iKey5 = 1
         End Select
 
     End Sub
@@ -141,10 +164,11 @@
             iKey2 = 0
             iKey3 = 0
             iKey4 = 0
+            iKey5 = 0
             Return iAddValue
         End If
 
-        If (iKey1 + iKey2 + iKey3 + iKey4) = 0 Then
+        If (iKey1 + iKey2 + iKey3 + iKey4 + iKey5) = 0 Then
             tSTime = Now
             set_iKey(iKeyData)
         Else
@@ -153,11 +177,12 @@
             'Debug.WriteLine(Format(eDate, "HHmmssfff") - Format(tSTime, "HHmmssfff"))
 
             If Format(eDate, "HHmmssfff") - Format(tSTime, "HHmmssfff") < 1000 Then
-                If (iKey1 + iKey2 + iKey3 + iKey4) >= (iJude - 1) Then
+                If (iKey1 + iKey2 + iKey3 + iKey4 + iKey5) >= (iJude - 1) Then
                     iKey1 = 0
                     iKey2 = 0
                     iKey3 = 0
                     iKey4 = 0
+                    iKey5 = 0
                     Return iAddValue
                 End If
             Else
@@ -167,6 +192,7 @@
                 iKey2 = 0
                 iKey3 = 0
                 iKey4 = 0
+                iKey5 = 0
                 set_iKey(iKeyData)
                 Return 0
             End If
