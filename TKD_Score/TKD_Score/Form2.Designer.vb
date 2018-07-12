@@ -24,13 +24,15 @@ Partial Class Form2
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Form2))
-        Dim DataGridViewCellStyle7 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle
-        Dim DataGridViewCellStyle8 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle
-        Dim DataGridViewCellStyle9 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle
-        Dim DataGridViewCellStyle10 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle
-        Dim DataGridViewCellStyle11 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle
-        Dim DataGridViewCellStyle12 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle
+        Dim DataGridViewCellStyle1 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle
+        Dim DataGridViewCellStyle2 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle
+        Dim DataGridViewCellStyle3 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle
+        Dim DataGridViewCellStyle4 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle
+        Dim DataGridViewCellStyle5 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle
+        Dim DataGridViewCellStyle6 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle
         Me.pnButton = New System.Windows.Forms.Panel
+        Me.txtBlueSeq = New System.Windows.Forms.TextBox
+        Me.txtRedSeq = New System.Windows.Forms.TextBox
         Me.Label4 = New System.Windows.Forms.Label
         Me.btnJoyUpdate = New System.Windows.Forms.PictureBox
         Me.btnBlue_G_M = New System.Windows.Forms.PictureBox
@@ -142,6 +144,8 @@ Partial Class Form2
         'pnButton
         '
         Me.pnButton.BackColor = System.Drawing.Color.Black
+        Me.pnButton.Controls.Add(Me.txtBlueSeq)
+        Me.pnButton.Controls.Add(Me.txtRedSeq)
         Me.pnButton.Controls.Add(Me.Label4)
         Me.pnButton.Controls.Add(Me.btnJoyUpdate)
         Me.pnButton.Controls.Add(Me.btnBlue_G_M)
@@ -157,17 +161,35 @@ Partial Class Form2
         Me.pnButton.Controls.Add(Me.btnRed_M)
         Me.pnButton.Controls.Add(Me.btnRed_P)
         Me.pnButton.Dock = System.Windows.Forms.DockStyle.Bottom
-        Me.pnButton.Location = New System.Drawing.Point(0, 672)
+        Me.pnButton.Location = New System.Drawing.Point(0, 568)
         Me.pnButton.Name = "pnButton"
         Me.pnButton.Size = New System.Drawing.Size(1264, 69)
         Me.pnButton.TabIndex = 8
+        '
+        'txtBlueSeq
+        '
+        Me.txtBlueSeq.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.txtBlueSeq.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtBlueSeq.Location = New System.Drawing.Point(713, 35)
+        Me.txtBlueSeq.Name = "txtBlueSeq"
+        Me.txtBlueSeq.Size = New System.Drawing.Size(66, 31)
+        Me.txtBlueSeq.TabIndex = 17
+        '
+        'txtRedSeq
+        '
+        Me.txtRedSeq.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
+        Me.txtRedSeq.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtRedSeq.Location = New System.Drawing.Point(478, 33)
+        Me.txtRedSeq.Name = "txtRedSeq"
+        Me.txtRedSeq.Size = New System.Drawing.Size(66, 31)
+        Me.txtRedSeq.TabIndex = 16
         '
         'Label4
         '
         Me.Label4.BackColor = System.Drawing.Color.Purple
         Me.Label4.Font = New System.Drawing.Font("Microsoft Sans Serif", 30.0!)
         Me.Label4.ForeColor = System.Drawing.Color.White
-        Me.Label4.Location = New System.Drawing.Point(534, 12)
+        Me.Label4.Location = New System.Drawing.Point(548, 12)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(113, 45)
         Me.Label4.TabIndex = 15
@@ -180,7 +202,7 @@ Partial Class Form2
         Me.btnJoyUpdate.BackgroundImage = CType(resources.GetObject("btnJoyUpdate.BackgroundImage"), System.Drawing.Image)
         Me.btnJoyUpdate.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.btnJoyUpdate.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
-        Me.btnJoyUpdate.Location = New System.Drawing.Point(666, 19)
+        Me.btnJoyUpdate.Location = New System.Drawing.Point(671, 19)
         Me.btnJoyUpdate.Name = "btnJoyUpdate"
         Me.btnJoyUpdate.Size = New System.Drawing.Size(38, 38)
         Me.btnJoyUpdate.TabIndex = 14
@@ -191,7 +213,7 @@ Partial Class Form2
         Me.btnBlue_G_M.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.btnBlue_G_M.BackgroundImage = CType(resources.GetObject("btnBlue_G_M.BackgroundImage"), System.Drawing.Image)
         Me.btnBlue_G_M.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.btnBlue_G_M.Location = New System.Drawing.Point(1206, 3)
+        Me.btnBlue_G_M.Location = New System.Drawing.Point(1211, 3)
         Me.btnBlue_G_M.Name = "btnBlue_G_M"
         Me.btnBlue_G_M.Size = New System.Drawing.Size(37, 62)
         Me.btnBlue_G_M.TabIndex = 7
@@ -202,7 +224,7 @@ Partial Class Form2
         Me.btnBlue_K_M.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.btnBlue_K_M.BackgroundImage = CType(resources.GetObject("btnBlue_K_M.BackgroundImage"), System.Drawing.Image)
         Me.btnBlue_K_M.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.btnBlue_K_M.Location = New System.Drawing.Point(1054, 3)
+        Me.btnBlue_K_M.Location = New System.Drawing.Point(1059, 3)
         Me.btnBlue_K_M.Name = "btnBlue_K_M"
         Me.btnBlue_K_M.Size = New System.Drawing.Size(37, 62)
         Me.btnBlue_K_M.TabIndex = 9
@@ -214,7 +236,7 @@ Partial Class Form2
         Me.btnBlue_P.BackgroundImage = CType(resources.GetObject("btnBlue_P.BackgroundImage"), System.Drawing.Image)
         Me.btnBlue_P.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.btnBlue_P.InitialImage = Nothing
-        Me.btnBlue_P.Location = New System.Drawing.Point(777, 3)
+        Me.btnBlue_P.Location = New System.Drawing.Point(783, 3)
         Me.btnBlue_P.Name = "btnBlue_P"
         Me.btnBlue_P.Size = New System.Drawing.Size(115, 62)
         Me.btnBlue_P.TabIndex = 12
@@ -225,7 +247,7 @@ Partial Class Form2
         Me.btnBlue_M.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.btnBlue_M.BackgroundImage = CType(resources.GetObject("btnBlue_M.BackgroundImage"), System.Drawing.Image)
         Me.btnBlue_M.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.btnBlue_M.Location = New System.Drawing.Point(895, 3)
+        Me.btnBlue_M.Location = New System.Drawing.Point(900, 3)
         Me.btnBlue_M.Name = "btnBlue_M"
         Me.btnBlue_M.Size = New System.Drawing.Size(37, 62)
         Me.btnBlue_M.TabIndex = 11
@@ -237,7 +259,7 @@ Partial Class Form2
         Me.btnBlue_K_P.BackgroundImage = CType(resources.GetObject("btnBlue_K_P.BackgroundImage"), System.Drawing.Image)
         Me.btnBlue_K_P.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.btnBlue_K_P.InitialImage = Nothing
-        Me.btnBlue_K_P.Location = New System.Drawing.Point(939, 3)
+        Me.btnBlue_K_P.Location = New System.Drawing.Point(944, 3)
         Me.btnBlue_K_P.Name = "btnBlue_K_P"
         Me.btnBlue_K_P.Size = New System.Drawing.Size(115, 62)
         Me.btnBlue_K_P.TabIndex = 10
@@ -249,7 +271,7 @@ Partial Class Form2
         Me.btnBlue_G_P.BackgroundImage = CType(resources.GetObject("btnBlue_G_P.BackgroundImage"), System.Drawing.Image)
         Me.btnBlue_G_P.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.btnBlue_G_P.InitialImage = Nothing
-        Me.btnBlue_G_P.Location = New System.Drawing.Point(1093, 3)
+        Me.btnBlue_G_P.Location = New System.Drawing.Point(1098, 3)
         Me.btnBlue_G_P.Name = "btnBlue_G_P"
         Me.btnBlue_G_P.Size = New System.Drawing.Size(115, 62)
         Me.btnBlue_G_P.TabIndex = 8
@@ -548,7 +570,7 @@ Partial Class Form2
         Me.cboPositionRed.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.cboPositionRed.Font = New System.Drawing.Font("Comic Sans MS", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.cboPositionRed.FormattingEnabled = True
-        Me.cboPositionRed.Location = New System.Drawing.Point(399, 54)
+        Me.cboPositionRed.Location = New System.Drawing.Point(396, 54)
         Me.cboPositionRed.Name = "cboPositionRed"
         Me.cboPositionRed.Size = New System.Drawing.Size(171, 31)
         Me.cboPositionRed.TabIndex = 9
@@ -560,7 +582,7 @@ Partial Class Form2
         Me.Label2.AutoSize = True
         Me.Label2.Font = New System.Drawing.Font("Comic Sans MS", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label2.ForeColor = System.Drawing.Color.White
-        Me.Label2.Location = New System.Drawing.Point(326, 59)
+        Me.Label2.Location = New System.Drawing.Point(323, 59)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(66, 23)
         Me.Label2.TabIndex = 8
@@ -697,7 +719,7 @@ Partial Class Form2
         Me.Panel3.Controls.Add(Me.btnNext)
         Me.Panel3.Controls.Add(Me.btnSave)
         Me.Panel3.Dock = System.Windows.Forms.DockStyle.Bottom
-        Me.Panel3.Location = New System.Drawing.Point(0, 584)
+        Me.Panel3.Location = New System.Drawing.Point(0, 480)
         Me.Panel3.Name = "Panel3"
         Me.Panel3.Size = New System.Drawing.Size(1264, 88)
         Me.Panel3.TabIndex = 20
@@ -878,58 +900,58 @@ Partial Class Form2
         '
         'grdData_Red
         '
-        DataGridViewCellStyle7.BackColor = System.Drawing.Color.LightCyan
-        Me.grdData_Red.AlternatingRowsDefaultCellStyle = DataGridViewCellStyle7
+        DataGridViewCellStyle1.BackColor = System.Drawing.Color.LightCyan
+        Me.grdData_Red.AlternatingRowsDefaultCellStyle = DataGridViewCellStyle1
         Me.grdData_Red.AutoGenerateRecordNo = False
-        DataGridViewCellStyle8.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle8.BackColor = System.Drawing.Color.LightSteelBlue
-        DataGridViewCellStyle8.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
-        DataGridViewCellStyle8.ForeColor = System.Drawing.SystemColors.WindowText
-        DataGridViewCellStyle8.SelectionBackColor = System.Drawing.SystemColors.Highlight
-        DataGridViewCellStyle8.SelectionForeColor = System.Drawing.SystemColors.HighlightText
-        DataGridViewCellStyle8.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
-        Me.grdData_Red.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle8
+        DataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle2.BackColor = System.Drawing.Color.LightSteelBlue
+        DataGridViewCellStyle2.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
+        DataGridViewCellStyle2.ForeColor = System.Drawing.SystemColors.WindowText
+        DataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight
+        DataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText
+        DataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
+        Me.grdData_Red.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle2
         Me.grdData_Red.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
         Me.grdData_Red.EnableHeadersVisualStyles = False
         Me.grdData_Red.Location = New System.Drawing.Point(384, 348)
         Me.grdData_Red.Name = "grdData_Red"
-        DataGridViewCellStyle9.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle9.BackColor = System.Drawing.Color.LightSteelBlue
-        DataGridViewCellStyle9.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
-        DataGridViewCellStyle9.ForeColor = System.Drawing.SystemColors.WindowText
-        DataGridViewCellStyle9.SelectionBackColor = System.Drawing.SystemColors.Highlight
-        DataGridViewCellStyle9.SelectionForeColor = System.Drawing.SystemColors.HighlightText
-        DataGridViewCellStyle9.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
-        Me.grdData_Red.RowHeadersDefaultCellStyle = DataGridViewCellStyle9
+        DataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle3.BackColor = System.Drawing.Color.LightSteelBlue
+        DataGridViewCellStyle3.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
+        DataGridViewCellStyle3.ForeColor = System.Drawing.SystemColors.WindowText
+        DataGridViewCellStyle3.SelectionBackColor = System.Drawing.SystemColors.Highlight
+        DataGridViewCellStyle3.SelectionForeColor = System.Drawing.SystemColors.HighlightText
+        DataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
+        Me.grdData_Red.RowHeadersDefaultCellStyle = DataGridViewCellStyle3
         Me.grdData_Red.Size = New System.Drawing.Size(140, 153)
         Me.grdData_Red.TabIndex = 29
         Me.grdData_Red.TabStop = False
         '
         'grdDataBlue
         '
-        DataGridViewCellStyle10.BackColor = System.Drawing.Color.LightCyan
-        Me.grdDataBlue.AlternatingRowsDefaultCellStyle = DataGridViewCellStyle10
+        DataGridViewCellStyle4.BackColor = System.Drawing.Color.LightCyan
+        Me.grdDataBlue.AlternatingRowsDefaultCellStyle = DataGridViewCellStyle4
         Me.grdDataBlue.AutoGenerateRecordNo = False
-        DataGridViewCellStyle11.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle11.BackColor = System.Drawing.Color.LightSteelBlue
-        DataGridViewCellStyle11.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
-        DataGridViewCellStyle11.ForeColor = System.Drawing.SystemColors.WindowText
-        DataGridViewCellStyle11.SelectionBackColor = System.Drawing.SystemColors.Highlight
-        DataGridViewCellStyle11.SelectionForeColor = System.Drawing.SystemColors.HighlightText
-        DataGridViewCellStyle11.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
-        Me.grdDataBlue.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle11
+        DataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle5.BackColor = System.Drawing.Color.LightSteelBlue
+        DataGridViewCellStyle5.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
+        DataGridViewCellStyle5.ForeColor = System.Drawing.SystemColors.WindowText
+        DataGridViewCellStyle5.SelectionBackColor = System.Drawing.SystemColors.Highlight
+        DataGridViewCellStyle5.SelectionForeColor = System.Drawing.SystemColors.HighlightText
+        DataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
+        Me.grdDataBlue.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle5
         Me.grdDataBlue.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
         Me.grdDataBlue.EnableHeadersVisualStyles = False
         Me.grdDataBlue.Location = New System.Drawing.Point(740, 352)
         Me.grdDataBlue.Name = "grdDataBlue"
-        DataGridViewCellStyle12.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle12.BackColor = System.Drawing.Color.LightSteelBlue
-        DataGridViewCellStyle12.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
-        DataGridViewCellStyle12.ForeColor = System.Drawing.SystemColors.WindowText
-        DataGridViewCellStyle12.SelectionBackColor = System.Drawing.SystemColors.Highlight
-        DataGridViewCellStyle12.SelectionForeColor = System.Drawing.SystemColors.HighlightText
-        DataGridViewCellStyle12.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
-        Me.grdDataBlue.RowHeadersDefaultCellStyle = DataGridViewCellStyle12
+        DataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle6.BackColor = System.Drawing.Color.LightSteelBlue
+        DataGridViewCellStyle6.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
+        DataGridViewCellStyle6.ForeColor = System.Drawing.SystemColors.WindowText
+        DataGridViewCellStyle6.SelectionBackColor = System.Drawing.SystemColors.Highlight
+        DataGridViewCellStyle6.SelectionForeColor = System.Drawing.SystemColors.HighlightText
+        DataGridViewCellStyle6.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
+        Me.grdDataBlue.RowHeadersDefaultCellStyle = DataGridViewCellStyle6
         Me.grdDataBlue.Size = New System.Drawing.Size(140, 153)
         Me.grdDataBlue.TabIndex = 30
         Me.grdDataBlue.TabStop = False
@@ -961,7 +983,7 @@ Partial Class Form2
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.Black
-        Me.ClientSize = New System.Drawing.Size(1264, 741)
+        Me.ClientSize = New System.Drawing.Size(1264, 637)
         Me.Controls.Add(Me.btnImage2)
         Me.Controls.Add(Me.btnImage1)
         Me.Controls.Add(Me.grdDataBlue)
@@ -987,6 +1009,7 @@ Partial Class Form2
         Me.Name = "Form2"
         Me.Text = "Control"
         Me.pnButton.ResumeLayout(False)
+        Me.pnButton.PerformLayout()
         CType(Me.btnJoyUpdate, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.btnBlue_G_M, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.btnBlue_K_M, System.ComponentModel.ISupportInitialize).EndInit()
@@ -1099,4 +1122,6 @@ Partial Class Form2
     Friend WithEvents btnImage2 As System.Windows.Forms.PictureBox
     Friend WithEvents PictureBox2 As System.Windows.Forms.PictureBox
     Friend WithEvents PictureBox1 As System.Windows.Forms.PictureBox
+    Friend WithEvents txtBlueSeq As System.Windows.Forms.TextBox
+    Friend WithEvents txtRedSeq As System.Windows.Forms.TextBox
 End Class

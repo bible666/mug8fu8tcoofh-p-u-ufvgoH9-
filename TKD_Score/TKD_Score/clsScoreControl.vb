@@ -63,6 +63,7 @@
         Alt_6 = 262198
         Alt_7 = 262199
         Alt_8 = 262200
+        Alt_9 = 262201
 
         Ctl_A = 131137
         Ctl_B = 131138
@@ -96,6 +97,7 @@
         Ctl_6 = 131126
         Ctl_7 = 131127
         Ctl_8 = 131128
+        Ctl_9 = 131129
 
         Space = 32
     End Enum
@@ -151,10 +153,14 @@
     Private Shared Red_2 As New clsScoreMaster
     Private Shared Red_3 As New clsScoreMaster
     Private Shared Red_4 As New clsScoreMaster
+    Private Shared Red_5 As New clsScoreMaster
+
     Private Shared Blue_1 As New clsScoreMaster
     Private Shared Blue_2 As New clsScoreMaster
     Private Shared Blue_3 As New clsScoreMaster
     Private Shared Blue_4 As New clsScoreMaster
+    Private Shared Blue_5 As New clsScoreMaster
+
 
     Public Shared frmShow As frmOutSize
     Public Shared frmControl As Form2
@@ -215,10 +221,14 @@
         Red_2.Jude = Jude
         Red_3.Jude = Jude
         Red_4.Jude = Jude
+        Red_5.Jude = Jude
+
         Blue_1.Jude = Jude
         Blue_2.Jude = Jude
         Blue_3.Jude = Jude
         Blue_4.Jude = Jude
+        Blue_5.Jude = Jude
+
     End Sub
 
     Public Shared Sub SetKeyFor_1()
@@ -278,6 +288,13 @@
             .Jude = Jude
             .AddValue = 4
         End With
+
+        With Red_5
+            .Key_Alt_1 = KeyData.Alt_9
+            .Jude = Jude
+            .AddValue = 5
+        End With
+       
         With Blue_1
             .Key_Alt_1 = KeyData.Alt_E
             .Key_Alt_2 = KeyData.Alt_M
@@ -331,7 +348,21 @@
             .AddValue = 4
         End With
 
+        With Blue_5
+            .Key_Alt_1 = KeyData.Ctl_9
+            .Jude = Jude
+            .AddValue = 5
+        End With
 
+
+    End Sub
+
+    Public Shared Sub SetSeqRed(ByVal iSeq As String)
+        frmShow.lblRedSeq.Text = iSeq
+    End Sub
+
+    Public Shared Sub SetSeqBlue(ByVal iSeq As String)
+        frmShow.lblBlueSeq.Text = iSeq
     End Sub
 
     Public Shared Sub AddScoreByKeyData(ByVal KeyData As KeyData)
@@ -346,6 +377,7 @@
         iRedScore += clsScoreControl.Red_2.SetKeyData(KeyData)
         iRedScore += clsScoreControl.Red_3.SetKeyData(KeyData)
         iRedScore += clsScoreControl.Red_4.SetKeyData(KeyData)
+        iRedScore += clsScoreControl.Red_5.SetKeyData(KeyData)
         If iRedScore > 0 Then
             frmShow.lblRed.Text = iRedScore
             frmControl.lblRed.Text = iRedScore
@@ -356,6 +388,7 @@
         iBlueScore += clsScoreControl.Blue_2.SetKeyData(KeyData)
         iBlueScore += clsScoreControl.Blue_3.SetKeyData(KeyData)
         iBlueScore += clsScoreControl.Blue_4.SetKeyData(KeyData)
+        iBlueScore += clsScoreControl.Blue_5.SetKeyData(KeyData)
         If iBlueScore > 0 Then
             frmShow.lblBlue.Text = iBlueScore
             frmControl.lblBlue.Text = iBlueScore
@@ -404,13 +437,9 @@
 
 
     Public Shared Sub MinusBlueScore()
-        'If GameStatus <> eGameStatus.Runing Then
-        '    Exit Sub
-        'End If
         If iBlueScore <> 0 Then
             iBlueScore -= 1
         End If
-
 
         frmShow.lblBlue.Text = iBlueScore
         frmControl.lblBlue.Text = iBlueScore
@@ -548,7 +577,14 @@
         With frmShow
             .lblRed_Red.Text = iRed_R_Card
         End With
-        AddBlueScore()
+        If iRound = 4 Then
+            If iRed_R_Card Mod 2 = 0 Then
+                AddBlueScore()
+            End If
+        Else
+            AddBlueScore()
+        End If
+
         Sound.Play_Sound_Alert_RoundEndNum(iSoundAlertId)
     End Sub
 
@@ -626,7 +662,14 @@
             .lblBlue_Red.Text = iBlue_R_Card
         End With
         frmShow.lblBlue_Red.Text = iBlue_R_Card
-        AddRedScore()
+        If iRound = 4 Then
+            If iBlue_R_Card Mod 2 = 0 Then
+                AddRedScore()
+            End If
+        Else
+            AddRedScore()
+        End If
+
         Sound.Play_Sound_Alert_RoundEndNum(iSoundAlertId)
     End Sub
 
@@ -641,7 +684,7 @@
         iBlue_Y_Card -= 1
 
         With frmControl
-            .lblBlue_Yellow.Text = iBlue_Y_Card 
+            .lblBlue_Yellow.Text = iBlue_Y_Card
         End With
         frmShow.lblBlue_Yellow.Text = iBlue_Y_Card
         If iBlue_Y_Card Mod 2 = 1 Then
@@ -806,7 +849,7 @@
 
         Sound = New clsPlaySound
     End Sub
-   
+
     ''' <summary>
     ''' ตรวจสอบเงือนไขการชนะครั้งสุดท้าย
     ''' </summary>
@@ -862,7 +905,7 @@
                 End If
         End Select
         Sound = New clsPlaySound
-      
+
     End Sub
 
 #Region " แสดงรายการผู้ชนะ "

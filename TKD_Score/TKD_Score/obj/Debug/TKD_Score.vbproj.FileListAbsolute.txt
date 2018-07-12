@@ -431,3 +431,25 @@ C:\Users\rattapol\Documents\TKD_Score เปลี่ยนจอนอก\TKD_S
 C:\Users\rattapol\Documents\TKD_Score เปลี่ยนจอนอก\TKD_Score\TKD_Score\obj\Debug\TKD_Score.frmSave.resources
 C:\Users\rattapol\Documents\TKD_Score เปลี่ยนจอนอก\TKD_Score\TKD_Score\obj\Debug\TKD_Score.Resources.resources
 C:\Users\rattapol\Documents\TKD_Score เปลี่ยนจอนอก\TKD_Score\TKD_Score\obj\Debug\TKD_Score.vbproj.GenerateResource.Cache
+C:\Users\rattapol\Documents\TKD_Score\TKD_Score\TKD_Score\obj\Debug\TKD_Score.exe
+C:\Users\rattapol\Documents\TKD_Score\TKD_Score\TKD_Score\obj\Debug\TKD_Score.xml
+C:\Users\rattapol\Documents\TKD_Score\TKD_Score\TKD_Score\obj\Debug\TKD_Score.pdb
+C:\Users\rattapol\Documents\TKD_Score\TKD_Score\TKD_Score\bin\Debug\TKD_Score.exe
+C:\Users\rattapol\Documents\TKD_Score\TKD_Score\TKD_Score\bin\Debug\TKD_Score.pdb
+C:\Users\rattapol\Documents\TKD_Score\TKD_Score\TKD_Score\bin\Debug\TKD_Score.xml
+C:\Users\rattapol\Documents\TKD_Score\TKD_Score\TKD_Score\bin\Debug\CheckDLL.dll
+C:\Users\rattapol\Documents\TKD_Score\TKD_Score\TKD_Score\bin\Debug\Microsoft.Xna.Framework.dll
+C:\Users\rattapol\Documents\TKD_Score\TKD_Score\TKD_Score\bin\Debug\Microsoft.Xna.Framework.Game.dll
+C:\Users\rattapol\Documents\TKD_Score\TKD_Score\TKD_Score\bin\Debug\CheckDLL.pdb
+C:\Users\rattapol\Documents\TKD_Score\TKD_Score\TKD_Score\bin\Debug\CheckDLL.xml
+C:\Users\rattapol\Documents\TKD_Score\TKD_Score\TKD_Score\bin\Debug\Microsoft.Xna.Framework.xml
+C:\Users\rattapol\Documents\TKD_Score\TKD_Score\TKD_Score\bin\Debug\Microsoft.Xna.Framework.Game.xml
+C:\Users\rattapol\Documents\TKD_Score\TKD_Score\TKD_Score\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\rattapol\Documents\TKD_Score\TKD_Score\TKD_Score\obj\Debug\TKD_Score.Form1.resources
+C:\Users\rattapol\Documents\TKD_Score\TKD_Score\TKD_Score\obj\Debug\TKD_Score.Form2.resources
+C:\Users\rattapol\Documents\TKD_Score\TKD_Score\TKD_Score\obj\Debug\TKD_Score.frmControlSet.resources
+C:\Users\rattapol\Documents\TKD_Score\TKD_Score\TKD_Score\obj\Debug\TKD_Score.frmInput_Serial.resources
+C:\Users\rattapol\Documents\TKD_Score\TKD_Score\TKD_Score\obj\Debug\TKD_Score.frmOutSize.resources
+C:\Users\rattapol\Documents\TKD_Score\TKD_Score\TKD_Score\obj\Debug\TKD_Score.frmSave.resources
+C:\Users\rattapol\Documents\TKD_Score\TKD_Score\TKD_Score\obj\Debug\TKD_Score.Resources.resources
+C:\Users\rattapol\Documents\TKD_Score\TKD_Score\TKD_Score\obj\Debug\TKD_Score.vbproj.GenerateResource.Cache

@@ -162,7 +162,7 @@ Public Class Form2
                         Dim nDr As DataRow
                         nDr = clsScoreControl.dtRed.NewRow
                         nDr("JoyNo") = "1"
-                        nDr("Score") = "1"
+                        nDr("Score") = clsSys.sValueOne
                         nDr("Times") = Format(runTime, "mm:ss")
                         clsScoreControl.dtRed.Rows.Add(nDr)
                         GrdRedLast()
@@ -177,7 +177,7 @@ Public Class Form2
                         Dim nDr As DataRow
                         nDr = clsScoreControl.dtRed.NewRow
                         nDr("JoyNo") = "1"
-                        nDr("Score") = "2"
+                        nDr("Score") = clsSys.sValueTwo
                         nDr("Times") = Format(runTime, "mm:ss")
                         clsScoreControl.dtRed.Rows.Add(nDr)
                         GrdRedLast()
@@ -192,7 +192,7 @@ Public Class Form2
                         Dim nDr As DataRow
                         nDr = clsScoreControl.dtRed.NewRow
                         nDr("JoyNo") = "1"
-                        nDr("Score") = "3"
+                        nDr("Score") = clsSys.sValueThree
                         nDr("Times") = Format(runTime, "mm:ss")
                         clsScoreControl.dtRed.Rows.Add(nDr)
                         GrdRedLast()
@@ -207,7 +207,7 @@ Public Class Form2
                         Dim nDr As DataRow
                         nDr = clsScoreControl.dtRed.NewRow
                         nDr("JoyNo") = "1"
-                        nDr("Score") = "4"
+                        nDr("Score") = clsSys.sValueFour
                         nDr("Times") = Format(runTime, "mm:ss")
                         clsScoreControl.dtRed.Rows.Add(nDr)
 
@@ -215,9 +215,19 @@ Public Class Form2
                         'GamePad.SetVibration(payerIndex, 1, 0)
                     End If
                 ElseIf (gamePadState.Buttons.Back = Input.ButtonState.Pressed) Then
-                    MessageBox.Show("is back button")
-                ElseIf (gamePadState.Buttons.Start = ButtonState.Pressed) Then
-                    MessageBox.Show("is start")
+                    clsScoreControl.AddScoreByKeyData(clsScoreControl.KeyData.Alt_9)
+                    isRedInput = True
+                    lbl_J_R_1.BackColor = Color.Red
+
+                    Dim nDr As DataRow
+                    nDr = clsScoreControl.dtRed.NewRow
+                    nDr("JoyNo") = "1"
+                    nDr("Score") = clsSys.sValueFive
+                    nDr("Times") = Format(runTime, "mm:ss")
+                    clsScoreControl.dtRed.Rows.Add(nDr)
+
+                    GrdRedLast()
+
                 Else
                     isRedInput = False
                     lbl_J_R_1.BackColor = Color.Black
@@ -232,7 +242,7 @@ Public Class Form2
                         Dim nDr As DataRow
                         nDr = clsScoreControl.dtBlue.NewRow
                         nDr("JoyNo") = "1"
-                        nDr("Score") = "1"
+                        nDr("Score") = clsSys.sValueOne
                         nDr("Times") = Format(runTime, "mm:ss")
                         clsScoreControl.dtBlue.Rows.Add(nDr)
 
@@ -248,7 +258,7 @@ Public Class Form2
                         Dim nDr As DataRow
                         nDr = clsScoreControl.dtBlue.NewRow
                         nDr("JoyNo") = "1"
-                        nDr("Score") = "2"
+                        nDr("Score") = clsSys.sValueTwo
                         nDr("Times") = Format(runTime, "mm:ss")
                         clsScoreControl.dtBlue.Rows.Add(nDr)
                         GrdBlueLast()
@@ -263,12 +273,27 @@ Public Class Form2
                         Dim nDr As DataRow
                         nDr = clsScoreControl.dtBlue.NewRow
                         nDr("JoyNo") = "1"
-                        nDr("Score") = "3"
+                        nDr("Score") = clsSys.sValueThree
                         nDr("Times") = Format(runTime, "mm:ss")
                         clsScoreControl.dtBlue.Rows.Add(nDr)
                         GrdBlueLast()
                         'GamePad.SetVibration(payerIndex, 0, 1)
                     End If
+                ElseIf (gamePadState.Buttons.Start = ButtonState.Pressed) Then
+                    If Not isBlueInput Then
+                        clsScoreControl.AddScoreByKeyData(clsScoreControl.KeyData.Ctl_9)
+                        isBlueInput = True
+                        lbl_J_B_1.BackColor = Color.Blue
+
+                        Dim nDr As DataRow
+                        nDr = clsScoreControl.dtBlue.NewRow
+                        nDr("JoyNo") = "1"
+                        nDr("Score") = clsSys.sValueFive
+                        nDr("Times") = Format(runTime, "mm:ss")
+                        clsScoreControl.dtBlue.Rows.Add(nDr)
+                        GrdBlueLast()
+                    End If
+
                 ElseIf CInt((gamePadState.Triggers.Right * 100)) = 100 Then
                     If Not isBlueInput Then
                         clsScoreControl.AddScoreByKeyData(clsScoreControl.KeyData.Alt_H)
@@ -278,7 +303,7 @@ Public Class Form2
                         Dim nDr As DataRow
                         nDr = clsScoreControl.dtBlue.NewRow
                         nDr("JoyNo") = "1"
-                        nDr("Score") = "4"
+                        nDr("Score") = clsSys.sValueFour
                         nDr("Times") = Format(runTime, "mm:ss")
                         clsScoreControl.dtBlue.Rows.Add(nDr)
 
@@ -477,7 +502,7 @@ Public Class Form2
                         Dim nDr As DataRow
                         nDr = clsScoreControl.dtRed.NewRow
                         nDr("JoyNo") = "2"
-                        nDr("Score") = "1"
+                        nDr("Score") = clsSys.sValueOne
                         nDr("Times") = Format(runTime, "mm:ss")
                         clsScoreControl.dtRed.Rows.Add(nDr)
                         GrdRedLast()
@@ -492,7 +517,7 @@ Public Class Form2
                         Dim nDr As DataRow
                         nDr = clsScoreControl.dtRed.NewRow
                         nDr("JoyNo") = "2"
-                        nDr("Score") = "2"
+                        nDr("Score") = clsSys.sValueTwo
                         nDr("Times") = Format(runTime, "mm:ss")
                         clsScoreControl.dtRed.Rows.Add(nDr)
                         GrdRedLast()
@@ -507,11 +532,25 @@ Public Class Form2
                         Dim nDr As DataRow
                         nDr = clsScoreControl.dtRed.NewRow
                         nDr("JoyNo") = "2"
-                        nDr("Score") = "3"
+                        nDr("Score") = clsSys.sValueThree
                         nDr("Times") = Format(runTime, "mm:ss")
                         clsScoreControl.dtRed.Rows.Add(nDr)
                         GrdRedLast()
                         'GamePad.SetVibration(payerIndex, 1, 0)
+                    End If
+                ElseIf (gamePadState.Buttons.Back = ButtonState.Pressed) Then
+                    If Not isRedInput Then
+                        clsScoreControl.AddScoreByKeyData(clsScoreControl.KeyData.Alt_9)
+                        isRedInput = True
+                        lbl_J_R_2.BackColor = Color.Red
+
+                        Dim nDr As DataRow
+                        nDr = clsScoreControl.dtRed.NewRow
+                        nDr("JoyNo") = "2"
+                        nDr("Score") = clsSys.sValueFive
+                        nDr("Times") = Format(runTime, "mm:ss")
+                        clsScoreControl.dtRed.Rows.Add(nDr)
+                        GrdRedLast()
                     End If
                 ElseIf CInt((gamePadState.Triggers.Left * 100)) = 100 Then
                     If Not isRedInput Then
@@ -522,7 +561,7 @@ Public Class Form2
                         Dim nDr As DataRow
                         nDr = clsScoreControl.dtRed.NewRow
                         nDr("JoyNo") = "2"
-                        nDr("Score") = "4"
+                        nDr("Score") = clsSys.sValueFour
                         nDr("Times") = Format(runTime, "mm:ss")
                         clsScoreControl.dtRed.Rows.Add(nDr)
 
@@ -543,7 +582,7 @@ Public Class Form2
                         Dim nDr As DataRow
                         nDr = clsScoreControl.dtBlue.NewRow
                         nDr("JoyNo") = "2"
-                        nDr("Score") = "1"
+                        nDr("Score") = clsSys.sValueOne
                         nDr("Times") = Format(runTime, "mm:ss")
                         clsScoreControl.dtBlue.Rows.Add(nDr)
 
@@ -559,7 +598,7 @@ Public Class Form2
                         Dim nDr As DataRow
                         nDr = clsScoreControl.dtBlue.NewRow
                         nDr("JoyNo") = "2"
-                        nDr("Score") = "2"
+                        nDr("Score") = clsSys.sValueTwo
                         nDr("Times") = Format(runTime, "mm:ss")
                         clsScoreControl.dtBlue.Rows.Add(nDr)
                         GrdBlueLast()
@@ -574,11 +613,25 @@ Public Class Form2
                         Dim nDr As DataRow
                         nDr = clsScoreControl.dtBlue.NewRow
                         nDr("JoyNo") = "2"
-                        nDr("Score") = "3"
+                        nDr("Score") = clsSys.sValueThree
                         nDr("Times") = Format(runTime, "mm:ss")
                         clsScoreControl.dtBlue.Rows.Add(nDr)
                         GrdBlueLast()
                         'GamePad.SetVibration(payerIndex, 0, 1)
+                    End If
+                ElseIf (gamePadState.Buttons.Start = ButtonState.Pressed) Then
+                    If Not isBlueInput Then
+                        clsScoreControl.AddScoreByKeyData(clsScoreControl.KeyData.Ctl_9)
+                        isBlueInput = True
+                        lbl_J_B_2.BackColor = Color.Blue
+
+                        Dim nDr As DataRow
+                        nDr = clsScoreControl.dtBlue.NewRow
+                        nDr("JoyNo") = "2"
+                        nDr("Score") = clsSys.sValueFive
+                        nDr("Times") = Format(runTime, "mm:ss")
+                        clsScoreControl.dtBlue.Rows.Add(nDr)
+                        GrdBlueLast()
                     End If
                 ElseIf CInt((gamePadState.Triggers.Right * 100)) = 100 Then
                     If Not isBlueInput Then
@@ -589,7 +642,7 @@ Public Class Form2
                         Dim nDr As DataRow
                         nDr = clsScoreControl.dtBlue.NewRow
                         nDr("JoyNo") = "2"
-                        nDr("Score") = "4"
+                        nDr("Score") = clsSys.sValueFour
                         nDr("Times") = Format(runTime, "mm:ss")
                         clsScoreControl.dtBlue.Rows.Add(nDr)
 
@@ -619,7 +672,7 @@ Public Class Form2
                             Dim nDr As DataRow
                             nDr = clsScoreControl.dtRed.NewRow
                             nDr("JoyNo") = "2"
-                            nDr("Score") = "1"
+                            nDr("Score") = clsSys.sValueOne
                             nDr("Times") = Format(runTime, "mm:ss")
                             clsScoreControl.dtRed.Rows.Add(nDr)
 
@@ -635,7 +688,7 @@ Public Class Form2
                             Dim nDr As DataRow
                             nDr = clsScoreControl.dtRed.NewRow
                             nDr("JoyNo") = "2"
-                            nDr("Score") = "2"
+                            nDr("Score") = clsSys.sValueTwo
                             nDr("Times") = Format(runTime, "mm:ss")
                             clsScoreControl.dtRed.Rows.Add(nDr)
                             GrdRedLast()
@@ -652,7 +705,7 @@ Public Class Form2
                             Dim nDr As DataRow
                             nDr = clsScoreControl.dtRed.NewRow
                             nDr("JoyNo") = "2"
-                            nDr("Score") = "3"
+                            nDr("Score") = clsSys.sValueThree
                             nDr("Times") = Format(runTime, "mm:ss")
                             clsScoreControl.dtRed.Rows.Add(nDr)
                             GrdRedLast()
@@ -669,7 +722,7 @@ Public Class Form2
                             Dim nDr As DataRow
                             nDr = clsScoreControl.dtRed.NewRow
                             nDr("JoyNo") = "2"
-                            nDr("Score") = "4"
+                            nDr("Score") = clsSys.sValueFour
                             nDr("Times") = Format(runTime, "mm:ss")
                             clsScoreControl.dtRed.Rows.Add(nDr)
                             GrdRedLast()
@@ -685,7 +738,7 @@ Public Class Form2
                             Dim nDr As DataRow
                             nDr = clsScoreControl.dtBlue.NewRow
                             nDr("JoyNo") = "2"
-                            nDr("Score") = "1"
+                            nDr("Score") = clsSys.sValueOne
                             nDr("Times") = Format(runTime, "mm:ss")
                             clsScoreControl.dtBlue.Rows.Add(nDr)
                             GrdBlueLast()
@@ -700,7 +753,7 @@ Public Class Form2
                             Dim nDr As DataRow
                             nDr = clsScoreControl.dtBlue.NewRow
                             nDr("JoyNo") = "2"
-                            nDr("Score") = "2"
+                            nDr("Score") = clsSys.sValueTwo
                             nDr("Times") = Format(runTime, "mm:ss")
                             clsScoreControl.dtBlue.Rows.Add(nDr)
                             GrdBlueLast()
@@ -715,7 +768,7 @@ Public Class Form2
                             Dim nDr As DataRow
                             nDr = clsScoreControl.dtBlue.NewRow
                             nDr("JoyNo") = "2"
-                            nDr("Score") = "3"
+                            nDr("Score") = clsSys.sValueThree
                             nDr("Times") = Format(runTime, "mm:ss")
                             clsScoreControl.dtBlue.Rows.Add(nDr)
                             GrdBlueLast()
@@ -730,7 +783,7 @@ Public Class Form2
                             Dim nDr As DataRow
                             nDr = clsScoreControl.dtBlue.NewRow
                             nDr("JoyNo") = "2"
-                            nDr("Score") = "4"
+                            nDr("Score") = clsSys.sValueFour
                             nDr("Times") = Format(runTime, "mm:ss")
                             clsScoreControl.dtBlue.Rows.Add(nDr)
                             GrdBlueLast()
@@ -738,12 +791,6 @@ Public Class Form2
 
                     End If
 
-
-                    'If Not ((state.Y = 65535) OrElse (state.Y = 0) OrElse (state.GetButtons(6) > 0) OrElse (state.GetButtons(4) > 0) _
-                    '         OrElse (state.GetButtons(2) > 0) OrElse (state.GetButtons(0) > 0) OrElse (state.GetButtons(7) > 0) _
-                    '        OrElse (state.GetButtons(5) > 0)) Then ' R2 Key
-                    '    isInput = False
-                    'End If
 
                     If Not ((state.Y = 65535) OrElse (state.Y = 0) OrElse (state.GetButtons(6) > 0) OrElse (state.GetButtons(4) > 0)) Then
                         isRedInput = False
@@ -792,7 +839,7 @@ Public Class Form2
                         Dim nDr As DataRow
                         nDr = clsScoreControl.dtRed.NewRow
                         nDr("JoyNo") = "3"
-                        nDr("Score") = "1"
+                        nDr("Score") = clsSys.sValueOne
                         nDr("Times") = Format(runTime, "mm:ss")
                         clsScoreControl.dtRed.Rows.Add(nDr)
                         GrdRedLast()
@@ -807,7 +854,7 @@ Public Class Form2
                         Dim nDr As DataRow
                         nDr = clsScoreControl.dtRed.NewRow
                         nDr("JoyNo") = "3"
-                        nDr("Score") = "2"
+                        nDr("Score") = clsSys.sValueTwo
                         nDr("Times") = Format(runTime, "mm:ss")
                         clsScoreControl.dtRed.Rows.Add(nDr)
                         GrdRedLast()
@@ -822,11 +869,25 @@ Public Class Form2
                         Dim nDr As DataRow
                         nDr = clsScoreControl.dtRed.NewRow
                         nDr("JoyNo") = "3"
-                        nDr("Score") = "3"
+                        nDr("Score") = clsSys.sValueThree
                         nDr("Times") = Format(runTime, "mm:ss")
                         clsScoreControl.dtRed.Rows.Add(nDr)
                         GrdRedLast()
-                        'GamePad.SetVibration(payerIndex, 1, 0)
+
+                    End If
+                ElseIf (gamePadState.Buttons.Back = ButtonState.Pressed) Then
+                    If Not isRedInput Then
+                        clsScoreControl.AddScoreByKeyData(clsScoreControl.KeyData.Alt_9)
+                        isRedInput = True
+                        lbl_J_R_3.BackColor = Color.Red
+
+                        Dim nDr As DataRow
+                        nDr = clsScoreControl.dtRed.NewRow
+                        nDr("JoyNo") = "3"
+                        nDr("Score") = clsSys.sValueFive
+                        nDr("Times") = Format(runTime, "mm:ss")
+                        clsScoreControl.dtRed.Rows.Add(nDr)
+                        GrdRedLast()
                     End If
                 ElseIf CInt((gamePadState.Triggers.Left * 100)) = 100 Then
                     If Not isRedInput Then
@@ -837,7 +898,7 @@ Public Class Form2
                         Dim nDr As DataRow
                         nDr = clsScoreControl.dtRed.NewRow
                         nDr("JoyNo") = "3"
-                        nDr("Score") = "4"
+                        nDr("Score") = clsSys.sValueFour
                         nDr("Times") = Format(runTime, "mm:ss")
                         clsScoreControl.dtRed.Rows.Add(nDr)
 
@@ -858,7 +919,7 @@ Public Class Form2
                         Dim nDr As DataRow
                         nDr = clsScoreControl.dtBlue.NewRow
                         nDr("JoyNo") = "3"
-                        nDr("Score") = "1"
+                        nDr("Score") = clsSys.sValueOne
                         nDr("Times") = Format(runTime, "mm:ss")
                         clsScoreControl.dtBlue.Rows.Add(nDr)
 
@@ -874,7 +935,7 @@ Public Class Form2
                         Dim nDr As DataRow
                         nDr = clsScoreControl.dtBlue.NewRow
                         nDr("JoyNo") = "3"
-                        nDr("Score") = "2"
+                        nDr("Score") = clsSys.sValueTwo
                         nDr("Times") = Format(runTime, "mm:ss")
                         clsScoreControl.dtBlue.Rows.Add(nDr)
                         GrdBlueLast()
@@ -889,11 +950,25 @@ Public Class Form2
                         Dim nDr As DataRow
                         nDr = clsScoreControl.dtBlue.NewRow
                         nDr("JoyNo") = "3"
-                        nDr("Score") = "3"
+                        nDr("Score") = clsSys.sValueThree
                         nDr("Times") = Format(runTime, "mm:ss")
                         clsScoreControl.dtBlue.Rows.Add(nDr)
                         GrdBlueLast()
-                        'GamePad.SetVibration(payerIndex, 0, 1)
+
+                    End If
+                ElseIf (gamePadState.Buttons.Start = ButtonState.Pressed) Then
+                    If Not isBlueInput Then
+                        clsScoreControl.AddScoreByKeyData(clsScoreControl.KeyData.Alt_9)
+                        isBlueInput = True
+                        lbl_J_B_3.BackColor = Color.Blue
+
+                        Dim nDr As DataRow
+                        nDr = clsScoreControl.dtBlue.NewRow
+                        nDr("JoyNo") = "3"
+                        nDr("Score") = clsSys.sValueFive
+                        nDr("Times") = Format(runTime, "mm:ss")
+                        clsScoreControl.dtBlue.Rows.Add(nDr)
+                        GrdBlueLast()
                     End If
                 ElseIf CInt((gamePadState.Triggers.Right * 100)) = 100 Then
                     If Not isBlueInput Then
@@ -904,7 +979,7 @@ Public Class Form2
                         Dim nDr As DataRow
                         nDr = clsScoreControl.dtBlue.NewRow
                         nDr("JoyNo") = "3"
-                        nDr("Score") = "4"
+                        nDr("Score") = clsSys.sValueFour
                         nDr("Times") = Format(runTime, "mm:ss")
                         clsScoreControl.dtBlue.Rows.Add(nDr)
 
@@ -932,7 +1007,7 @@ Public Class Form2
                             Dim nDr As DataRow
                             nDr = clsScoreControl.dtRed.NewRow
                             nDr("JoyNo") = "3"
-                            nDr("Score") = "1"
+                            nDr("Score") = clsSys.sValueOne
                             nDr("Times") = Format(runTime, "mm:ss")
                             clsScoreControl.dtRed.Rows.Add(nDr)
                             GrdRedLast()
@@ -948,7 +1023,7 @@ Public Class Form2
                             Dim nDr As DataRow
                             nDr = clsScoreControl.dtRed.NewRow
                             nDr("JoyNo") = "3"
-                            nDr("Score") = "2"
+                            nDr("Score") = clsSys.sValueTwo
                             nDr("Times") = Format(runTime, "mm:ss")
                             clsScoreControl.dtRed.Rows.Add(nDr)
                             GrdRedLast()
@@ -965,7 +1040,7 @@ Public Class Form2
                             Dim nDr As DataRow
                             nDr = clsScoreControl.dtRed.NewRow
                             nDr("JoyNo") = "3"
-                            nDr("Score") = "3"
+                            nDr("Score") = clsSys.sValueThree
                             nDr("Times") = Format(runTime, "mm:ss")
                             clsScoreControl.dtRed.Rows.Add(nDr)
                             GrdRedLast()
@@ -981,7 +1056,7 @@ Public Class Form2
                             Dim nDr As DataRow
                             nDr = clsScoreControl.dtRed.NewRow
                             nDr("JoyNo") = "3"
-                            nDr("Score") = "4"
+                            nDr("Score") = clsSys.sValueFour
                             nDr("Times") = Format(runTime, "mm:ss")
                             clsScoreControl.dtRed.Rows.Add(nDr)
                             GrdRedLast()
@@ -998,7 +1073,7 @@ Public Class Form2
                             Dim nDr As DataRow
                             nDr = clsScoreControl.dtBlue.NewRow
                             nDr("JoyNo") = "3"
-                            nDr("Score") = "1"
+                            nDr("Score") = clsSys.sValueOne
                             nDr("Times") = Format(runTime, "mm:ss")
                             clsScoreControl.dtBlue.Rows.Add(nDr)
 
@@ -1015,7 +1090,7 @@ Public Class Form2
                             Dim nDr As DataRow
                             nDr = clsScoreControl.dtBlue.NewRow
                             nDr("JoyNo") = "3"
-                            nDr("Score") = "2"
+                            nDr("Score") = clsSys.sValueTwo
                             nDr("Times") = Format(runTime, "mm:ss")
                             clsScoreControl.dtBlue.Rows.Add(nDr)
 
@@ -1032,7 +1107,7 @@ Public Class Form2
                             Dim nDr As DataRow
                             nDr = clsScoreControl.dtBlue.NewRow
                             nDr("JoyNo") = "3"
-                            nDr("Score") = "3"
+                            nDr("Score") = clsSys.sValueThree
                             nDr("Times") = Format(runTime, "mm:ss")
                             clsScoreControl.dtBlue.Rows.Add(nDr)
 
@@ -1050,7 +1125,7 @@ Public Class Form2
                             Dim nDr As DataRow
                             nDr = clsScoreControl.dtBlue.NewRow
                             nDr("JoyNo") = "3"
-                            nDr("Score") = "4"
+                            nDr("Score") = clsSys.sValueFour
                             nDr("Times") = Format(runTime, "mm:ss")
                             clsScoreControl.dtBlue.Rows.Add(nDr)
 
@@ -1058,12 +1133,6 @@ Public Class Form2
                         End If
 
                     End If
-
-                    'If Not ((state.Y = 65535) OrElse (state.Y = 0) OrElse (state.GetButtons(6) > 0) OrElse (state.GetButtons(4) > 0) _
-                    '  OrElse (state.GetButtons(2) > 0) OrElse (state.GetButtons(0) > 0) OrElse (state.GetButtons(7) > 0) _
-                    '  OrElse (state.GetButtons(5) > 0)) Then ' R2 Key
-                    '    isInput = False
-                    'End If
 
                     If Not ((state.Y = 65535) OrElse (state.Y = 0) OrElse (state.GetButtons(6) > 0) OrElse (state.GetButtons(4) > 0)) Then
                         isRedInput = False
@@ -1108,7 +1177,7 @@ Public Class Form2
                         Dim nDr As DataRow
                         nDr = clsScoreControl.dtRed.NewRow
                         nDr("JoyNo") = "4"
-                        nDr("Score") = "1"
+                        nDr("Score") = clsSys.sValueOne
                         nDr("Times") = Format(runTime, "mm:ss")
                         clsScoreControl.dtRed.Rows.Add(nDr)
                         GrdRedLast()
@@ -1123,7 +1192,7 @@ Public Class Form2
                         Dim nDr As DataRow
                         nDr = clsScoreControl.dtRed.NewRow
                         nDr("JoyNo") = "4"
-                        nDr("Score") = "2"
+                        nDr("Score") = clsSys.sValueTwo
                         nDr("Times") = Format(runTime, "mm:ss")
                         clsScoreControl.dtRed.Rows.Add(nDr)
                         GrdRedLast()
@@ -1138,11 +1207,25 @@ Public Class Form2
                         Dim nDr As DataRow
                         nDr = clsScoreControl.dtRed.NewRow
                         nDr("JoyNo") = "4"
-                        nDr("Score") = "3"
+                        nDr("Score") = clsSys.sValueThree
                         nDr("Times") = Format(runTime, "mm:ss")
                         clsScoreControl.dtRed.Rows.Add(nDr)
                         GrdRedLast()
-                        'GamePad.SetVibration(payerIndex, 1, 0)
+
+                    End If
+                ElseIf (gamePadState.Buttons.Back = ButtonState.Pressed) Then
+                    If Not isRedInput Then
+                        clsScoreControl.AddScoreByKeyData(clsScoreControl.KeyData.Alt_9)
+                        isRedInput = True
+                        lbl_J_R_4.BackColor = Color.Red
+
+                        Dim nDr As DataRow
+                        nDr = clsScoreControl.dtRed.NewRow
+                        nDr("JoyNo") = "4"
+                        nDr("Score") = clsSys.sValueFive
+                        nDr("Times") = Format(runTime, "mm:ss")
+                        clsScoreControl.dtRed.Rows.Add(nDr)
+                        GrdRedLast()
                     End If
                 ElseIf CInt((gamePadState.Triggers.Left * 100)) = 100 Then
                     If Not isRedInput Then
@@ -1153,7 +1236,7 @@ Public Class Form2
                         Dim nDr As DataRow
                         nDr = clsScoreControl.dtRed.NewRow
                         nDr("JoyNo") = "4"
-                        nDr("Score") = "4"
+                        nDr("Score") = clsSys.sValueFour
                         nDr("Times") = Format(runTime, "mm:ss")
                         clsScoreControl.dtRed.Rows.Add(nDr)
 
@@ -1174,7 +1257,7 @@ Public Class Form2
                         Dim nDr As DataRow
                         nDr = clsScoreControl.dtBlue.NewRow
                         nDr("JoyNo") = "4"
-                        nDr("Score") = "1"
+                        nDr("Score") = clsSys.sValueOne
                         nDr("Times") = Format(runTime, "mm:ss")
                         clsScoreControl.dtBlue.Rows.Add(nDr)
 
@@ -1190,7 +1273,7 @@ Public Class Form2
                         Dim nDr As DataRow
                         nDr = clsScoreControl.dtBlue.NewRow
                         nDr("JoyNo") = "4"
-                        nDr("Score") = "2"
+                        nDr("Score") = clsSys.sValueTwo
                         nDr("Times") = Format(runTime, "mm:ss")
                         clsScoreControl.dtBlue.Rows.Add(nDr)
                         GrdBlueLast()
@@ -1205,11 +1288,26 @@ Public Class Form2
                         Dim nDr As DataRow
                         nDr = clsScoreControl.dtBlue.NewRow
                         nDr("JoyNo") = "4"
-                        nDr("Score") = "3"
+                        nDr("Score") = clsSys.sValueThree
                         nDr("Times") = Format(runTime, "mm:ss")
                         clsScoreControl.dtBlue.Rows.Add(nDr)
                         GrdBlueLast()
-                        'GamePad.SetVibration(payerIndex, 0, 1)
+
+                    End If
+                ElseIf (gamePadState.Buttons.Start = ButtonState.Pressed) Then
+                    If Not isBlueInput Then
+                        clsScoreControl.AddScoreByKeyData(clsScoreControl.KeyData.Ctl_9)
+                        isBlueInput = True
+                        lbl_J_B_4.BackColor = Color.Blue
+
+                        Dim nDr As DataRow
+                        nDr = clsScoreControl.dtBlue.NewRow
+                        nDr("JoyNo") = "4"
+                        nDr("Score") = clsSys.sValueFive
+                        nDr("Times") = Format(runTime, "mm:ss")
+                        clsScoreControl.dtBlue.Rows.Add(nDr)
+                        GrdBlueLast()
+
                     End If
                 ElseIf CInt((gamePadState.Triggers.Right * 100)) = 100 Then
                     If Not isBlueInput Then
@@ -1220,12 +1318,12 @@ Public Class Form2
                         Dim nDr As DataRow
                         nDr = clsScoreControl.dtBlue.NewRow
                         nDr("JoyNo") = "4"
-                        nDr("Score") = "4"
+                        nDr("Score") = clsSys.sValueFour
                         nDr("Times") = Format(runTime, "mm:ss")
                         clsScoreControl.dtBlue.Rows.Add(nDr)
 
                         GrdBlueLast()
-                        'GamePad.SetVibration(payerIndex, 0, 1)
+
                     End If
                 Else
                     isBlueInput = False
@@ -1249,7 +1347,7 @@ Public Class Form2
                             Dim nDr As DataRow
                             nDr = clsScoreControl.dtRed.NewRow
                             nDr("JoyNo") = "4"
-                            nDr("Score") = "1"
+                            nDr("Score") = clsSys.sValueOne
                             nDr("Times") = Format(runTime, "mm:ss")
                             clsScoreControl.dtRed.Rows.Add(nDr)
 
@@ -1267,7 +1365,7 @@ Public Class Form2
                             Dim nDr As DataRow
                             nDr = clsScoreControl.dtRed.NewRow
                             nDr("JoyNo") = "4"
-                            nDr("Score") = "2"
+                            nDr("Score") = clsSys.sValueTwo
                             nDr("Times") = Format(runTime, "mm:ss")
                             clsScoreControl.dtRed.Rows.Add(nDr)
 
@@ -1285,7 +1383,7 @@ Public Class Form2
                             Dim nDr As DataRow
                             nDr = clsScoreControl.dtRed.NewRow
                             nDr("JoyNo") = "4"
-                            nDr("Score") = "3"
+                            nDr("Score") = clsSys.sValueThree
                             nDr("Times") = Format(runTime, "mm:ss")
                             clsScoreControl.dtRed.Rows.Add(nDr)
 
@@ -1302,7 +1400,7 @@ Public Class Form2
                             Dim nDr As DataRow
                             nDr = clsScoreControl.dtRed.NewRow
                             nDr("JoyNo") = "4"
-                            nDr("Score") = "4"
+                            nDr("Score") = clsSys.sValueFour
                             nDr("Times") = Format(runTime, "mm:ss")
                             clsScoreControl.dtRed.Rows.Add(nDr)
 
@@ -1319,7 +1417,7 @@ Public Class Form2
                             Dim nDr As DataRow
                             nDr = clsScoreControl.dtBlue.NewRow
                             nDr("JoyNo") = "4"
-                            nDr("Score") = "1"
+                            nDr("Score") = clsSys.sValueOne
                             nDr("Times") = Format(runTime, "mm:ss")
                             clsScoreControl.dtBlue.Rows.Add(nDr)
 
@@ -1337,7 +1435,7 @@ Public Class Form2
                             Dim nDr As DataRow
                             nDr = clsScoreControl.dtBlue.NewRow
                             nDr("JoyNo") = "4"
-                            nDr("Score") = "2"
+                            nDr("Score") = clsSys.sValueTwo
                             nDr("Times") = Format(runTime, "mm:ss")
                             clsScoreControl.dtBlue.Rows.Add(nDr)
 
@@ -1354,7 +1452,7 @@ Public Class Form2
                             Dim nDr As DataRow
                             nDr = clsScoreControl.dtBlue.NewRow
                             nDr("JoyNo") = "4"
-                            nDr("Score") = "3"
+                            nDr("Score") = clsSys.sValueThree
                             nDr("Times") = Format(runTime, "mm:ss")
                             clsScoreControl.dtBlue.Rows.Add(nDr)
 
@@ -1372,7 +1470,7 @@ Public Class Form2
                             Dim nDr As DataRow
                             nDr = clsScoreControl.dtBlue.NewRow
                             nDr("JoyNo") = "4"
-                            nDr("Score") = "4"
+                            nDr("Score") = clsSys.sValueFour
                             nDr("Times") = Format(runTime, "mm:ss")
                             clsScoreControl.dtBlue.Rows.Add(nDr)
 
@@ -1380,12 +1478,6 @@ Public Class Form2
                         End If
 
                     End If
-
-                    'If Not ((state.Y = 65535) OrElse (state.Y = 0) OrElse (state.GetButtons(6) > 0) OrElse (state.GetButtons(4) > 0) _
-                    '  OrElse (state.GetButtons(2) > 0) OrElse (state.GetButtons(0) > 0) OrElse (state.GetButtons(7) > 0) _
-                    '  OrElse (state.GetButtons(5) > 0)) Then ' R2 Key
-                    '    isInput = False
-                    'End If
 
                     If Not ((state.Y = 65535) OrElse (state.Y = 0) OrElse (state.GetButtons(6) > 0) OrElse (state.GetButtons(4) > 0)) Then
                         isRedInput = False
@@ -1733,7 +1825,7 @@ Public Class Form2
         End Select
     End Sub
 #Region " Check Key Input Data "
-    Private Sub Form1_KeyUp(ByVal sender As Object, ByVal e As System.Windows.Forms.KeyEventArgs) Handles Me.KeyUp, grdData_Red.KeyUp, grdDataBlue.KeyUp, txtBlueId.KeyUp, txtRedId.KeyUp, cboPositionBlue.KeyUp, cboPositionRed.KeyUp, lblRedName.KeyUp, lblRedTeam.KeyUp, lblBlueName.KeyUp, lblBlueTeam.KeyUp
+    Private Sub Form1_KeyUp(ByVal sender As Object, ByVal e As System.Windows.Forms.KeyEventArgs) Handles Me.KeyUp, grdData_Red.KeyUp, grdDataBlue.KeyUp, txtBlueId.KeyUp, txtRedId.KeyUp, cboPositionBlue.KeyUp, cboPositionRed.KeyUp, lblRedName.KeyUp, lblRedTeam.KeyUp, lblBlueName.KeyUp, lblBlueTeam.KeyUp, txtBlueSeq.KeyUp, txtRedSeq.KeyUp
         'MessageBox.Show(e.KeyData)
         clsScoreControl.AddScoreByKeyData(e.KeyData)
         CheckVibrationTimeout_Joy()
@@ -2018,22 +2110,6 @@ Public Class Form2
 
                 clsScoreControl.ClearAllScreen()
 
-                'If frm.txtIP.Text.Trim <> "" Then
-                '    'Connectin To Server
-                '    IP_Server = frm.txtIP.Text.Trim
-                '    clsScoreControl.sServer_IP = frm.txtIP.Text.Trim
-                '    Try
-                '        clientSocket = New Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp)
-                '        Dim ipAddress As IPAddress = ipAddress.Parse(clsScoreControl.sServer_IP) '"192.168.0.80")
-                '        Dim ipEndPoint As IPEndPoint = New IPEndPoint(ipAddress, 25)
-
-                '        clientSocket.BeginConnect(ipEndPoint, New AsyncCallback(AddressOf OnConnect), Nothing)
-
-                '        System.Threading.Thread.Sleep(1000)
-                '    Catch ex As Exception
-
-                '    End Try
-                'End If
                 If frm.txtNowRound.Text.Trim <> "" Then
                     clsScoreControl.Round = frm.txtNowRound.Text.Trim
 
@@ -2109,8 +2185,6 @@ Public Class Form2
             Exit Sub
         End If
 
-
-        'Dim NewFile As String = GetNewFile(clsScoreControl.sServer_IP)
         Dim NewFile As String = GetNewFile("")
         Dim TargetFile As String = clsScoreControl.sServer_IP.Trim & NewFile
         Dim SortFile As String = Application.StartupPath & "\Data\" & NewFile
@@ -2139,48 +2213,7 @@ Public Class Form2
             System.IO.File.Move(SortFile, SortNGFile)
         End If
 
-        
     End Sub
-
-    'Private Sub OnSend(ByVal ar As IAsyncResult)
-    '    Dim client As Socket = ar.AsyncState
-    '    Dim a As Integer
-    '    Try
-
-    '        a = client.EndSend(ar)
-
-    '    Catch ex As Exception
-
-    '    End Try
-
-    'End Sub
-
-
-    'Private Sub OnConnect(ByVal ar As IAsyncResult)
-    '    Try
-    '        clientSocket.EndConnect(ar)
-    '        clientSocket.BeginReceive(byteData, 0, byteData.Length, SocketFlags.None, _
-    '                                  New AsyncCallback(AddressOf OnRecieve), clientSocket)
-    '    Catch ex As Exception
-    '        MessageBox.Show("Cann't Connection To Server")
-    '    End Try
-
-    'End Sub
-
-    'Private Sub OnRecieve(ByVal ar As IAsyncResult)
-    '    Try
-    '        Dim client As Socket = ar.AsyncState
-    '        client.EndReceive(ar)
-    '        Dim bytesRec As Byte() = byteData
-    '        Msg_From_Server = System.Text.ASCIIEncoding.ASCII.GetString(bytesRec)
-    '        Read(Msg_From_Server)
-    '        clientSocket.BeginReceive(byteData, 0, byteData.Length, SocketFlags.None, _
-    '                                  New AsyncCallback(AddressOf OnRecieve), clientSocket)
-    '    Catch ex As Exception
-
-    '    End Try
-
-    'End Sub
 
     Delegate Sub _Read(ByVal msg As String)
 
@@ -2383,7 +2416,7 @@ Public Class Form2
 
     End Sub
 
-    Private Sub txtBlueId_KeyPress(ByVal sender As Object, ByVal e As System.Windows.Forms.KeyPressEventArgs) Handles txtBlueId.KeyPress, txtRedId.KeyPress, lblRedName.KeyPress, lblRedTeam.KeyPress, lblBlueName.KeyPress, lblBlueTeam.KeyPress
+    Private Sub txtBlueId_KeyPress(ByVal sender As Object, ByVal e As System.Windows.Forms.KeyPressEventArgs) Handles txtBlueId.KeyPress, txtRedId.KeyPress, lblRedName.KeyPress, lblRedTeam.KeyPress, lblBlueName.KeyPress, lblBlueTeam.KeyPress, txtRedSeq.KeyPress, txtBlueSeq.KeyPress
         If e.KeyChar = " "c Then
             e.Handled = True
         End If
@@ -2531,6 +2564,15 @@ Public Class Form2
             sql &= " WHERE AthleteID = " & txtRedId.Text
             clsSys.conn2.runSQL(sql)
             MessageBox.Show("บันทึกสำเร็จ")
+        End If
+    End Sub
+
+    Private Sub txtBlueSeq_KeyDown(ByVal sender As Object, ByVal e As System.Windows.Forms.KeyEventArgs) Handles txtBlueSeq.KeyUp, txtRedSeq.KeyUp
+        If txtBlueSeq.Text.Trim <> "" Then
+            clsScoreControl.SetSeqBlue(txtBlueSeq.Text.Trim)
+        End If
+        If txtRedSeq.Text.Trim <> "" Then
+            clsScoreControl.SetSeqRed(txtRedSeq.Text.Trim)
         End If
     End Sub
 End Class

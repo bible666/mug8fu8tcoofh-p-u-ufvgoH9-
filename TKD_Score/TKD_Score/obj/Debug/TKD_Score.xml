@@ -6,7 +6,73 @@ TKD_Score
 </name>
 </assembly>
 <members>
-<member name="M:TKD_Score.clsScoreControl.ClearCard">
+<member name="M:TKD_Score.Util.DBUtil_SQL.isOpen">
+	<summary>
+ Check Open Database Status
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:TKD_Score.Util.DBUtil_SQL.closeDB">
+	<summary>
+ Close connection
+ </summary>
+	<remarks></remarks>
+</member><member name="M:TKD_Score.Util.DBUtil_SQL.runSQL(System.String,System.Collections.Hashtable,System.String@)">
+	<summary>
+ ใช้ในการ Insert OR Update Data Base
+ </summary>
+	<param name="sSQL">Quiry ในการ Insert Or Update</param>
+	<param name="pParameter">Parameter ที่ใช้แทน ตัว @ddd ใน Quiry</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:TKD_Score.Util.DBUtil_SQL.getData(System.String,System.Collections.Hashtable,System.Data.DataSet@,System.Boolean,System.String@)">
+	<summary>
+ ใช้ในการ หาข้อมูลจาก Data Base
+ </summary>
+	<param name="pSql">Quiry สำหรับหาใน Data Base </param>
+	<param name="pParameter">ตัวแปลที่ใช้แทน @ddd ใน pSql </param>
+	<param name="pDataSet">คืนค่า ที่ค้นหาได้</param>
+	<param name="ShowError">ให้แสดง Error หรือเปล่า</param>
+	<param name="pErr">ค่า Error ที่ส่งกลับมา</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:TKD_Score.Util.DBUtil_SQL.CreatePrimaryKey(System.Data.DataTable@,System.Data.DataColumn[],System.String@)">
+	<summary>
+ ใช้สำหรับ สร้าง Primary Key ให้กับ Data Table เพื่อเพิ่มความเร็วในการ Search
+ </summary>
+	<param name="dt">Data Table ที่ต้องการสร้าง Primary Key</param>
+	<param name="Columns">Columns ที่จะสร้างเป็น Primary Key</param>
+	<param name="pErr">Error Meesage</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:TKD_Score.Util.DBUtil_SQL.CreatePrimaryKey(System.Data.DataTable@,System.String,System.String@)">
+	<summary>
+ ใช้สำหรับ สร้าง Primary Key ให้กับ Data Table เพื่อเพิ่มความเร็วในการ Search
+ </summary>
+	<param name="dt">Data Table ที่ต้องการสร้าง Primary Key</param>
+	<param name="Columns">Columns ที่จะสร้างเป็น Primary Key Ex. Col1,Col2,Col3</param>
+	<param name="pErr">Error Meesage</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:TKD_Score.Util.DBUtil_SQL.getData(System.String,System.Data.DataSet@,System.Boolean,System.String@,System.Int32@)">
+	<summary>
+ ใช้ในการดึงข้อมูลจาก Database
+ </summary>
+	<param name="sSQL">Query ที่ใช้ดึงข้อมูล</param>
+	<param name="pDataSet">ข้อมูลที่ได้จาก Database</param>
+	<param name="ShowError">แสดงหรือไม่แสดง Error</param>
+	<param name="pErr">String Error</param>
+	<param name="CountError">Error Count</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:TKD_Score.Util.DBUtil_SQL.ConvertType(System.String)">
+	<summary>
+ Convert VB Type TO DB Type
+ </summary>
+	<param name="Type">Type From VB</param>
+	<returns>DB Type</returns>
+	<remarks></remarks>
+</member><member name="M:TKD_Score.clsScoreControl.ClearCard">
 	<summary>
  clear ข้อมูลของใบเหลืองแดง ทั้งหมดให้เท่ากับ 0
  </summary>
@@ -94,6 +160,19 @@ TKD_Score
  </summary>
 	<returns></returns>
 	<remarks></remarks>
+</member><member name="P:TKD_Score.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:TKD_Score.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:TKD_Score.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
 </member><member name="M:TKD_Score.Form2.joystickPolling1">
 	<summary>
  Get Event From JoyStick 1
@@ -113,85 +192,6 @@ TKD_Score
 	<summary>
  Get Event From JoyStick 4
  </summary>
-	<remarks></remarks>
-</member><member name="P:TKD_Score.My.Resources.Resources.ResourceManager">
-	<summary>
-  Returns the cached ResourceManager instance used by this class.
-</summary>
-</member><member name="P:TKD_Score.My.Resources.Resources.Culture">
-	<summary>
-  Overrides the current thread's CurrentUICulture property for all
-  resource lookups using this strongly typed resource class.
-</summary>
-</member><member name="T:TKD_Score.My.Resources.Resources">
-	<summary>
-  A strongly-typed resource class, for looking up localized strings, etc.
-</summary>
-</member><member name="M:TKD_Score.Util.DBUtil_SQL.isOpen">
-	<summary>
- Check Open Database Status
- </summary>
-	<returns></returns>
-	<remarks></remarks>
-</member><member name="M:TKD_Score.Util.DBUtil_SQL.closeDB">
-	<summary>
- Close connection
- </summary>
-	<remarks></remarks>
-</member><member name="M:TKD_Score.Util.DBUtil_SQL.runSQL(System.String,System.Collections.Hashtable,System.String@)">
-	<summary>
- ใช้ในการ Insert OR Update Data Base
- </summary>
-	<param name="sSQL">Quiry ในการ Insert Or Update</param>
-	<param name="pParameter">Parameter ที่ใช้แทน ตัว @ddd ใน Quiry</param>
-	<returns></returns>
-	<remarks></remarks>
-</member><member name="M:TKD_Score.Util.DBUtil_SQL.getData(System.String,System.Collections.Hashtable,System.Data.DataSet@,System.Boolean,System.String@)">
-	<summary>
- ใช้ในการ หาข้อมูลจาก Data Base
- </summary>
-	<param name="pSql">Quiry สำหรับหาใน Data Base </param>
-	<param name="pParameter">ตัวแปลที่ใช้แทน @ddd ใน pSql </param>
-	<param name="pDataSet">คืนค่า ที่ค้นหาได้</param>
-	<param name="ShowError">ให้แสดง Error หรือเปล่า</param>
-	<param name="pErr">ค่า Error ที่ส่งกลับมา</param>
-	<returns></returns>
-	<remarks></remarks>
-</member><member name="M:TKD_Score.Util.DBUtil_SQL.CreatePrimaryKey(System.Data.DataTable@,System.Data.DataColumn[],System.String@)">
-	<summary>
- ใช้สำหรับ สร้าง Primary Key ให้กับ Data Table เพื่อเพิ่มความเร็วในการ Search
- </summary>
-	<param name="dt">Data Table ที่ต้องการสร้าง Primary Key</param>
-	<param name="Columns">Columns ที่จะสร้างเป็น Primary Key</param>
-	<param name="pErr">Error Meesage</param>
-	<returns></returns>
-	<remarks></remarks>
-</member><member name="M:TKD_Score.Util.DBUtil_SQL.CreatePrimaryKey(System.Data.DataTable@,System.String,System.String@)">
-	<summary>
- ใช้สำหรับ สร้าง Primary Key ให้กับ Data Table เพื่อเพิ่มความเร็วในการ Search
- </summary>
-	<param name="dt">Data Table ที่ต้องการสร้าง Primary Key</param>
-	<param name="Columns">Columns ที่จะสร้างเป็น Primary Key Ex. Col1,Col2,Col3</param>
-	<param name="pErr">Error Meesage</param>
-	<returns></returns>
-	<remarks></remarks>
-</member><member name="M:TKD_Score.Util.DBUtil_SQL.getData(System.String,System.Data.DataSet@,System.Boolean,System.String@,System.Int32@)">
-	<summary>
- ใช้ในการดึงข้อมูลจาก Database
- </summary>
-	<param name="sSQL">Query ที่ใช้ดึงข้อมูล</param>
-	<param name="pDataSet">ข้อมูลที่ได้จาก Database</param>
-	<param name="ShowError">แสดงหรือไม่แสดง Error</param>
-	<param name="pErr">String Error</param>
-	<param name="CountError">Error Count</param>
-	<returns></returns>
-	<remarks></remarks>
-</member><member name="M:TKD_Score.Util.DBUtil_SQL.ConvertType(System.String)">
-	<summary>
- Convert VB Type TO DB Type
- </summary>
-	<param name="Type">Type From VB</param>
-	<returns>DB Type</returns>
 	<remarks></remarks>
 </member>
 </members>

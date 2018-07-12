@@ -23,6 +23,8 @@ Partial Class frmOutSize
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.Panel1 = New System.Windows.Forms.Panel
+        Me.lblBlueSeq = New System.Windows.Forms.Label
+        Me.lblRedSeq = New System.Windows.Forms.Label
         Me.lblBlueFlag = New System.Windows.Forms.Panel
         Me.lblRedFlag = New System.Windows.Forms.Panel
         Me.lblKyeShi = New System.Windows.Forms.Label
@@ -51,6 +53,8 @@ Partial Class frmOutSize
                     Or System.Windows.Forms.AnchorStyles.Left) _
                     Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Panel1.BackColor = System.Drawing.Color.Black
+        Me.Panel1.Controls.Add(Me.lblBlueSeq)
+        Me.Panel1.Controls.Add(Me.lblRedSeq)
         Me.Panel1.Controls.Add(Me.lblBlueFlag)
         Me.Panel1.Controls.Add(Me.lblRedFlag)
         Me.Panel1.Controls.Add(Me.lblKyeShi)
@@ -68,8 +72,33 @@ Partial Class frmOutSize
         Me.Panel1.Controls.Add(Me.TableLayoutPanel1)
         Me.Panel1.Location = New System.Drawing.Point(12, 12)
         Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(1240, 722)
+        Me.Panel1.Size = New System.Drawing.Size(1240, 613)
         Me.Panel1.TabIndex = 0
+        '
+        'lblBlueSeq
+        '
+        Me.lblBlueSeq.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.lblBlueSeq.BackColor = System.Drawing.Color.MidnightBlue
+        Me.lblBlueSeq.Font = New System.Drawing.Font("Microsoft Sans Serif", 36.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblBlueSeq.ForeColor = System.Drawing.Color.White
+        Me.lblBlueSeq.Location = New System.Drawing.Point(750, 547)
+        Me.lblBlueSeq.Name = "lblBlueSeq"
+        Me.lblBlueSeq.Size = New System.Drawing.Size(473, 57)
+        Me.lblBlueSeq.TabIndex = 39
+        Me.lblBlueSeq.Text = "1"
+        '
+        'lblRedSeq
+        '
+        Me.lblRedSeq.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
+        Me.lblRedSeq.BackColor = System.Drawing.Color.Red
+        Me.lblRedSeq.Font = New System.Drawing.Font("Microsoft Sans Serif", 36.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblRedSeq.ForeColor = System.Drawing.Color.White
+        Me.lblRedSeq.Location = New System.Drawing.Point(37, 547)
+        Me.lblRedSeq.Name = "lblRedSeq"
+        Me.lblRedSeq.Size = New System.Drawing.Size(450, 57)
+        Me.lblRedSeq.TabIndex = 38
+        Me.lblRedSeq.Text = "1"
+        Me.lblRedSeq.TextAlign = System.Drawing.ContentAlignment.TopRight
         '
         'lblBlueFlag
         '
@@ -99,7 +128,7 @@ Partial Class frmOutSize
         Me.lblKyeShi.BackColor = System.Drawing.Color.Black
         Me.lblKyeShi.Font = New System.Drawing.Font("Microsoft Sans Serif", 48.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblKyeShi.ForeColor = System.Drawing.Color.White
-        Me.lblKyeShi.Location = New System.Drawing.Point(490, 642)
+        Me.lblKyeShi.Location = New System.Drawing.Point(490, 533)
         Me.lblKyeShi.Name = "lblKyeShi"
         Me.lblKyeShi.Size = New System.Drawing.Size(260, 72)
         Me.lblKyeShi.TabIndex = 24
@@ -260,7 +289,7 @@ Partial Class frmOutSize
         Me.TableLayoutPanel1.Name = "TableLayoutPanel1"
         Me.TableLayoutPanel1.RowCount = 1
         Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100.0!))
-        Me.TableLayoutPanel1.Size = New System.Drawing.Size(1234, 494)
+        Me.TableLayoutPanel1.Size = New System.Drawing.Size(1234, 385)
         Me.TableLayoutPanel1.TabIndex = 23
         '
         'lblBlue
@@ -271,7 +300,7 @@ Partial Class frmOutSize
         Me.lblBlue.ForeColor = System.Drawing.Color.White
         Me.lblBlue.Location = New System.Drawing.Point(622, 0)
         Me.lblBlue.Name = "lblBlue"
-        Me.lblBlue.Size = New System.Drawing.Size(595, 494)
+        Me.lblBlue.Size = New System.Drawing.Size(595, 385)
         Me.lblBlue.TabIndex = 23
         Me.lblBlue.Text = "99"
         Me.lblBlue.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -281,7 +310,7 @@ Partial Class frmOutSize
         Me.Panel3.Dock = System.Windows.Forms.DockStyle.Fill
         Me.Panel3.Location = New System.Drawing.Point(616, 3)
         Me.Panel3.Name = "Panel3"
-        Me.Panel3.Size = New System.Drawing.Size(1, 488)
+        Me.Panel3.Size = New System.Drawing.Size(1, 379)
         Me.Panel3.TabIndex = 2
         '
         'lblRed
@@ -292,7 +321,7 @@ Partial Class frmOutSize
         Me.lblRed.ForeColor = System.Drawing.Color.FloralWhite
         Me.lblRed.Location = New System.Drawing.Point(15, 0)
         Me.lblRed.Name = "lblRed"
-        Me.lblRed.Size = New System.Drawing.Size(595, 494)
+        Me.lblRed.Size = New System.Drawing.Size(595, 385)
         Me.lblRed.TabIndex = 3
         Me.lblRed.Text = "99"
         Me.lblRed.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -301,7 +330,7 @@ Partial Class frmOutSize
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(1264, 746)
+        Me.ClientSize = New System.Drawing.Size(1264, 637)
         Me.Controls.Add(Me.Panel1)
         Me.Name = "frmOutSize"
         Me.Text = "frmOutSize"
@@ -329,4 +358,6 @@ Partial Class frmOutSize
     Friend WithEvents lblBlue_Red As System.Windows.Forms.Label
     Friend WithEvents lblBlueFlag As System.Windows.Forms.Panel
     Friend WithEvents lblRedFlag As System.Windows.Forms.Panel
+    Friend WithEvents lblBlueSeq As System.Windows.Forms.Label
+    Friend WithEvents lblRedSeq As System.Windows.Forms.Label
 End Class
