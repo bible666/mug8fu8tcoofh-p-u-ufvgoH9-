@@ -4,6 +4,7 @@
         clsScoreControl.frmShow = Me
         'lblTime.Text = Format(Runtime, "mm:ss")
         lblKyeShi.Visible = False
-
+        lblRedSeq.Text = ""
+        lblBlueSeq.Text = ""
     End Sub
 End Class

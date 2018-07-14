@@ -365,6 +365,41 @@
         frmShow.lblBlueSeq.Text = iSeq
     End Sub
 
+    Public Shared Sub AddBlueScoreByValue(ByVal iValue)
+        Dim OldBlue As Integer = iBlueScore
+
+        If GameStatus <> eGameStatus.Runing Then
+            Exit Sub
+        End If
+
+        iBlueScore += iValue
+      
+        If iBlueScore > 0 Then
+            frmShow.lblBlue.Text = iBlueScore
+            frmControl.lblBlue.Text = iBlueScore
+        End If
+
+        CheckWinByScore()
+        ShowWinner()
+    End Sub
+    Public Shared Sub AddRedScoreByValue(ByVal iValue)
+        Dim OldRed As Integer = iRedScore
+
+        If GameStatus <> eGameStatus.Runing Then
+            Exit Sub
+        End If
+
+        iRedScore += iValue
+        
+        If iRedScore > 0 Then
+            frmShow.lblRed.Text = iRedScore
+            frmControl.lblRed.Text = iRedScore
+        End If
+
+        CheckWinByScore()
+        ShowWinner()
+    End Sub
+
     Public Shared Sub AddScoreByKeyData(ByVal KeyData As KeyData)
         Dim OldRed As Integer = iRedScore
         Dim OldBlue As Integer = iBlueScore

@@ -115,3 +115,12 @@ C:\Users\rattapol\Documents\TKD_Score เปลี่ยนจอนอก\Check
 C:\Users\rattapol\Documents\TKD_Score เปลี่ยนจอนอก\CheckDLL\obj\Debug\CheckDLL.dll
 C:\Users\rattapol\Documents\TKD_Score เปลี่ยนจอนอก\CheckDLL\obj\Debug\CheckDLL.xml
 C:\Users\rattapol\Documents\TKD_Score เปลี่ยนจอนอก\CheckDLL\obj\Debug\CheckDLL.pdb
+C:\Users\rattapol\Documents\TKD_Score\CheckDLL\bin\Debug\CheckDLL.dll
+C:\Users\rattapol\Documents\TKD_Score\CheckDLL\bin\Debug\CheckDLL.pdb
+C:\Users\rattapol\Documents\TKD_Score\CheckDLL\bin\Debug\CheckDLL.xml
+C:\Users\rattapol\Documents\TKD_Score\CheckDLL\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\rattapol\Documents\TKD_Score\CheckDLL\obj\Debug\CheckDLL.Resources.resources
+C:\Users\rattapol\Documents\TKD_Score\CheckDLL\obj\Debug\CheckDLL.vbproj.GenerateResource.Cache
+C:\Users\rattapol\Documents\TKD_Score\CheckDLL\obj\Debug\CheckDLL.dll
+C:\Users\rattapol\Documents\TKD_Score\CheckDLL\obj\Debug\CheckDLL.xml
+C:\Users\rattapol\Documents\TKD_Score\CheckDLL\obj\Debug\CheckDLL.pdb
