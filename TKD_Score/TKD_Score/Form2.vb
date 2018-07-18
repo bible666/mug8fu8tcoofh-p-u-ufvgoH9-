@@ -41,6 +41,9 @@ Public Class Form2
     Private isFirst As Boolean = True
     Private isLoadDB As Boolean = False
 
+    Private joy_1_back_pressed As Boolean = False
+    Private joy_1_start_pressed As Boolean = False
+
     Private Sub TimerStart()
         Timer1.Start()
         Timer2.Start()
@@ -215,6 +218,9 @@ Public Class Form2
                         'GamePad.SetVibration(payerIndex, 1, 0)
                     End If
                 ElseIf (gamePadState.Buttons.Back = Input.ButtonState.Pressed) Then
+                    joy_1_back_pressed = True
+                ElseIf (gamePadState.Buttons.Back = ButtonState.Released AndAlso joy_1_back_pressed = True) Then
+                    joy_1_back_pressed = False
                     clsScoreControl.AddRedScoreByValue(clsSys.sValueFive) ' .AddScoreByKeyData(clsScoreControl.KeyData.Alt_9)
                     isRedInput = True
                     lbl_J_R_1.BackColor = Color.Red
@@ -2574,5 +2580,45 @@ Public Class Form2
         If txtRedSeq.Text.Trim <> "" Then
             clsScoreControl.SetSeqRed(txtRedSeq.Text.Trim)
         End If
+    End Sub
+
+    Private Sub btnRedSeqPlus_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnRedSeqPlus.Click
+        If IsNumeric(txtRedSeq.Text.Trim) Then
+            clsScoreControl.setRedSeq(txtRedSeq.Text + 1)
+        Else
+            clsScoreControl.setRedSeq(1)
+        End If
+
+        txtRedSeq.Focus()
+    End Sub
+
+    Private Sub btnRedSeqMinus_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnRedSeqMinus.Click
+        If IsNumeric(txtRedSeq.Text.Trim) Then
+            clsScoreControl.setRedSeq(txtRedSeq.Text - 1)
+        Else
+            clsScoreControl.setRedSeq(1)
+        End If
+
+        txtRedSeq.Focus()
+    End Sub
+
+    Private Sub btnBlueSeqPlus_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnBlueSeqPlus.Click
+        If IsNumeric(txtBlueSeq.Text.Trim) Then
+            clsScoreControl.setBlueSeq(txtBlueSeq.Text + 1)
+        Else
+            clsScoreControl.setBlueSeq(1)
+        End If
+
+        txtBlueSeq.Focus()
+    End Sub
+
+    Private Sub btnBlueSeqMinus_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnBlueSeqMinus.Click
+        If IsNumeric(txtBlueSeq.Text.Trim) Then
+            clsScoreControl.setBlueSeq(txtBlueSeq.Text - 1)
+        Else
+            clsScoreControl.setBlueSeq(1)
+        End If
+
+        txtBlueSeq.Focus()
     End Sub
 End Class

@@ -1161,4 +1161,14 @@
             .lblBlueTeam.Text = "ทีม " & sBlueTeam
         End With
     End Sub
+
+    Public Shared Sub setRedSeq(ByVal iValue As Integer)
+        frmShow.lblRedSeq.Text = iValue
+        frmControl.txtRedSeq.Text = iValue
+    End Sub
+
+    Public Shared Sub setBlueSeq(ByVal iValue As Integer)
+        frmShow.lblBlueSeq.Text = iValue
+        frmControl.txtBlueSeq.Text = iValue
+    End Sub
 End Class
