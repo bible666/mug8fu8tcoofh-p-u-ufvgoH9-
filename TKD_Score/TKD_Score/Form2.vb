@@ -43,6 +43,12 @@ Public Class Form2
 
     Private joy_1_back_pressed As Boolean = False
     Private joy_1_start_pressed As Boolean = False
+    Private joy_2_back_pressed As Boolean = False
+    Private joy_2_start_pressed As Boolean = False
+    Private joy_3_back_pressed As Boolean = False
+    Private joy_3_start_pressed As Boolean = False
+    Private joy_4_back_pressed As Boolean = False
+    Private joy_4_start_pressed As Boolean = False
 
     Private Sub TimerStart()
         Timer1.Start()
@@ -286,6 +292,9 @@ Public Class Form2
                         'GamePad.SetVibration(payerIndex, 0, 1)
                     End If
                 ElseIf (gamePadState.Buttons.Start = ButtonState.Pressed) Then
+                    joy_1_start_pressed = True
+                ElseIf (gamePadState.Buttons.Start = ButtonState.Released) AndAlso joy_1_start_pressed Then
+                    joy_1_start_pressed = False
                     If Not isBlueInput Then
                         clsScoreControl.AddBlueScoreByValue(clsSys.sValueFive) ' .AddScoreByKeyData(clsScoreControl.KeyData.Ctl_9)
                         isBlueInput = True
@@ -545,6 +554,9 @@ Public Class Form2
                         'GamePad.SetVibration(payerIndex, 1, 0)
                     End If
                 ElseIf (gamePadState.Buttons.Back = ButtonState.Pressed) Then
+                    joy_2_back_pressed = True
+                ElseIf gamePadState.Buttons.Back = ButtonState.Released AndAlso joy_2_back_pressed Then
+                    joy_2_back_pressed = False
                     If Not isRedInput Then
                         clsScoreControl.AddRedScoreByValue(clsSys.sValueFive) ' .AddScoreByKeyData(clsScoreControl.KeyData.Alt_9)
                         isRedInput = True
@@ -626,6 +638,9 @@ Public Class Form2
                         'GamePad.SetVibration(payerIndex, 0, 1)
                     End If
                 ElseIf (gamePadState.Buttons.Start = ButtonState.Pressed) Then
+                    joy_2_start_pressed = True
+                ElseIf gamePadState.Buttons.Start = ButtonState.Released AndAlso joy_2_start_pressed Then
+                    joy_2_start_pressed = False
                     If Not isBlueInput Then
                         clsScoreControl.AddBlueScoreByValue(clsSys.sValueFive) ' .AddScoreByKeyData(clsScoreControl.KeyData.Ctl_9)
                         isBlueInput = True
@@ -882,6 +897,9 @@ Public Class Form2
 
                     End If
                 ElseIf (gamePadState.Buttons.Back = ButtonState.Pressed) Then
+                    joy_3_back_pressed = True
+                ElseIf gamePadState.Buttons.Back = ButtonState.Released AndAlso joy_3_back_pressed Then
+                    joy_3_back_pressed = False
                     If Not isRedInput Then
                         clsScoreControl.AddRedScoreByValue(clsSys.sValueFive) ' .AddScoreByKeyData(clsScoreControl.KeyData.Alt_9)
                         isRedInput = True
@@ -963,6 +981,9 @@ Public Class Form2
 
                     End If
                 ElseIf (gamePadState.Buttons.Start = ButtonState.Pressed) Then
+                    joy_3_start_pressed = True
+                ElseIf gamePadState.Buttons.Start = ButtonState.Released AndAlso joy_3_start_pressed Then
+                    joy_3_start_pressed = False
                     If Not isBlueInput Then
                         clsScoreControl.AddBlueScoreByValue(clsSys.sValueFive) ' .AddScoreByKeyData(clsScoreControl.KeyData.Alt_9)
                         isBlueInput = True
@@ -1220,6 +1241,9 @@ Public Class Form2
 
                     End If
                 ElseIf (gamePadState.Buttons.Back = ButtonState.Pressed) Then
+                    joy_4_back_pressed = True
+                ElseIf gamePadState.Buttons.Back = ButtonState.Released AndAlso joy_4_back_pressed Then
+                    joy_4_back_pressed = False
                     If Not isRedInput Then
                         clsScoreControl.AddRedScoreByValue(clsSys.sValueFive) ' .AddScoreByKeyData(clsScoreControl.KeyData.Alt_9)
                         isRedInput = True
@@ -1301,6 +1325,9 @@ Public Class Form2
 
                     End If
                 ElseIf (gamePadState.Buttons.Start = ButtonState.Pressed) Then
+                    joy_4_start_pressed = True
+                ElseIf gamePadState.Buttons.Start = ButtonState.Released AndAlso joy_4_start_pressed Then
+                    joy_4_start_pressed = False
                     If Not isBlueInput Then
                         clsScoreControl.AddBlueScoreByValue(clsSys.sValueFive) ' .AddScoreByKeyData(clsScoreControl.KeyData.Ctl_9)
                         isBlueInput = True
@@ -2032,6 +2059,7 @@ Public Class Form2
                     clsScoreControl.UpdateTime(runTime)
                 ElseIf Not clsScoreControl.GameStatus = clsScoreControl.eGameStatus.EndGame Then
                     'clsScoreControl.PlayEndSound(clsScoreControl.iSoundId)
+                    clsScoreControl.write_log_file()
                     clsScoreControl.CheckEndRoundByTime()
                     System.Threading.Thread.Sleep(1000)
                     runTime = New DateTime(2012, 1, 2, 12, 0, 0)
@@ -2620,5 +2648,57 @@ Public Class Form2
         End If
 
         txtBlueSeq.Focus()
+    End Sub
+
+    
+    Private Sub btnStart_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnStart.Click
+        Select Case clsScoreControl.GameStatus
+            Case clsScoreControl.eGameStatus.Runing
+                clsScoreControl.GameStatus = clsScoreControl.eGameStatus.StopGame
+
+
+                TimerStop()
+            Case clsScoreControl.eGameStatus.EndRound
+                If clsScoreControl.Round <= 3 Then
+                    'รอบที่ 1-3 ปรกติ
+                    clsScoreControl.ShowUpdateRound()
+                    runTime = New DateTime(2012, 1, 2, 12, 0, 0) ' Set เวลาใหม่
+                    runTime = runTime.AddSeconds(clsScoreControl.min)
+                    clsScoreControl.GameStatus = clsScoreControl.eGameStatus.Runing
+                    clsScoreControl.dtBlue.Rows.Clear()
+                    clsScoreControl.dtRed.Rows.Clear()
+                    TimerStart()
+
+                ElseIf clsScoreControl.Round = 4 Then
+                    'รอบพิเศษ
+                    clsScoreControl.ShowUpdateRound()
+                    clsScoreControl.ClearAllScreen() 'Clear ใบเหลือง ใบแดง กับ คะแนนทั้งหมด
+                    runTime = New DateTime(2012, 1, 2, 12, 0, 0) ' Set เวลาใหม่
+                    runTime = runTime.AddSeconds(clsScoreControl.min)
+                    clsScoreControl.GameStatus = clsScoreControl.eGameStatus.Runing
+                    clsScoreControl.dtBlue.Rows.Clear()
+                    clsScoreControl.dtRed.Rows.Clear()
+                    TimerStart()
+
+                End If
+
+            Case clsScoreControl.eGameStatus.Start
+                runTime = New DateTime(2012, 1, 2, 12, 0, 0) ' Set เวลาใหม่
+                runTime = runTime.AddSeconds(clsScoreControl.min)
+                clsScoreControl.GameStatus = clsScoreControl.eGameStatus.Runing
+                clsScoreControl.dtBlue.Rows.Clear()
+                clsScoreControl.dtRed.Rows.Clear()
+                TimerStart()
+            Case clsScoreControl.eGameStatus.EndGame
+            Case clsScoreControl.eGameStatus.Kyeshi
+                SetKyeshiDisable() 'ปิด kyeshi
+                clsScoreControl.GameStatus = clsScoreControl.eGameStatus.Runing
+                TimerStart()
+                clsScoreControl.SetDisableKyeshi()
+            Case clsScoreControl.eGameStatus.Break
+            Case Else
+                clsScoreControl.GameStatus = clsScoreControl.eGameStatus.Runing
+                TimerStart()
+        End Select
     End Sub
 End Class

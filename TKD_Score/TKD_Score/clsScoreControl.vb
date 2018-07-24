@@ -460,6 +460,7 @@
     End Sub
 
     Public Shared Sub AddBlueScore()
+
         iBlueScore += 1
 
         frmShow.lblBlue.Text = iBlueScore
@@ -468,6 +469,7 @@
         If GameStatus = eGameStatus.Runing Then
             CheckWinByScore()
         End If
+
     End Sub
 
 
@@ -780,6 +782,7 @@
     ''' </summary>
     ''' <remarks></remarks>
     Public Shared Sub CheckEndRoundByTime()
+
         Select Case clsScoreControl.FightType
             Case eFightType.GapPoint
                 If clsScoreControl.Round = 3 Then
@@ -885,6 +888,30 @@
         Sound = New clsPlaySound
     End Sub
 
+    Public Shared Sub write_log_file()
+        Dim log_folder As String = Application.StartupPath + "\log"
+        Dim file_name As String = log_folder + "\" + Format(Date.Now, "yyyyMMddHH") + "_" + frmControl.lblField.Text.Trim + ".csv"
+
+        If Not System.IO.Directory.Exists(log_folder) Then
+            System.IO.Directory.CreateDirectory(log_folder)
+        End If
+
+        Dim Fs As New System.IO.FileStream(file_name, IO.FileMode.Append, IO.FileAccess.Write, IO.FileShare.Write)
+        Dim Sw As New System.IO.StreamWriter(Fs)
+        Try
+            Sw.WriteLine("Round:" + frmControl.lblRound.Text.Trim + ",Field:" + frmControl.lblField.Text.Trim + ",KYESHI:" + frmControl.lblKyeShi.Text.Trim)
+            Sw.WriteLine("RedID:" + frmControl.txtRedId.Text.Trim + ",Name:" + frmControl.lblRedName.Text.Trim + ",Team:" + frmControl.lblRedTeam.Text.Trim + ",Position:" + frmControl.cboPositionRed.Text.Trim)
+            Sw.WriteLine("BlueID:" + frmControl.txtBlueId.Text.Trim + ",Name:" + frmControl.lblBlueName.Text.Trim + ",Team:" + frmControl.lblBlueTeam.Text.Trim + ",Position:" + frmControl.cboPositionBlue.Text.Trim)
+            Sw.WriteLine("Red/Blue,Score,Red Card,Yellow Card,Seq")
+            Sw.WriteLine("Red," + frmControl.lblRed.Text.Trim + "," + frmControl.lblRed_Red.Text.Trim + "," + frmControl.lblRed_Yellow.Text.Trim + "," + frmControl.txtRedSeq.Text.Trim)
+            Sw.WriteLine("Blue," + frmControl.lblBlue.Text.Trim + "," + frmControl.lblBlue_Red.Text.Trim + "," + frmControl.lblBlue_Yellow.Text.Trim + "," + frmControl.txtBlueSeq.Text.Trim)
+            Sw.Close()
+            Fs.Close()
+        Catch ex As Exception
+
+        End Try
+    End Sub
+
     ''' <summary>
     ''' ตรวจสอบเงือนไขการชนะครั้งสุดท้าย
     ''' </summary>
@@ -939,6 +966,10 @@
                     End If
                 End If
         End Select
+        If GameStatus = eGameStatus.EndGame Then
+            write_log_file()
+            ShowWinner()
+        End If
         Sound = New clsPlaySound
 
     End Sub
