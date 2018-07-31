@@ -165,7 +165,7 @@ Public Class Form2
                 If (gamePadState.DPad.Down = Input.ButtonState.Pressed) Or (CInt((gamePadState.ThumbSticks.Left.Y + 1.0F) * 100.0F / 2.0F) < 50) Then
                     lbl_J_R_1.BackColor = Color.Red
                     If Not isRedInput Then
-                        clsScoreControl.AddRedScoreByValue(clsSys.sValueOne) ' .AddScoreByKeyData(clsScoreControl.KeyData.Alt_A)
+                        clsScoreControl.AddRedScoreByValue(1, clsSys.sValueOne) ' .AddScoreByKeyData(clsScoreControl.KeyData.Alt_A)
                         isRedInput = True
                         'Add Red Score
                         Dim nDr As DataRow
@@ -179,7 +179,7 @@ Public Class Form2
                     End If
                 ElseIf (gamePadState.DPad.Up = Input.ButtonState.Pressed) Or (CInt((gamePadState.ThumbSticks.Left.Y + 1.0F) * 100.0F / 2.0F) > 50) Then
                     If Not isRedInput Then
-                        clsScoreControl.AddRedScoreByValue(clsSys.sValueTwo) ' .AddScoreByKeyData(clsScoreControl.KeyData.Alt_B)
+                        clsScoreControl.AddRedScoreByValue(1, clsSys.sValueTwo) ' .AddScoreByKeyData(clsScoreControl.KeyData.Alt_B)
                         isRedInput = True
                         lbl_J_R_1.BackColor = Color.Red
 
@@ -194,7 +194,7 @@ Public Class Form2
                     End If
                 ElseIf (gamePadState.Buttons.LeftShoulder = Input.ButtonState.Pressed) Then
                     If Not isRedInput Then
-                        clsScoreControl.AddRedScoreByValue(clsSys.sValueThree) ' .AddScoreByKeyData(clsScoreControl.KeyData.Alt_C)
+                        clsScoreControl.AddRedScoreByValue(1, clsSys.sValueThree) ' .AddScoreByKeyData(clsScoreControl.KeyData.Alt_C)
                         isRedInput = True
                         lbl_J_R_1.BackColor = Color.Red
 
@@ -209,7 +209,7 @@ Public Class Form2
                     End If
                 ElseIf CInt((gamePadState.Triggers.Left * 100)) = 100 Then
                     If Not isRedInput Then
-                        clsScoreControl.AddRedScoreByValue(clsSys.sValueFour) ' .AddScoreByKeyData(clsScoreControl.KeyData.Alt_D)
+                        clsScoreControl.AddRedScoreByValue(1, clsSys.sValueFour) ' .AddScoreByKeyData(clsScoreControl.KeyData.Alt_D)
                         isRedInput = True
                         lbl_J_R_1.BackColor = Color.Red
 
@@ -227,7 +227,7 @@ Public Class Form2
                     joy_1_back_pressed = True
                 ElseIf (gamePadState.Buttons.Back = ButtonState.Released AndAlso joy_1_back_pressed = True) Then
                     joy_1_back_pressed = False
-                    clsScoreControl.AddRedScoreByValue(clsSys.sValueFive) ' .AddScoreByKeyData(clsScoreControl.KeyData.Alt_9)
+                    clsScoreControl.AddRedScoreByValue(1, clsSys.sValueFive) ' .AddScoreByKeyData(clsScoreControl.KeyData.Alt_9)
                     isRedInput = True
                     lbl_J_R_1.BackColor = Color.Red
 
@@ -247,7 +247,7 @@ Public Class Form2
 
                 If (gamePadState.Buttons.A = Input.ButtonState.Pressed) Or (CInt((gamePadState.ThumbSticks.Right.Y + 1.0F) * 100.0F / 2.0F) < 50) Then
                     If Not isBlueInput Then
-                        clsScoreControl.AddBlueScoreByValue(clsSys.sValueOne) ' .AddScoreByKeyData(clsScoreControl.KeyData.Alt_E)
+                        clsScoreControl.AddBlueScoreByValue(1, clsSys.sValueOne) ' .AddScoreByKeyData(clsScoreControl.KeyData.Alt_E)
                         isBlueInput = True
                         lbl_J_B_1.BackColor = Color.Blue
 
@@ -263,7 +263,7 @@ Public Class Form2
                     End If
                 ElseIf (gamePadState.Buttons.Y = Input.ButtonState.Pressed) Or (CInt((gamePadState.ThumbSticks.Right.Y + 1.0F) * 100.0F / 2.0F) > 50) Then
                     If Not isBlueInput Then
-                        clsScoreControl.AddBlueScoreByValue(clsSys.sValueTwo) ' .AddScoreByKeyData(clsScoreControl.KeyData.Alt_F)
+                        clsScoreControl.AddBlueScoreByValue(1, clsSys.sValueTwo) ' .AddScoreByKeyData(clsScoreControl.KeyData.Alt_F)
                         isBlueInput = True
                         lbl_J_B_1.BackColor = Color.Blue
 
@@ -278,7 +278,7 @@ Public Class Form2
                     End If
                 ElseIf (gamePadState.Buttons.RightShoulder = Input.ButtonState.Pressed) Then
                     If Not isBlueInput Then
-                        clsScoreControl.AddBlueScoreByValue(clsSys.sValueThree) ' .AddScoreByKeyData(clsScoreControl.KeyData.Alt_G)
+                        clsScoreControl.AddBlueScoreByValue(1, clsSys.sValueThree) ' .AddScoreByKeyData(clsScoreControl.KeyData.Alt_G)
                         isBlueInput = True
                         lbl_J_B_1.BackColor = Color.Blue
 
@@ -296,7 +296,7 @@ Public Class Form2
                 ElseIf (gamePadState.Buttons.Start = ButtonState.Released) AndAlso joy_1_start_pressed Then
                     joy_1_start_pressed = False
                     If Not isBlueInput Then
-                        clsScoreControl.AddBlueScoreByValue(clsSys.sValueFive) ' .AddScoreByKeyData(clsScoreControl.KeyData.Ctl_9)
+                        clsScoreControl.AddBlueScoreByValue(1, clsSys.sValueFive) ' .AddScoreByKeyData(clsScoreControl.KeyData.Ctl_9)
                         isBlueInput = True
                         lbl_J_B_1.BackColor = Color.Blue
 
@@ -311,7 +311,7 @@ Public Class Form2
 
                 ElseIf CInt((gamePadState.Triggers.Right * 100)) = 100 Then
                     If Not isBlueInput Then
-                        clsScoreControl.AddBlueScoreByValue(clsSys.sValueFour) ' .AddScoreByKeyData(clsScoreControl.KeyData.Alt_H)
+                        clsScoreControl.AddBlueScoreByValue(1, clsSys.sValueFour) ' .AddScoreByKeyData(clsScoreControl.KeyData.Alt_H)
                         isBlueInput = True
                         lbl_J_B_1.BackColor = Color.Blue
 
@@ -341,7 +341,7 @@ Public Class Form2
                     If state.Y = 65535 Then ' Down Key
                         lbl_J_R_1.BackColor = Color.Red
                         If Not isRedInput Then
-                            clsScoreControl.AddRedScoreByValue(clsSys.sValueOne) ' .AddScoreByKeyData(clsScoreControl.KeyData.Alt_A)
+                            clsScoreControl.AddRedScoreByValue(1, clsSys.sValueOne) ' .AddScoreByKeyData(clsScoreControl.KeyData.Alt_A)
                             isRedInput = True
                             'Add Red Score
                             Dim nDr As DataRow
@@ -356,7 +356,7 @@ Public Class Form2
                     End If
                     If state.Y = 0 Then 'Up Key
                         If Not isRedInput Then
-                            clsScoreControl.AddRedScoreByValue(clsSys.sValueTwo) ' .AddScoreByKeyData(clsScoreControl.KeyData.Alt_B)
+                            clsScoreControl.AddRedScoreByValue(1, clsSys.sValueTwo) ' .AddScoreByKeyData(clsScoreControl.KeyData.Alt_B)
                             isRedInput = True
                             lbl_J_R_1.BackColor = Color.Red
 
@@ -372,7 +372,7 @@ Public Class Form2
                     End If
                     If state.GetButtons(6) > 0 Then ' L1 Key
                         If Not isRedInput Then
-                            clsScoreControl.AddRedScoreByValue(clsSys.sValueThree) '  .AddScoreByKeyData(clsScoreControl.KeyData.Alt_C)
+                            clsScoreControl.AddRedScoreByValue(1, clsSys.sValueThree) '  .AddScoreByKeyData(clsScoreControl.KeyData.Alt_C)
                             isRedInput = True
                             lbl_J_R_1.BackColor = Color.Red
 
@@ -388,7 +388,7 @@ Public Class Form2
                     End If
                     If state.GetButtons(4) > 0 Then ' L2 Key
                         If Not isRedInput Then
-                            clsScoreControl.AddRedScoreByValue(clsSys.sValueFour) ' .AddScoreByKeyData(clsScoreControl.KeyData.Alt_D)
+                            clsScoreControl.AddRedScoreByValue(1, clsSys.sValueFour) ' .AddScoreByKeyData(clsScoreControl.KeyData.Alt_D)
                             isRedInput = True
                             lbl_J_R_1.BackColor = Color.Red
 
@@ -405,7 +405,7 @@ Public Class Form2
                     End If
                     If state.GetButtons(2) > 0 Then ' X Key
                         If Not isBlueInput Then
-                            clsScoreControl.AddBlueScoreByValue(clsSys.sValueOne) ' .AddScoreByKeyData(clsScoreControl.KeyData.Alt_E)
+                            clsScoreControl.AddBlueScoreByValue(1, clsSys.sValueOne) ' .AddScoreByKeyData(clsScoreControl.KeyData.Alt_E)
                             isBlueInput = True
                             lbl_J_B_1.BackColor = Color.Blue
 
@@ -422,7 +422,7 @@ Public Class Form2
                     End If
                     If state.GetButtons(0) > 0 Then ' /_\ Key
                         If Not isBlueInput Then
-                            clsScoreControl.AddBlueScoreByValue(clsSys.sValueTwo) ' .AddScoreByKeyData(clsScoreControl.KeyData.Alt_F)
+                            clsScoreControl.AddBlueScoreByValue(1, clsSys.sValueTwo) ' .AddScoreByKeyData(clsScoreControl.KeyData.Alt_F)
                             isBlueInput = True
                             lbl_J_B_1.BackColor = Color.Blue
 
@@ -439,7 +439,7 @@ Public Class Form2
 
                     If state.GetButtons(7) > 0 Then ' R1 Key
                         If Not isBlueInput Then
-                            clsScoreControl.AddBlueScoreByValue(clsSys.sValueThree) ' .AddScoreByKeyData(clsScoreControl.KeyData.Alt_G)
+                            clsScoreControl.AddBlueScoreByValue(1, clsSys.sValueThree) ' .AddScoreByKeyData(clsScoreControl.KeyData.Alt_G)
                             isBlueInput = True
                             lbl_J_B_1.BackColor = Color.Blue
 
@@ -455,7 +455,7 @@ Public Class Form2
                     End If
                     If state.GetButtons(5) > 0 Then ' R2 Key
                         If Not isBlueInput Then
-                            clsScoreControl.AddBlueScoreByValue(clsSys.sValueFour) '  .AddScoreByKeyData(clsScoreControl.KeyData.Alt_H)
+                            clsScoreControl.AddBlueScoreByValue(1, clsSys.sValueFour) '  .AddScoreByKeyData(clsScoreControl.KeyData.Alt_H)
                             isBlueInput = True
                             lbl_J_B_1.BackColor = Color.Blue
 
@@ -511,7 +511,7 @@ Public Class Form2
                 If (gamePadState.DPad.Down = Input.ButtonState.Pressed) Or (CInt((gamePadState.ThumbSticks.Left.Y + 1.0F) * 100.0F / 2.0F) < 50) Then
                     lbl_J_R_2.BackColor = Color.Red
                     If Not isRedInput Then
-                        clsScoreControl.AddRedScoreByValue(clsSys.sValueOne) ' .AddScoreByKeyData(clsScoreControl.KeyData.Alt_I)
+                        clsScoreControl.AddRedScoreByValue(2, clsSys.sValueOne) ' .AddScoreByKeyData(clsScoreControl.KeyData.Alt_I)
                         isRedInput = True
                         'Add Red Score
                         Dim nDr As DataRow
@@ -525,7 +525,7 @@ Public Class Form2
                     End If
                 ElseIf (gamePadState.DPad.Up = Input.ButtonState.Pressed) Or (CInt((gamePadState.ThumbSticks.Left.Y + 1.0F) * 100.0F / 2.0F) > 50) Then
                     If Not isRedInput Then
-                        clsScoreControl.AddRedScoreByValue(clsSys.sValueTwo) ' .AddScoreByKeyData(clsScoreControl.KeyData.Alt_J)
+                        clsScoreControl.AddRedScoreByValue(2, clsSys.sValueTwo) ' .AddScoreByKeyData(clsScoreControl.KeyData.Alt_J)
                         isRedInput = True
                         lbl_J_R_2.BackColor = Color.Red
 
@@ -540,7 +540,7 @@ Public Class Form2
                     End If
                 ElseIf (gamePadState.Buttons.LeftShoulder = Input.ButtonState.Pressed) Then
                     If Not isRedInput Then
-                        clsScoreControl.AddRedScoreByValue(clsSys.sValueThree) ' .AddScoreByKeyData(clsScoreControl.KeyData.Alt_K)
+                        clsScoreControl.AddRedScoreByValue(2, clsSys.sValueThree) ' .AddScoreByKeyData(clsScoreControl.KeyData.Alt_K)
                         isRedInput = True
                         lbl_J_R_2.BackColor = Color.Red
 
@@ -558,7 +558,7 @@ Public Class Form2
                 ElseIf gamePadState.Buttons.Back = ButtonState.Released AndAlso joy_2_back_pressed Then
                     joy_2_back_pressed = False
                     If Not isRedInput Then
-                        clsScoreControl.AddRedScoreByValue(clsSys.sValueFive) ' .AddScoreByKeyData(clsScoreControl.KeyData.Alt_9)
+                        clsScoreControl.AddRedScoreByValue(2, clsSys.sValueFive) ' .AddScoreByKeyData(clsScoreControl.KeyData.Alt_9)
                         isRedInput = True
                         lbl_J_R_2.BackColor = Color.Red
 
@@ -572,7 +572,7 @@ Public Class Form2
                     End If
                 ElseIf CInt((gamePadState.Triggers.Left * 100)) = 100 Then
                     If Not isRedInput Then
-                        clsScoreControl.AddRedScoreByValue(clsSys.sValueFour) ' .AddScoreByKeyData(clsScoreControl.KeyData.Alt_L)
+                        clsScoreControl.AddRedScoreByValue(2, clsSys.sValueFour) ' .AddScoreByKeyData(clsScoreControl.KeyData.Alt_L)
                         isRedInput = True
                         lbl_J_R_2.BackColor = Color.Red
 
@@ -593,7 +593,7 @@ Public Class Form2
 
                 If (gamePadState.Buttons.A = Input.ButtonState.Pressed) Or (CInt((gamePadState.ThumbSticks.Right.Y + 1.0F) * 100.0F / 2.0F) < 50) Then
                     If Not isBlueInput Then
-                        clsScoreControl.AddBlueScoreByValue(clsSys.sValueOne) ' .AddScoreByKeyData(clsScoreControl.KeyData.Alt_M)
+                        clsScoreControl.AddBlueScoreByValue(2, clsSys.sValueOne) ' .AddScoreByKeyData(clsScoreControl.KeyData.Alt_M)
                         isBlueInput = True
                         lbl_J_B_2.BackColor = Color.Blue
 
@@ -609,7 +609,7 @@ Public Class Form2
                     End If
                 ElseIf (gamePadState.Buttons.Y = Input.ButtonState.Pressed) Or (CInt((gamePadState.ThumbSticks.Right.Y + 1.0F) * 100.0F / 2.0F) > 50) Then
                     If Not isBlueInput Then
-                        clsScoreControl.AddBlueScoreByValue(clsSys.sValueTwo) ' .AddScoreByKeyData(clsScoreControl.KeyData.Alt_N)
+                        clsScoreControl.AddBlueScoreByValue(2, clsSys.sValueTwo) ' .AddScoreByKeyData(clsScoreControl.KeyData.Alt_N)
                         isBlueInput = True
                         lbl_J_B_2.BackColor = Color.Blue
 
@@ -624,7 +624,7 @@ Public Class Form2
                     End If
                 ElseIf (gamePadState.Buttons.RightShoulder = Input.ButtonState.Pressed) Then
                     If Not isBlueInput Then
-                        clsScoreControl.AddBlueScoreByValue(clsSys.sValueThree) ' .AddScoreByKeyData(clsScoreControl.KeyData.Alt_O)
+                        clsScoreControl.AddBlueScoreByValue(2, clsSys.sValueThree) ' .AddScoreByKeyData(clsScoreControl.KeyData.Alt_O)
                         isBlueInput = True
                         lbl_J_B_2.BackColor = Color.Blue
 
@@ -642,7 +642,7 @@ Public Class Form2
                 ElseIf gamePadState.Buttons.Start = ButtonState.Released AndAlso joy_2_start_pressed Then
                     joy_2_start_pressed = False
                     If Not isBlueInput Then
-                        clsScoreControl.AddBlueScoreByValue(clsSys.sValueFive) ' .AddScoreByKeyData(clsScoreControl.KeyData.Ctl_9)
+                        clsScoreControl.AddBlueScoreByValue(2, clsSys.sValueFive) ' .AddScoreByKeyData(clsScoreControl.KeyData.Ctl_9)
                         isBlueInput = True
                         lbl_J_B_2.BackColor = Color.Blue
 
@@ -656,7 +656,7 @@ Public Class Form2
                     End If
                 ElseIf CInt((gamePadState.Triggers.Right * 100)) = 100 Then
                     If Not isBlueInput Then
-                        clsScoreControl.AddBlueScoreByValue(clsSys.sValueFour) ' .AddScoreByKeyData(clsScoreControl.KeyData.Alt_P)
+                        clsScoreControl.AddBlueScoreByValue(2, clsSys.sValueFour) ' .AddScoreByKeyData(clsScoreControl.KeyData.Alt_P)
                         isBlueInput = True
                         lbl_J_B_2.BackColor = Color.Blue
 
@@ -686,7 +686,7 @@ Public Class Form2
 
                     If state.Y = 65535 Then ' Down Key
                         If Not isRedInput Then
-                            clsScoreControl.AddRedScoreByValue(clsSys.sValueOne) ' .AddScoreByKeyData(clsScoreControl.KeyData.Alt_I)
+                            clsScoreControl.AddRedScoreByValue(2, clsSys.sValueOne) ' .AddScoreByKeyData(clsScoreControl.KeyData.Alt_I)
                             isRedInput = True
                             lbl_J_R_2.BackColor = Color.Red
 
@@ -703,7 +703,7 @@ Public Class Form2
                     End If
                     If state.Y = 0 Then 'Up Key
                         If Not isRedInput Then
-                            clsScoreControl.AddRedScoreByValue(clsSys.sValueTwo) ' .AddScoreByKeyData(clsScoreControl.KeyData.Alt_J)
+                            clsScoreControl.AddRedScoreByValue(2, clsSys.sValueTwo) ' .AddScoreByKeyData(clsScoreControl.KeyData.Alt_J)
                             isRedInput = True
                             lbl_J_R_2.BackColor = Color.Red
                             Dim nDr As DataRow
@@ -719,7 +719,7 @@ Public Class Form2
                     End If
                     If state.GetButtons(6) > 0 Then ' L1 Key
                         If Not isRedInput Then
-                            clsScoreControl.AddRedScoreByValue(clsSys.sValueThree) ' .AddScoreByKeyData(clsScoreControl.KeyData.Alt_K)
+                            clsScoreControl.AddRedScoreByValue(2, clsSys.sValueThree) ' .AddScoreByKeyData(clsScoreControl.KeyData.Alt_K)
                             isRedInput = True
                             lbl_J_R_2.BackColor = Color.Red
 
@@ -736,7 +736,7 @@ Public Class Form2
 
                     If state.GetButtons(4) > 0 Then ' L2 Key
                         If Not isRedInput Then
-                            clsScoreControl.AddRedScoreByValue(clsSys.sValueFour) ' .AddScoreByKeyData(clsScoreControl.KeyData.Alt_L)
+                            clsScoreControl.AddRedScoreByValue(2, clsSys.sValueFour) ' .AddScoreByKeyData(clsScoreControl.KeyData.Alt_L)
                             isRedInput = True
                             lbl_J_R_2.BackColor = Color.Red
 
@@ -752,7 +752,7 @@ Public Class Form2
                     End If
                     If state.GetButtons(2) > 0 Then ' X Key
                         If Not isBlueInput Then
-                            clsScoreControl.AddBlueScoreByValue(clsSys.sValueOne) ' .AddScoreByKeyData(clsScoreControl.KeyData.Alt_M)
+                            clsScoreControl.AddBlueScoreByValue(2, clsSys.sValueOne) ' .AddScoreByKeyData(clsScoreControl.KeyData.Alt_M)
                             isBlueInput = True
                             lbl_J_B_2.BackColor = Color.Blue
 
@@ -768,7 +768,7 @@ Public Class Form2
                     End If
                     If state.GetButtons(0) > 0 Then ' /_\ Key
                         If Not isBlueInput Then
-                            clsScoreControl.AddBlueScoreByValue(clsSys.sValueTwo) ' .AddScoreByKeyData(clsScoreControl.KeyData.Alt_N)
+                            clsScoreControl.AddBlueScoreByValue(2, clsSys.sValueTwo) ' .AddScoreByKeyData(clsScoreControl.KeyData.Alt_N)
                             isBlueInput = True
                             lbl_J_B_2.BackColor = Color.Blue
                             Dim nDr As DataRow
@@ -783,7 +783,7 @@ Public Class Form2
                     End If
                     If state.GetButtons(7) > 0 Then ' R1 Key
                         If Not isBlueInput Then
-                            clsScoreControl.AddBlueScoreByValue(clsSys.sValueThree) ' .AddScoreByKeyData(clsScoreControl.KeyData.Alt_O)
+                            clsScoreControl.AddBlueScoreByValue(2, clsSys.sValueThree) ' .AddScoreByKeyData(clsScoreControl.KeyData.Alt_O)
                             isBlueInput = True
                             lbl_J_B_2.BackColor = Color.Blue
                             Dim nDr As DataRow
@@ -798,7 +798,7 @@ Public Class Form2
                     End If
                     If state.GetButtons(5) > 0 Then ' R2 Key
                         If Not isBlueInput Then
-                            clsScoreControl.AddBlueScoreByValue(clsSys.sValueFour) ' .AddScoreByKeyData(clsScoreControl.KeyData.Alt_P)
+                            clsScoreControl.AddBlueScoreByValue(2, clsSys.sValueFour) ' .AddScoreByKeyData(clsScoreControl.KeyData.Alt_P)
                             isBlueInput = True
                             lbl_J_B_2.BackColor = Color.Blue
                             Dim nDr As DataRow
@@ -854,7 +854,7 @@ Public Class Form2
                 If (gamePadState.DPad.Down = Input.ButtonState.Pressed) Or (CInt((gamePadState.ThumbSticks.Left.Y + 1.0F) * 100.0F / 2.0F) < 50) Then
                     lbl_J_R_3.BackColor = Color.Red
                     If Not isRedInput Then
-                        clsScoreControl.AddRedScoreByValue(clsSys.sValueOne) ' .AddScoreByKeyData(clsScoreControl.KeyData.Alt_Q)
+                        clsScoreControl.AddRedScoreByValue(3, clsSys.sValueOne) ' .AddScoreByKeyData(clsScoreControl.KeyData.Alt_Q)
                         isRedInput = True
                         'Add Red Score
                         Dim nDr As DataRow
@@ -868,7 +868,7 @@ Public Class Form2
                     End If
                 ElseIf (gamePadState.DPad.Up = Input.ButtonState.Pressed) Or (CInt((gamePadState.ThumbSticks.Left.Y + 1.0F) * 100.0F / 2.0F) > 50) Then
                     If Not isRedInput Then
-                        clsScoreControl.AddRedScoreByValue(clsSys.sValueTwo) ' .AddScoreByKeyData(clsScoreControl.KeyData.Alt_R)
+                        clsScoreControl.AddRedScoreByValue(3, clsSys.sValueTwo) ' .AddScoreByKeyData(clsScoreControl.KeyData.Alt_R)
                         isRedInput = True
                         lbl_J_R_3.BackColor = Color.Red
 
@@ -883,7 +883,7 @@ Public Class Form2
                     End If
                 ElseIf (gamePadState.Buttons.LeftShoulder = Input.ButtonState.Pressed) Then
                     If Not isRedInput Then
-                        clsScoreControl.AddRedScoreByValue(clsSys.sValueThree) ' .AddScoreByKeyData(clsScoreControl.KeyData.Alt_S)
+                        clsScoreControl.AddRedScoreByValue(3, clsSys.sValueThree) ' .AddScoreByKeyData(clsScoreControl.KeyData.Alt_S)
                         isRedInput = True
                         lbl_J_R_3.BackColor = Color.Red
 
@@ -901,7 +901,7 @@ Public Class Form2
                 ElseIf gamePadState.Buttons.Back = ButtonState.Released AndAlso joy_3_back_pressed Then
                     joy_3_back_pressed = False
                     If Not isRedInput Then
-                        clsScoreControl.AddRedScoreByValue(clsSys.sValueFive) ' .AddScoreByKeyData(clsScoreControl.KeyData.Alt_9)
+                        clsScoreControl.AddRedScoreByValue(3, clsSys.sValueFive) ' .AddScoreByKeyData(clsScoreControl.KeyData.Alt_9)
                         isRedInput = True
                         lbl_J_R_3.BackColor = Color.Red
 
@@ -915,7 +915,7 @@ Public Class Form2
                     End If
                 ElseIf CInt((gamePadState.Triggers.Left * 100)) = 100 Then
                     If Not isRedInput Then
-                        clsScoreControl.AddRedScoreByValue(clsSys.sValueFour) ' .AddScoreByKeyData(clsScoreControl.KeyData.Alt_T)
+                        clsScoreControl.AddRedScoreByValue(3, clsSys.sValueFour) ' .AddScoreByKeyData(clsScoreControl.KeyData.Alt_T)
                         isRedInput = True
                         lbl_J_R_3.BackColor = Color.Red
 
@@ -936,7 +936,7 @@ Public Class Form2
 
                 If (gamePadState.Buttons.A = Input.ButtonState.Pressed) Or (CInt((gamePadState.ThumbSticks.Right.Y + 1.0F) * 100.0F / 2.0F) < 50) Then
                     If Not isBlueInput Then
-                        clsScoreControl.AddBlueScoreByValue(clsSys.sValueOne) ' .AddScoreByKeyData(clsScoreControl.KeyData.Alt_U)
+                        clsScoreControl.AddBlueScoreByValue(3, clsSys.sValueOne) ' .AddScoreByKeyData(clsScoreControl.KeyData.Alt_U)
                         isBlueInput = True
                         lbl_J_B_3.BackColor = Color.Blue
 
@@ -952,7 +952,7 @@ Public Class Form2
                     End If
                 ElseIf (gamePadState.Buttons.Y = Input.ButtonState.Pressed) Or (CInt((gamePadState.ThumbSticks.Right.Y + 1.0F) * 100.0F / 2.0F) > 50) Then
                     If Not isBlueInput Then
-                        clsScoreControl.AddBlueScoreByValue(clsSys.sValueTwo) ' .AddScoreByKeyData(clsScoreControl.KeyData.Alt_V)
+                        clsScoreControl.AddBlueScoreByValue(3, clsSys.sValueTwo) ' .AddScoreByKeyData(clsScoreControl.KeyData.Alt_V)
                         isBlueInput = True
                         lbl_J_B_3.BackColor = Color.Blue
 
@@ -967,7 +967,7 @@ Public Class Form2
                     End If
                 ElseIf (gamePadState.Buttons.RightShoulder = Input.ButtonState.Pressed) Then
                     If Not isBlueInput Then
-                        clsScoreControl.AddBlueScoreByValue(clsSys.sValueThree) '.AddScoreByKeyData(clsScoreControl.KeyData.Alt_W)
+                        clsScoreControl.AddBlueScoreByValue(3, clsSys.sValueThree) '.AddScoreByKeyData(clsScoreControl.KeyData.Alt_W)
                         isBlueInput = True
                         lbl_J_B_3.BackColor = Color.Blue
 
@@ -985,7 +985,7 @@ Public Class Form2
                 ElseIf gamePadState.Buttons.Start = ButtonState.Released AndAlso joy_3_start_pressed Then
                     joy_3_start_pressed = False
                     If Not isBlueInput Then
-                        clsScoreControl.AddBlueScoreByValue(clsSys.sValueFive) ' .AddScoreByKeyData(clsScoreControl.KeyData.Alt_9)
+                        clsScoreControl.AddBlueScoreByValue(3, clsSys.sValueFive) ' .AddScoreByKeyData(clsScoreControl.KeyData.Alt_9)
                         isBlueInput = True
                         lbl_J_B_3.BackColor = Color.Blue
 
@@ -999,7 +999,7 @@ Public Class Form2
                     End If
                 ElseIf CInt((gamePadState.Triggers.Right * 100)) = 100 Then
                     If Not isBlueInput Then
-                        clsScoreControl.AddBlueScoreByValue(clsSys.sValueFour) ' .AddScoreByKeyData(clsScoreControl.KeyData.Alt_X)
+                        clsScoreControl.AddBlueScoreByValue(3, clsSys.sValueFour) ' .AddScoreByKeyData(clsScoreControl.KeyData.Alt_X)
                         isBlueInput = True
                         lbl_J_B_3.BackColor = Color.Blue
 
@@ -1028,7 +1028,7 @@ Public Class Form2
 
                     If state.Y = 65535 Then ' Down Key
                         If Not isRedInput Then
-                            clsScoreControl.AddRedScoreByValue(clsSys.sValueOne) ' .AddScoreByKeyData(clsScoreControl.KeyData.Alt_Q)
+                            clsScoreControl.AddRedScoreByValue(3, clsSys.sValueOne) ' .AddScoreByKeyData(clsScoreControl.KeyData.Alt_Q)
                             isRedInput = True
                             lbl_J_R_3.BackColor = Color.Red
                             Dim nDr As DataRow
@@ -1043,7 +1043,7 @@ Public Class Form2
                     End If
                     If state.Y = 0 Then 'Up Key
                         If Not isRedInput Then
-                            clsScoreControl.AddRedScoreByValue(clsSys.sValueTwo) ' .AddScoreByKeyData(clsScoreControl.KeyData.Alt_R)
+                            clsScoreControl.AddRedScoreByValue(3, clsSys.sValueTwo) ' .AddScoreByKeyData(clsScoreControl.KeyData.Alt_R)
                             isRedInput = True
                             lbl_J_R_3.BackColor = Color.Red
 
@@ -1060,7 +1060,7 @@ Public Class Form2
                     End If
                     If state.GetButtons(6) > 0 Then ' L1 Key
                         If Not isRedInput Then
-                            clsScoreControl.AddRedScoreByValue(clsSys.sValueThree) ' .AddScoreByKeyData(clsScoreControl.KeyData.Alt_S)
+                            clsScoreControl.AddRedScoreByValue(3, clsSys.sValueThree) ' .AddScoreByKeyData(clsScoreControl.KeyData.Alt_S)
                             isRedInput = True
                             lbl_J_R_3.BackColor = Color.Red
 
@@ -1076,7 +1076,7 @@ Public Class Form2
                     End If
                     If state.GetButtons(4) > 0 Then ' L2 Key
                         If Not isRedInput Then
-                            clsScoreControl.AddRedScoreByValue(clsSys.sValueFour) ' .AddScoreByKeyData(clsScoreControl.KeyData.Alt_T)
+                            clsScoreControl.AddRedScoreByValue(3, clsSys.sValueFour) ' .AddScoreByKeyData(clsScoreControl.KeyData.Alt_T)
                             isRedInput = True
                             lbl_J_R_3.BackColor = Color.Red
 
@@ -1093,7 +1093,7 @@ Public Class Form2
 
                     If state.GetButtons(2) > 0 Then ' X Key
                         If Not isBlueInput Then
-                            clsScoreControl.AddBlueScoreByValue(clsSys.sValueOne) ' .AddScoreByKeyData(clsScoreControl.KeyData.Alt_U)
+                            clsScoreControl.AddBlueScoreByValue(3, clsSys.sValueOne) ' .AddScoreByKeyData(clsScoreControl.KeyData.Alt_U)
                             isBlueInput = True
                             lbl_J_B_3.BackColor = Color.Blue
 
@@ -1110,7 +1110,7 @@ Public Class Form2
                     End If
                     If state.GetButtons(0) > 0 Then ' /_\ Key
                         If Not isBlueInput Then
-                            clsScoreControl.AddBlueScoreByValue(clsSys.sValueTwo) ' .AddScoreByKeyData(clsScoreControl.KeyData.Alt_V)
+                            clsScoreControl.AddBlueScoreByValue(3, clsSys.sValueTwo) ' .AddScoreByKeyData(clsScoreControl.KeyData.Alt_V)
                             isBlueInput = True
                             lbl_J_B_3.BackColor = Color.Blue
 
@@ -1127,7 +1127,7 @@ Public Class Form2
                     End If
                     If state.GetButtons(7) > 0 Then ' R1 Key
                         If Not isBlueInput Then
-                            clsScoreControl.AddBlueScoreByValue(clsSys.sValueThree) ' .AddScoreByKeyData(clsScoreControl.KeyData.Alt_W)
+                            clsScoreControl.AddBlueScoreByValue(3, clsSys.sValueThree) ' .AddScoreByKeyData(clsScoreControl.KeyData.Alt_W)
                             isBlueInput = True
                             lbl_J_B_3.BackColor = Color.Blue
 
@@ -1145,7 +1145,7 @@ Public Class Form2
 
                     If state.GetButtons(5) > 0 Then ' R2 Key
                         If Not isBlueInput Then
-                            clsScoreControl.AddBlueScoreByValue(clsSys.sValueFour) ' .AddScoreByKeyData(clsScoreControl.KeyData.Alt_X)
+                            clsScoreControl.AddBlueScoreByValue(3, clsSys.sValueFour) ' .AddScoreByKeyData(clsScoreControl.KeyData.Alt_X)
                             isBlueInput = True
                             lbl_J_B_3.BackColor = Color.Blue
 
@@ -1198,7 +1198,7 @@ Public Class Form2
                 If (gamePadState.DPad.Down = Input.ButtonState.Pressed) Or (CInt((gamePadState.ThumbSticks.Left.Y + 1.0F) * 100.0F / 2.0F) < 50) Then
                     lbl_J_R_4.BackColor = Color.Red
                     If Not isRedInput Then
-                        clsScoreControl.AddRedScoreByValue(clsSys.sValueOne) ' .AddScoreByKeyData(clsScoreControl.KeyData.Alt_1)
+                        clsScoreControl.AddRedScoreByValue(4, clsSys.sValueOne) ' .AddScoreByKeyData(clsScoreControl.KeyData.Alt_1)
                         isRedInput = True
                         'Add Red Score
                         Dim nDr As DataRow
@@ -1212,7 +1212,7 @@ Public Class Form2
                     End If
                 ElseIf (gamePadState.DPad.Up = Input.ButtonState.Pressed) Or (CInt((gamePadState.ThumbSticks.Left.Y + 1.0F) * 100.0F / 2.0F) > 50) Then
                     If Not isRedInput Then
-                        clsScoreControl.AddRedScoreByValue(clsSys.sValueTwo) ' .AddScoreByKeyData(clsScoreControl.KeyData.Alt_2)
+                        clsScoreControl.AddRedScoreByValue(4, clsSys.sValueTwo) ' .AddScoreByKeyData(clsScoreControl.KeyData.Alt_2)
                         isRedInput = True
                         lbl_J_R_4.BackColor = Color.Red
 
@@ -1227,7 +1227,7 @@ Public Class Form2
                     End If
                 ElseIf (gamePadState.Buttons.LeftShoulder = Input.ButtonState.Pressed) Then
                     If Not isRedInput Then
-                        clsScoreControl.AddRedScoreByValue(clsSys.sValueThree) ' .AddScoreByKeyData(clsScoreControl.KeyData.Alt_3)
+                        clsScoreControl.AddRedScoreByValue(4, clsSys.sValueThree) ' .AddScoreByKeyData(clsScoreControl.KeyData.Alt_3)
                         isRedInput = True
                         lbl_J_R_4.BackColor = Color.Red
 
@@ -1245,7 +1245,7 @@ Public Class Form2
                 ElseIf gamePadState.Buttons.Back = ButtonState.Released AndAlso joy_4_back_pressed Then
                     joy_4_back_pressed = False
                     If Not isRedInput Then
-                        clsScoreControl.AddRedScoreByValue(clsSys.sValueFive) ' .AddScoreByKeyData(clsScoreControl.KeyData.Alt_9)
+                        clsScoreControl.AddRedScoreByValue(4, clsSys.sValueFive) ' .AddScoreByKeyData(clsScoreControl.KeyData.Alt_9)
                         isRedInput = True
                         lbl_J_R_4.BackColor = Color.Red
 
@@ -1259,7 +1259,7 @@ Public Class Form2
                     End If
                 ElseIf CInt((gamePadState.Triggers.Left * 100)) = 100 Then
                     If Not isRedInput Then
-                        clsScoreControl.AddRedScoreByValue(clsSys.sValueFour) ' .AddScoreByKeyData(clsScoreControl.KeyData.Alt_4)
+                        clsScoreControl.AddRedScoreByValue(4, clsSys.sValueFour) ' .AddScoreByKeyData(clsScoreControl.KeyData.Alt_4)
                         isRedInput = True
                         lbl_J_R_4.BackColor = Color.Red
 
@@ -1280,7 +1280,7 @@ Public Class Form2
 
                 If (gamePadState.Buttons.A = Input.ButtonState.Pressed) Or (CInt((gamePadState.ThumbSticks.Right.Y + 1.0F) * 100.0F / 2.0F) < 50) Then
                     If Not isBlueInput Then
-                        clsScoreControl.AddBlueScoreByValue(clsSys.sValueOne) ' .AddScoreByKeyData(clsScoreControl.KeyData.Alt_5)
+                        clsScoreControl.AddBlueScoreByValue(4, clsSys.sValueOne) ' .AddScoreByKeyData(clsScoreControl.KeyData.Alt_5)
                         isBlueInput = True
                         lbl_J_B_4.BackColor = Color.Blue
 
@@ -1296,7 +1296,7 @@ Public Class Form2
                     End If
                 ElseIf (gamePadState.Buttons.Y = Input.ButtonState.Pressed) Or (CInt((gamePadState.ThumbSticks.Right.Y + 1.0F) * 100.0F / 2.0F) > 50) Then
                     If Not isBlueInput Then
-                        clsScoreControl.AddBlueScoreByValue(clsSys.sValueTwo) ' .AddScoreByKeyData(clsScoreControl.KeyData.Alt_6)
+                        clsScoreControl.AddBlueScoreByValue(4, clsSys.sValueTwo) ' .AddScoreByKeyData(clsScoreControl.KeyData.Alt_6)
                         isBlueInput = True
                         lbl_J_B_4.BackColor = Color.Blue
 
@@ -1311,7 +1311,7 @@ Public Class Form2
                     End If
                 ElseIf (gamePadState.Buttons.RightShoulder = Input.ButtonState.Pressed) Then
                     If Not isBlueInput Then
-                        clsScoreControl.AddBlueScoreByValue(clsSys.sValueThree) ' .AddScoreByKeyData(clsScoreControl.KeyData.Alt_7)
+                        clsScoreControl.AddBlueScoreByValue(4, clsSys.sValueThree) ' .AddScoreByKeyData(clsScoreControl.KeyData.Alt_7)
                         isBlueInput = True
                         lbl_J_B_4.BackColor = Color.Blue
 
@@ -1329,7 +1329,7 @@ Public Class Form2
                 ElseIf gamePadState.Buttons.Start = ButtonState.Released AndAlso joy_4_start_pressed Then
                     joy_4_start_pressed = False
                     If Not isBlueInput Then
-                        clsScoreControl.AddBlueScoreByValue(clsSys.sValueFive) ' .AddScoreByKeyData(clsScoreControl.KeyData.Ctl_9)
+                        clsScoreControl.AddBlueScoreByValue(4, clsSys.sValueFive) ' .AddScoreByKeyData(clsScoreControl.KeyData.Ctl_9)
                         isBlueInput = True
                         lbl_J_B_4.BackColor = Color.Blue
 
@@ -1344,7 +1344,7 @@ Public Class Form2
                     End If
                 ElseIf CInt((gamePadState.Triggers.Right * 100)) = 100 Then
                     If Not isBlueInput Then
-                        clsScoreControl.AddBlueScoreByValue(clsSys.sValueFour) ' .AddScoreByKeyData(clsScoreControl.KeyData.Alt_8)
+                        clsScoreControl.AddBlueScoreByValue(4, clsSys.sValueFour) ' .AddScoreByKeyData(clsScoreControl.KeyData.Alt_8)
                         isBlueInput = True
                         lbl_J_B_4.BackColor = Color.Blue
 
@@ -1373,7 +1373,7 @@ Public Class Form2
 
                     If state.Y = 65535 Then ' Down Key
                         If Not isRedInput Then
-                            clsScoreControl.AddRedScoreByValue(clsSys.sValueOne) ' .AddScoreByKeyData(clsScoreControl.KeyData.Alt_1)
+                            clsScoreControl.AddRedScoreByValue(4, clsSys.sValueOne) ' .AddScoreByKeyData(clsScoreControl.KeyData.Alt_1)
                             isRedInput = True
                             lbl_J_R_4.BackColor = Color.Red
 
@@ -1391,7 +1391,7 @@ Public Class Form2
 
                     If state.Y = 0 Then 'Up Key
                         If Not isRedInput Then
-                            clsScoreControl.AddRedScoreByValue(clsSys.sValueTwo) ' .AddScoreByKeyData(clsScoreControl.KeyData.Alt_2)
+                            clsScoreControl.AddRedScoreByValue(4, clsSys.sValueTwo) ' .AddScoreByKeyData(clsScoreControl.KeyData.Alt_2)
                             isRedInput = True
                             lbl_J_R_4.BackColor = Color.Red
 
@@ -1409,7 +1409,7 @@ Public Class Form2
 
                     If state.GetButtons(6) > 0 Then ' L1 Key
                         If Not isRedInput Then
-                            clsScoreControl.AddRedScoreByValue(clsSys.sValueThree) ' .AddScoreByKeyData(clsScoreControl.KeyData.Alt_3)
+                            clsScoreControl.AddRedScoreByValue(4, clsSys.sValueThree) ' .AddScoreByKeyData(clsScoreControl.KeyData.Alt_3)
                             isRedInput = True
                             lbl_J_R_4.BackColor = Color.Red
 
@@ -1426,7 +1426,7 @@ Public Class Form2
                     End If
                     If state.GetButtons(4) > 0 Then ' L2 Key
                         If Not isRedInput Then
-                            clsScoreControl.AddRedScoreByValue(clsSys.sValueFour) ' .AddScoreByKeyData(clsScoreControl.KeyData.Alt_4)
+                            clsScoreControl.AddRedScoreByValue(4, clsSys.sValueFour) ' .AddScoreByKeyData(clsScoreControl.KeyData.Alt_4)
                             isRedInput = True
                             lbl_J_R_4.BackColor = Color.Red
 
@@ -1443,7 +1443,7 @@ Public Class Form2
                     End If
                     If state.GetButtons(2) > 0 Then ' X Key
                         If Not isBlueInput Then
-                            clsScoreControl.AddBlueScoreByValue(clsSys.sValueOne) ' .AddScoreByKeyData(clsScoreControl.KeyData.Alt_5)
+                            clsScoreControl.AddBlueScoreByValue(4, clsSys.sValueOne) ' .AddScoreByKeyData(clsScoreControl.KeyData.Alt_5)
                             isBlueInput = True
                             lbl_J_B_4.BackColor = Color.Blue
 
@@ -1461,7 +1461,7 @@ Public Class Form2
 
                     If state.GetButtons(0) > 0 Then ' /_\ Key
                         If Not isBlueInput Then
-                            clsScoreControl.AddBlueScoreByValue(clsSys.sValueTwo) ' .AddScoreByKeyData(clsScoreControl.KeyData.Alt_6)
+                            clsScoreControl.AddBlueScoreByValue(4, clsSys.sValueTwo) ' .AddScoreByKeyData(clsScoreControl.KeyData.Alt_6)
                             isBlueInput = True
                             lbl_J_B_4.BackColor = Color.Blue
 
@@ -1478,7 +1478,7 @@ Public Class Form2
                     End If
                     If state.GetButtons(7) > 0 Then ' R1 Key
                         If Not isBlueInput Then
-                            clsScoreControl.AddBlueScoreByValue(clsSys.sValueThree) ' .AddScoreByKeyData(clsScoreControl.KeyData.Alt_7)
+                            clsScoreControl.AddBlueScoreByValue(4, clsSys.sValueThree) ' .AddScoreByKeyData(clsScoreControl.KeyData.Alt_7)
                             isBlueInput = True
                             lbl_J_B_4.BackColor = Color.Blue
 
@@ -1496,7 +1496,7 @@ Public Class Form2
 
                     If state.GetButtons(5) > 0 Then ' R2 Key
                         If Not isBlueInput Then
-                            clsScoreControl.AddBlueScoreByValue(clsSys.sValueFour) ' .AddScoreByKeyData(clsScoreControl.KeyData.Alt_8)
+                            clsScoreControl.AddBlueScoreByValue(4, clsSys.sValueFour) ' .AddScoreByKeyData(clsScoreControl.KeyData.Alt_8)
                             isBlueInput = True
                             lbl_J_B_4.BackColor = Color.Blue
 
@@ -2586,6 +2586,7 @@ Public Class Form2
             sql = " UPDATE M_Athlete SET [ตำแหน่ง] = " & cboPositionBlue.SelectedValue & " , PrintSta = 0 "
             sql &= " WHERE AthleteID = " & txtBlueId.Text
             clsSys.conn2.runSQL(sql)
+            clsScoreControl.write_log_file()
             MessageBox.Show("บันทึกสำเร็จ")
         End If
     End Sub
@@ -2597,6 +2598,7 @@ Public Class Form2
             sql = " UPDATE M_Athlete SET [ตำแหน่ง] = " & cboPositionRed.SelectedValue & " , PrintSta = 0 "
             sql &= " WHERE AthleteID = " & txtRedId.Text
             clsSys.conn2.runSQL(sql)
+            clsScoreControl.write_log_file()
             MessageBox.Show("บันทึกสำเร็จ")
         End If
     End Sub
@@ -2659,6 +2661,7 @@ Public Class Form2
 
                 TimerStop()
             Case clsScoreControl.eGameStatus.EndRound
+                
                 If clsScoreControl.Round <= 3 Then
                     'รอบที่ 1-3 ปรกติ
                     clsScoreControl.ShowUpdateRound()
@@ -2672,7 +2675,7 @@ Public Class Form2
                 ElseIf clsScoreControl.Round = 4 Then
                     'รอบพิเศษ
                     clsScoreControl.ShowUpdateRound()
-                    clsScoreControl.ClearAllScreen() 'Clear ใบเหลือง ใบแดง กับ คะแนนทั้งหมด
+
                     runTime = New DateTime(2012, 1, 2, 12, 0, 0) ' Set เวลาใหม่
                     runTime = runTime.AddSeconds(clsScoreControl.min)
                     clsScoreControl.GameStatus = clsScoreControl.eGameStatus.Runing
@@ -2700,5 +2703,15 @@ Public Class Form2
                 clsScoreControl.GameStatus = clsScoreControl.eGameStatus.Runing
                 TimerStart()
         End Select
+    End Sub
+
+    Private Sub lblKeyshi_button_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles lblKeyshi_button.Click
+        If clsScoreControl.GameStatus = clsScoreControl.eGameStatus.Runing Or clsScoreControl.GameStatus = clsScoreControl.eGameStatus.Kyeshi Or clsScoreControl.GameStatus = clsScoreControl.eGameStatus.StopGame Then
+            If KyeShiEnable = False Then
+                SetKyeshiEnable()
+            Else
+                SetKyeshiDisable()
+            End If
+        End If
     End Sub
 End Class

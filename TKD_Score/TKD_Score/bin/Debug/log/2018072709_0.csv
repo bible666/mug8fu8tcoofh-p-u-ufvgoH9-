@@ -1,0 +1,24 @@
+﻿Round:Round : 1,Field:0,KYESHI:01:00
+RedID:0,Name:,Team:ทีม,Position:
+BlueID:0,Name:,Team:ทีม,Position:
+Red/Blue,Score,Red Card,Yellow Card,Seq
+Red,1,0,0,
+Blue,0,1,1,
+Round:Round : 2,Field:0,KYESHI:01:00
+RedID:0,Name:,Team:ทีม,Position:
+BlueID:0,Name:,Team:ทีม,Position:
+Red/Blue,Score,Red Card,Yellow Card,Seq
+Red,1,1,1,
+Blue,1,1,1,
+Round:Round : 3,Field:0,KYESHI:01:00
+RedID:0,Name:,Team:ทีม,Position:
+BlueID:0,Name:,Team:ทีม,Position:
+Red/Blue,Score,Red Card,Yellow Card,Seq
+Red,1,1,1,
+Blue,1,1,1,
+Round:Round : 4,Field:0,KYESHI:01:00
+RedID:0,Name:,Team:ทีม,Position:
+BlueID:0,Name:,Team:ทีม,Position:
+Red/Blue,Score,Red Card,Yellow Card,Seq
+Red,0,2,0,
+Blue,2,0,0,

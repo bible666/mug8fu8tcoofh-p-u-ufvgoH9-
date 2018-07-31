@@ -158,6 +158,82 @@
         End Select
 
     End Sub
+    Public Function AddScoreByJoy(ByVal JoyId As Integer, ByVal JoyValue As Integer) As Integer
+        If iJude <= 2 Then
+            iKey1 = 0
+            iKey2 = 0
+            iKey3 = 0
+            iKey4 = 0
+            iKey5 = 0
+            Return JoyValue
+        End If
+
+        If (iKey1 + iKey2 + iKey3 + iKey4 + iKey5) = 0 Then
+            tSTime = Now
+
+            Select Case JoyId
+                Case 1
+                    iKey1 = 1
+                Case 2
+                    iKey2 = 1
+                Case 3
+                    iKey3 = 1
+                Case 4
+                    iKey4 = 1
+                Case 5
+                    iKey5 = 1
+            End Select
+        Else
+            Select Case JoyId
+                Case 1
+                    iKey1 = 1
+                Case 2
+                    iKey2 = 1
+                Case 3
+                    iKey3 = 1
+                Case 4
+                    iKey4 = 1
+                Case 5
+                    iKey5 = 1
+            End Select
+            Dim eDate As DateTime = Now
+
+            If Format(eDate, "HHmmssfff") - Format(tSTime, "HHmmssfff") < 1000 Then
+                If (iKey1 + iKey2 + iKey3 + iKey4 + iKey5) >= (iJude - 1) Then
+                    iKey1 = 0
+                    iKey2 = 0
+                    iKey3 = 0
+                    iKey4 = 0
+                    iKey5 = 0
+                    Return JoyValue
+                End If
+            Else
+                'more 5
+                tSTime = Now
+                iKey1 = 0
+                iKey2 = 0
+                iKey3 = 0
+                iKey4 = 0
+                iKey5 = 0
+                Select Case JoyId
+                    Case 1
+                        iKey1 = 1
+                    Case 2
+                        iKey2 = 1
+                    Case 3
+                        iKey3 = 1
+                    Case 4
+                        iKey4 = 1
+                    Case 5
+                        iKey5 = 1
+                End Select
+                Return 0
+            End If
+        End If
+
+
+        Return 0
+    End Function
     Private Function AddScore(ByVal iKeyData As Integer) As Integer
         If iJude <= 2 Then
             iKey1 = 0

@@ -365,15 +365,27 @@
         frmShow.lblBlueSeq.Text = iSeq
     End Sub
 
-    Public Shared Sub AddBlueScoreByValue(ByVal iValue)
+    Public Shared Sub AddBlueScoreByValue(ByVal JoyId As Integer, ByVal iValue As Integer)
         Dim OldBlue As Integer = iBlueScore
 
         If GameStatus <> eGameStatus.Runing Then
             Exit Sub
         End If
 
-        iBlueScore += iValue
-      
+        Select Case iValue
+            Case clsSys.sValueOne
+                iBlueScore += clsScoreControl.Blue_1.AddScoreByJoy(JoyId, iValue)
+            Case clsSys.sValueTwo
+                iBlueScore += clsScoreControl.Blue_2.AddScoreByJoy(JoyId, iValue)
+            Case clsSys.sValueThree
+                iBlueScore += clsScoreControl.Blue_3.AddScoreByJoy(JoyId, iValue)
+            Case clsSys.sValueFour
+                iBlueScore += clsScoreControl.Blue_4.AddScoreByJoy(JoyId, iValue)
+            Case clsSys.sValueFive
+                iBlueScore += clsScoreControl.Blue_5.AddScoreByJoy(JoyId, iValue)
+        End Select
+
+
         If iBlueScore > 0 Then
             frmShow.lblBlue.Text = iBlueScore
             frmControl.lblBlue.Text = iBlueScore
@@ -382,15 +394,29 @@
         CheckWinByScore()
         ShowWinner()
     End Sub
-    Public Shared Sub AddRedScoreByValue(ByVal iValue)
+    Public Shared Sub AddRedScoreByValue(ByVal joyId As Integer, ByVal iValue As Integer)
         Dim OldRed As Integer = iRedScore
 
         If GameStatus <> eGameStatus.Runing Then
             Exit Sub
         End If
 
-        iRedScore += iValue
-        
+
+
+        Select Case iValue
+            Case clsSys.sValueOne
+                iRedScore += clsScoreControl.Red_one.AddScoreByJoy(joyId, iValue)
+            Case clsSys.sValueTwo
+                iRedScore += clsScoreControl.Red_2.AddScoreByJoy(joyId, iValue)
+            Case clsSys.sValueThree
+                iRedScore += clsScoreControl.Red_3.AddScoreByJoy(joyId, iValue)
+            Case clsSys.sValueFour
+                iRedScore += clsScoreControl.Red_4.AddScoreByJoy(joyId, iValue)
+            Case clsSys.sValueFive
+                iRedScore += clsScoreControl.Red_5.AddScoreByJoy(joyId, iValue)
+        End Select
+
+
         If iRedScore > 0 Then
             frmShow.lblRed.Text = iRedScore
             frmControl.lblRed.Text = iRedScore
@@ -398,6 +424,7 @@
 
         CheckWinByScore()
         ShowWinner()
+
     End Sub
 
     Public Shared Sub AddScoreByKeyData(ByVal KeyData As KeyData)
@@ -433,8 +460,8 @@
         ShowWinner()
     End Sub
 
-    Public Shared Sub AddRedScore()
-        iRedScore += 1
+    Public Shared Sub AddRedScore(Optional ByVal iAddScore As Integer = 1)
+        iRedScore += iAddScore
 
         frmShow.lblRed.Text = iRedScore
         frmControl.lblRed.Text = iRedScore
@@ -459,9 +486,9 @@
         End If
     End Sub
 
-    Public Shared Sub AddBlueScore()
+    Public Shared Sub AddBlueScore(Optional ByVal iAddValue As Integer = 1)
 
-        iBlueScore += 1
+        iBlueScore += iAddValue
 
         frmShow.lblBlue.Text = iBlueScore
         frmControl.lblBlue.Text = iBlueScore
@@ -616,7 +643,8 @@
         End With
         If iRound = 4 Then
             If iRed_R_Card Mod 2 = 0 Then
-                AddBlueScore()
+                AddBlueScore(2)
+
             End If
         Else
             AddBlueScore()
@@ -701,7 +729,8 @@
         frmShow.lblBlue_Red.Text = iBlue_R_Card
         If iRound = 4 Then
             If iBlue_R_Card Mod 2 = 0 Then
-                AddRedScore()
+                AddRedScore(2)
+
             End If
         Else
             AddRedScore()
@@ -860,6 +889,9 @@
                 iRound += 1
             End If
 
+            If iRound = 4 Then
+                ClearAllScreen() 'Clear ใบเหลือง ใบแดง กับ คะแนนทั้งหมด
+            End If
             'If iRound = 4 AndAlso WinPlayer = Player.None Then
             '    PlayEndSound(iSoundId)
             'End If
@@ -897,7 +929,7 @@
         End If
 
         Dim Fs As New System.IO.FileStream(file_name, IO.FileMode.Append, IO.FileAccess.Write, IO.FileShare.Write)
-        Dim Sw As New System.IO.StreamWriter(Fs)
+        Dim Sw As New System.IO.StreamWriter(Fs, System.Text.Encoding.UTF8)
         Try
             Sw.WriteLine("Round:" + frmControl.lblRound.Text.Trim + ",Field:" + frmControl.lblField.Text.Trim + ",KYESHI:" + frmControl.lblKyeShi.Text.Trim)
             Sw.WriteLine("RedID:" + frmControl.txtRedId.Text.Trim + ",Name:" + frmControl.lblRedName.Text.Trim + ",Team:" + frmControl.lblRedTeam.Text.Trim + ",Position:" + frmControl.cboPositionRed.Text.Trim)
@@ -1100,6 +1132,7 @@
     Public Shared Sub ClearAllScreen()
         ClearCard() 'Clear ใบเหลือ ใบแดง
         ClearScore()
+
         With frmControl
             .lblField.Text = FieldName & Format(FieldSeq, "0.##")
             .txtRedId.Text = iRedId
@@ -1108,6 +1141,8 @@
             .txtBlueId.Text = iBlueId
             .lblBlueName.Text = sBlueName
             .lblBlueTeam.Text = "ทีม " & sBlueTeam
+            .txtBlueSeq.Text = ""
+            .txtRedSeq.Text = ""
         End With
 
         With frmShow
@@ -1116,6 +1151,8 @@
             .lblRedTeam.Text = "ทีม " & sRedTeam
             .lblBlueName.Text = sBlueName
             .lblBlueTeam.Text = "ทีม " & sBlueTeam
+            .lblBlueSeq.Text = ""
+            .lblRedSeq.Text = ""
         End With
 
 

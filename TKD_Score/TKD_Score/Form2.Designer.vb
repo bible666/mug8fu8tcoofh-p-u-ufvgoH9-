@@ -24,18 +24,16 @@ Partial Class Form2
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Form2))
-        Dim DataGridViewCellStyle1 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle
-        Dim DataGridViewCellStyle2 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle
-        Dim DataGridViewCellStyle3 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle
-        Dim DataGridViewCellStyle4 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle
-        Dim DataGridViewCellStyle5 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle
-        Dim DataGridViewCellStyle6 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle
+        Dim DataGridViewCellStyle7 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle
+        Dim DataGridViewCellStyle8 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle
+        Dim DataGridViewCellStyle9 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle
+        Dim DataGridViewCellStyle10 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle
+        Dim DataGridViewCellStyle11 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle
+        Dim DataGridViewCellStyle12 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle
         Me.pnButton = New System.Windows.Forms.Panel
+        Me.lblKeyshi_button = New System.Windows.Forms.Label
         Me.btnStart = New System.Windows.Forms.Label
-        Me.btnSet = New System.Windows.Forms.PictureBox
-        Me.btnNext = New System.Windows.Forms.PictureBox
         Me.btnImage2 = New System.Windows.Forms.PictureBox
-        Me.btnSave = New System.Windows.Forms.PictureBox
         Me.GroupBox2 = New System.Windows.Forms.GroupBox
         Me.Label6 = New System.Windows.Forms.Label
         Me.btnBlue_P = New System.Windows.Forms.Label
@@ -63,6 +61,9 @@ Partial Class Form2
         Me.btnRed_K_P = New System.Windows.Forms.Label
         Me.btnRedSeqPlus = New System.Windows.Forms.Button
         Me.txtRedSeq = New System.Windows.Forms.TextBox
+        Me.btnSet = New System.Windows.Forms.PictureBox
+        Me.btnNext = New System.Windows.Forms.PictureBox
+        Me.btnSave = New System.Windows.Forms.PictureBox
         Me.Label4 = New System.Windows.Forms.Label
         Me.btnJoyUpdate = New System.Windows.Forms.PictureBox
         Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
@@ -109,13 +110,13 @@ Partial Class Form2
         Me.grdData_Red = New OPE_Controls.opeDataGrid
         Me.grdDataBlue = New OPE_Controls.opeDataGrid
         Me.pnButton.SuspendLayout()
-        CType(Me.btnSet, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.btnNext, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.btnImage2, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.btnSave, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.GroupBox2.SuspendLayout()
         CType(Me.btnImage1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.GroupBox1.SuspendLayout()
+        CType(Me.btnSet, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.btnNext, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.btnSave, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.btnJoyUpdate, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.pnTop_Round_Team.SuspendLayout()
         Me.pnTop_Ather.SuspendLayout()
@@ -123,81 +124,62 @@ Partial Class Form2
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel1.SuspendLayout()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.Panel3.SuspendLayout()
         CType(Me.grdData_Red, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.grdDataBlue, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'pnButton
         '
-        Me.pnButton.BackColor = System.Drawing.Color.White
+        Me.pnButton.BackColor = System.Drawing.Color.DarkOrchid
+        Me.pnButton.Controls.Add(Me.lblKeyshi_button)
         Me.pnButton.Controls.Add(Me.btnStart)
-        Me.pnButton.Controls.Add(Me.btnSet)
-        Me.pnButton.Controls.Add(Me.btnNext)
         Me.pnButton.Controls.Add(Me.btnImage2)
-        Me.pnButton.Controls.Add(Me.btnSave)
         Me.pnButton.Controls.Add(Me.GroupBox2)
         Me.pnButton.Controls.Add(Me.btnImage1)
         Me.pnButton.Controls.Add(Me.GroupBox1)
-        Me.pnButton.Controls.Add(Me.Label4)
-        Me.pnButton.Controls.Add(Me.btnJoyUpdate)
         Me.pnButton.Dock = System.Windows.Forms.DockStyle.Bottom
         Me.pnButton.Location = New System.Drawing.Point(0, 486)
         Me.pnButton.Name = "pnButton"
         Me.pnButton.Size = New System.Drawing.Size(1264, 151)
         Me.pnButton.TabIndex = 8
         '
+        'lblKeyshi_button
+        '
+        Me.lblKeyshi_button.AutoSize = True
+        Me.lblKeyshi_button.BackColor = System.Drawing.SystemColors.Control
+        Me.lblKeyshi_button.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.lblKeyshi_button.Font = New System.Drawing.Font("DSN LardPhrao", 26.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblKeyshi_button.ForeColor = System.Drawing.Color.Black
+        Me.lblKeyshi_button.Location = New System.Drawing.Point(585, 97)
+        Me.lblKeyshi_button.Name = "lblKeyshi_button"
+        Me.lblKeyshi_button.Size = New System.Drawing.Size(94, 39)
+        Me.lblKeyshi_button.TabIndex = 34
+        Me.lblKeyshi_button.Text = "KYESHI"
+        '
         'btnStart
         '
         Me.btnStart.AutoSize = True
         Me.btnStart.BackColor = System.Drawing.SystemColors.Control
-        Me.btnStart.Font = New System.Drawing.Font("Microsoft Sans Serif", 26.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnStart.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.btnStart.Font = New System.Drawing.Font("DSN LardPhrao", 36.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnStart.ForeColor = System.Drawing.Color.Black
-        Me.btnStart.Location = New System.Drawing.Point(475, 32)
+        Me.btnStart.Location = New System.Drawing.Point(548, 20)
         Me.btnStart.Name = "btnStart"
-        Me.btnStart.Size = New System.Drawing.Size(162, 39)
+        Me.btnStart.Size = New System.Drawing.Size(165, 53)
         Me.btnStart.TabIndex = 33
         Me.btnStart.Text = "start/stop"
-        '
-        'btnSet
-        '
-        Me.btnSet.BackgroundImage = CType(resources.GetObject("btnSet.BackgroundImage"), System.Drawing.Image)
-        Me.btnSet.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.btnSet.Location = New System.Drawing.Point(705, 32)
-        Me.btnSet.Name = "btnSet"
-        Me.btnSet.Size = New System.Drawing.Size(103, 39)
-        Me.btnSet.TabIndex = 17
-        Me.btnSet.TabStop = False
-        '
-        'btnNext
-        '
-        Me.btnNext.BackgroundImage = CType(resources.GetObject("btnNext.BackgroundImage"), System.Drawing.Image)
-        Me.btnNext.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.btnNext.Location = New System.Drawing.Point(576, 32)
-        Me.btnNext.Name = "btnNext"
-        Me.btnNext.Size = New System.Drawing.Size(104, 39)
-        Me.btnNext.TabIndex = 13
-        Me.btnNext.TabStop = False
         '
         'btnImage2
         '
         Me.btnImage2.BackColor = System.Drawing.Color.White
         Me.btnImage2.Image = CType(resources.GetObject("btnImage2.Image"), System.Drawing.Image)
         Me.btnImage2.InitialImage = Nothing
-        Me.btnImage2.Location = New System.Drawing.Point(732, 102)
+        Me.btnImage2.Location = New System.Drawing.Point(724, 92)
         Me.btnImage2.Name = "btnImage2"
         Me.btnImage2.Size = New System.Drawing.Size(76, 45)
         Me.btnImage2.TabIndex = 32
         Me.btnImage2.TabStop = False
-        '
-        'btnSave
-        '
-        Me.btnSave.BackgroundImage = CType(resources.GetObject("btnSave.BackgroundImage"), System.Drawing.Image)
-        Me.btnSave.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.btnSave.Location = New System.Drawing.Point(705, 6)
-        Me.btnSave.Name = "btnSave"
-        Me.btnSave.Size = New System.Drawing.Size(100, 38)
-        Me.btnSave.TabIndex = 6
-        Me.btnSave.TabStop = False
         '
         'GroupBox2
         '
@@ -223,11 +205,11 @@ Partial Class Form2
         '
         Me.Label6.AutoSize = True
         Me.Label6.BackColor = System.Drawing.Color.Transparent
-        Me.Label6.Font = New System.Drawing.Font("Microsoft Sans Serif", 26.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label6.Font = New System.Drawing.Font("DSN LardPhrao", 27.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label6.ForeColor = System.Drawing.Color.Black
-        Me.Label6.Location = New System.Drawing.Point(242, 13)
+        Me.Label6.Location = New System.Drawing.Point(260, 13)
         Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(96, 39)
+        Me.Label6.Size = New System.Drawing.Size(72, 39)
         Me.Label6.TabIndex = 29
         Me.Label6.Text = "Point"
         '
@@ -249,7 +231,7 @@ Partial Class Form2
         Me.btnBlue_M.BackColor = System.Drawing.SystemColors.Control
         Me.btnBlue_M.Font = New System.Drawing.Font("Microsoft Sans Serif", 36.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnBlue_M.ForeColor = System.Drawing.Color.Black
-        Me.btnBlue_M.Location = New System.Drawing.Point(391, 55)
+        Me.btnBlue_M.Location = New System.Drawing.Point(391, 53)
         Me.btnBlue_M.Name = "btnBlue_M"
         Me.btnBlue_M.Size = New System.Drawing.Size(40, 55)
         Me.btnBlue_M.TabIndex = 27
@@ -366,6 +348,7 @@ Partial Class Form2
         '
         'GroupBox1
         '
+        Me.GroupBox1.BackColor = System.Drawing.Color.DarkOrchid
         Me.GroupBox1.Controls.Add(Me.Label5)
         Me.GroupBox1.Controls.Add(Me.btnRed_M)
         Me.GroupBox1.Controls.Add(Me.btnRed_G_M)
@@ -378,7 +361,7 @@ Partial Class Form2
         Me.GroupBox1.Controls.Add(Me.btnRed_K_P)
         Me.GroupBox1.Controls.Add(Me.btnRedSeqPlus)
         Me.GroupBox1.Controls.Add(Me.txtRedSeq)
-        Me.GroupBox1.Location = New System.Drawing.Point(12, 3)
+        Me.GroupBox1.Location = New System.Drawing.Point(8, 3)
         Me.GroupBox1.Name = "GroupBox1"
         Me.GroupBox1.Size = New System.Drawing.Size(455, 144)
         Me.GroupBox1.TabIndex = 24
@@ -388,11 +371,11 @@ Partial Class Form2
         '
         Me.Label5.AutoSize = True
         Me.Label5.BackColor = System.Drawing.Color.Transparent
-        Me.Label5.Font = New System.Drawing.Font("Microsoft Sans Serif", 26.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label5.Font = New System.Drawing.Font("DSN LardPhrao", 27.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label5.ForeColor = System.Drawing.Color.Black
-        Me.Label5.Location = New System.Drawing.Point(237, 14)
+        Me.Label5.Location = New System.Drawing.Point(255, 14)
         Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(96, 39)
+        Me.Label5.Size = New System.Drawing.Size(72, 39)
         Me.Label5.TabIndex = 26
         Me.Label5.Text = "Point"
         '
@@ -518,14 +501,44 @@ Partial Class Form2
         Me.txtRedSeq.Size = New System.Drawing.Size(83, 38)
         Me.txtRedSeq.TabIndex = 16
         '
+        'btnSet
+        '
+        Me.btnSet.BackgroundImage = CType(resources.GetObject("btnSet.BackgroundImage"), System.Drawing.Image)
+        Me.btnSet.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.btnSet.Location = New System.Drawing.Point(702, 6)
+        Me.btnSet.Name = "btnSet"
+        Me.btnSet.Size = New System.Drawing.Size(103, 39)
+        Me.btnSet.TabIndex = 17
+        Me.btnSet.TabStop = False
+        '
+        'btnNext
+        '
+        Me.btnNext.BackgroundImage = CType(resources.GetObject("btnNext.BackgroundImage"), System.Drawing.Image)
+        Me.btnNext.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.btnNext.Location = New System.Drawing.Point(363, 6)
+        Me.btnNext.Name = "btnNext"
+        Me.btnNext.Size = New System.Drawing.Size(104, 39)
+        Me.btnNext.TabIndex = 13
+        Me.btnNext.TabStop = False
+        '
+        'btnSave
+        '
+        Me.btnSave.BackgroundImage = CType(resources.GetObject("btnSave.BackgroundImage"), System.Drawing.Image)
+        Me.btnSave.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.btnSave.Location = New System.Drawing.Point(820, 7)
+        Me.btnSave.Name = "btnSave"
+        Me.btnSave.Size = New System.Drawing.Size(100, 38)
+        Me.btnSave.TabIndex = 6
+        Me.btnSave.TabStop = False
+        '
         'Label4
         '
         Me.Label4.BackColor = System.Drawing.Color.Purple
-        Me.Label4.Font = New System.Drawing.Font("Microsoft Sans Serif", 30.0!)
+        Me.Label4.Font = New System.Drawing.Font("Microsoft Sans Serif", 26.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label4.ForeColor = System.Drawing.Color.White
-        Me.Label4.Location = New System.Drawing.Point(548, 12)
+        Me.Label4.Location = New System.Drawing.Point(552, 4)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(113, 45)
+        Me.Label4.Size = New System.Drawing.Size(116, 39)
         Me.Label4.TabIndex = 15
         Me.Label4.Text = "Send"
         Me.Label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -536,7 +549,7 @@ Partial Class Form2
         Me.btnJoyUpdate.BackgroundImage = CType(resources.GetObject("btnJoyUpdate.BackgroundImage"), System.Drawing.Image)
         Me.btnJoyUpdate.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.btnJoyUpdate.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
-        Me.btnJoyUpdate.Location = New System.Drawing.Point(577, 88)
+        Me.btnJoyUpdate.Location = New System.Drawing.Point(486, 3)
         Me.btnJoyUpdate.Name = "btnJoyUpdate"
         Me.btnJoyUpdate.Size = New System.Drawing.Size(38, 38)
         Me.btnJoyUpdate.TabIndex = 14
@@ -570,7 +583,7 @@ Partial Class Form2
         'lblField
         '
         Me.lblField.AutoSize = True
-        Me.lblField.BackColor = System.Drawing.Color.White
+        Me.lblField.BackColor = System.Drawing.Color.DarkOrange
         Me.lblField.Dock = System.Windows.Forms.DockStyle.Right
         Me.lblField.Font = New System.Drawing.Font("Microsoft Sans Serif", 72.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblField.ForeColor = System.Drawing.Color.Black
@@ -670,7 +683,7 @@ Partial Class Form2
         Me.Label3.ForeColor = System.Drawing.Color.White
         Me.Label3.Location = New System.Drawing.Point(306, 55)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(66, 23)
+        Me.Label3.Size = New System.Drawing.Size(67, 23)
         Me.Label3.TabIndex = 9
         Me.Label3.Text = "ตำแหน่ง"
         '
@@ -749,7 +762,7 @@ Partial Class Form2
         Me.Label2.ForeColor = System.Drawing.Color.White
         Me.Label2.Location = New System.Drawing.Point(323, 59)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(66, 23)
+        Me.Label2.Size = New System.Drawing.Size(67, 23)
         Me.Label2.TabIndex = 8
         Me.Label2.Text = "ตำแหน่ง"
         '
@@ -776,7 +789,7 @@ Partial Class Form2
         '
         'Label7
         '
-        Me.Label7.Font = New System.Drawing.Font("Cordia New", 48.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label7.Font = New System.Drawing.Font("DSN MaTiChon", 48.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label7.ForeColor = System.Drawing.Color.Black
         Me.Label7.Location = New System.Drawing.Point(530, 215)
         Me.Label7.Name = "Label7"
@@ -788,8 +801,8 @@ Partial Class Form2
         'lblBlue
         '
         Me.lblBlue.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.lblBlue.BackColor = System.Drawing.Color.White
-        Me.lblBlue.Font = New System.Drawing.Font("Microsoft Sans Serif", 130.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblBlue.BackColor = System.Drawing.Color.Black
+        Me.lblBlue.Font = New System.Drawing.Font("Microsoft Sans Serif", 110.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblBlue.ForeColor = System.Drawing.Color.Blue
         Me.lblBlue.Location = New System.Drawing.Point(886, 216)
         Me.lblBlue.Name = "lblBlue"
@@ -800,8 +813,8 @@ Partial Class Form2
         '
         'lblRed
         '
-        Me.lblRed.BackColor = System.Drawing.Color.White
-        Me.lblRed.Font = New System.Drawing.Font("Microsoft Sans Serif", 130.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblRed.BackColor = System.Drawing.Color.Black
+        Me.lblRed.Font = New System.Drawing.Font("Microsoft Sans Serif", 110.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblRed.ForeColor = System.Drawing.Color.Red
         Me.lblRed.Location = New System.Drawing.Point(24, 217)
         Me.lblRed.Name = "lblRed"
@@ -823,9 +836,9 @@ Partial Class Form2
         '
         'Label1
         '
-        Me.Label1.Font = New System.Drawing.Font("Cordia New", 48.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.Font = New System.Drawing.Font("DSN MaTiChon", 48.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label1.ForeColor = System.Drawing.Color.Black
-        Me.Label1.Location = New System.Drawing.Point(530, 334)
+        Me.Label1.Location = New System.Drawing.Point(530, 331)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(204, 60)
         Me.Label1.TabIndex = 18
@@ -836,7 +849,7 @@ Partial Class Form2
         '
         Me.lblKyeShi.Font = New System.Drawing.Font("Cordia New", 48.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblKyeShi.ForeColor = System.Drawing.Color.Black
-        Me.lblKyeShi.Location = New System.Drawing.Point(530, 389)
+        Me.lblKyeShi.Location = New System.Drawing.Point(530, 386)
         Me.lblKyeShi.Name = "lblKyeShi"
         Me.lblKyeShi.Size = New System.Drawing.Size(204, 60)
         Me.lblKyeShi.TabIndex = 19
@@ -845,10 +858,15 @@ Partial Class Form2
         '
         'Panel3
         '
+        Me.Panel3.Controls.Add(Me.btnJoyUpdate)
+        Me.Panel3.Controls.Add(Me.Label4)
+        Me.Panel3.Controls.Add(Me.btnNext)
+        Me.Panel3.Controls.Add(Me.btnSet)
+        Me.Panel3.Controls.Add(Me.btnSave)
         Me.Panel3.Dock = System.Windows.Forms.DockStyle.Bottom
-        Me.Panel3.Location = New System.Drawing.Point(0, 451)
+        Me.Panel3.Location = New System.Drawing.Point(0, 443)
         Me.Panel3.Name = "Panel3"
-        Me.Panel3.Size = New System.Drawing.Size(1264, 35)
+        Me.Panel3.Size = New System.Drawing.Size(1264, 43)
         Me.Panel3.TabIndex = 20
         '
         'lbl_J_R_1
@@ -934,58 +952,58 @@ Partial Class Form2
         '
         'grdData_Red
         '
-        DataGridViewCellStyle1.BackColor = System.Drawing.Color.LightCyan
-        Me.grdData_Red.AlternatingRowsDefaultCellStyle = DataGridViewCellStyle1
+        DataGridViewCellStyle7.BackColor = System.Drawing.Color.LightCyan
+        Me.grdData_Red.AlternatingRowsDefaultCellStyle = DataGridViewCellStyle7
         Me.grdData_Red.AutoGenerateRecordNo = False
-        DataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle2.BackColor = System.Drawing.Color.LightSteelBlue
-        DataGridViewCellStyle2.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
-        DataGridViewCellStyle2.ForeColor = System.Drawing.SystemColors.WindowText
-        DataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight
-        DataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText
-        DataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
-        Me.grdData_Red.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle2
+        DataGridViewCellStyle8.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle8.BackColor = System.Drawing.Color.LightSteelBlue
+        DataGridViewCellStyle8.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
+        DataGridViewCellStyle8.ForeColor = System.Drawing.SystemColors.WindowText
+        DataGridViewCellStyle8.SelectionBackColor = System.Drawing.SystemColors.Highlight
+        DataGridViewCellStyle8.SelectionForeColor = System.Drawing.SystemColors.HighlightText
+        DataGridViewCellStyle8.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
+        Me.grdData_Red.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle8
         Me.grdData_Red.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
         Me.grdData_Red.EnableHeadersVisualStyles = False
         Me.grdData_Red.Location = New System.Drawing.Point(384, 255)
         Me.grdData_Red.Name = "grdData_Red"
-        DataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle3.BackColor = System.Drawing.Color.LightSteelBlue
-        DataGridViewCellStyle3.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
-        DataGridViewCellStyle3.ForeColor = System.Drawing.SystemColors.WindowText
-        DataGridViewCellStyle3.SelectionBackColor = System.Drawing.SystemColors.Highlight
-        DataGridViewCellStyle3.SelectionForeColor = System.Drawing.SystemColors.HighlightText
-        DataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
-        Me.grdData_Red.RowHeadersDefaultCellStyle = DataGridViewCellStyle3
+        DataGridViewCellStyle9.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle9.BackColor = System.Drawing.Color.LightSteelBlue
+        DataGridViewCellStyle9.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
+        DataGridViewCellStyle9.ForeColor = System.Drawing.SystemColors.WindowText
+        DataGridViewCellStyle9.SelectionBackColor = System.Drawing.SystemColors.Highlight
+        DataGridViewCellStyle9.SelectionForeColor = System.Drawing.SystemColors.HighlightText
+        DataGridViewCellStyle9.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
+        Me.grdData_Red.RowHeadersDefaultCellStyle = DataGridViewCellStyle9
         Me.grdData_Red.Size = New System.Drawing.Size(140, 153)
         Me.grdData_Red.TabIndex = 29
         Me.grdData_Red.TabStop = False
         '
         'grdDataBlue
         '
-        DataGridViewCellStyle4.BackColor = System.Drawing.Color.LightCyan
-        Me.grdDataBlue.AlternatingRowsDefaultCellStyle = DataGridViewCellStyle4
+        DataGridViewCellStyle10.BackColor = System.Drawing.Color.LightCyan
+        Me.grdDataBlue.AlternatingRowsDefaultCellStyle = DataGridViewCellStyle10
         Me.grdDataBlue.AutoGenerateRecordNo = False
-        DataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle5.BackColor = System.Drawing.Color.LightSteelBlue
-        DataGridViewCellStyle5.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
-        DataGridViewCellStyle5.ForeColor = System.Drawing.SystemColors.WindowText
-        DataGridViewCellStyle5.SelectionBackColor = System.Drawing.SystemColors.Highlight
-        DataGridViewCellStyle5.SelectionForeColor = System.Drawing.SystemColors.HighlightText
-        DataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
-        Me.grdDataBlue.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle5
+        DataGridViewCellStyle11.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle11.BackColor = System.Drawing.Color.LightSteelBlue
+        DataGridViewCellStyle11.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
+        DataGridViewCellStyle11.ForeColor = System.Drawing.SystemColors.WindowText
+        DataGridViewCellStyle11.SelectionBackColor = System.Drawing.SystemColors.Highlight
+        DataGridViewCellStyle11.SelectionForeColor = System.Drawing.SystemColors.HighlightText
+        DataGridViewCellStyle11.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
+        Me.grdDataBlue.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle11
         Me.grdDataBlue.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
         Me.grdDataBlue.EnableHeadersVisualStyles = False
         Me.grdDataBlue.Location = New System.Drawing.Point(740, 254)
         Me.grdDataBlue.Name = "grdDataBlue"
-        DataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle6.BackColor = System.Drawing.Color.LightSteelBlue
-        DataGridViewCellStyle6.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
-        DataGridViewCellStyle6.ForeColor = System.Drawing.SystemColors.WindowText
-        DataGridViewCellStyle6.SelectionBackColor = System.Drawing.SystemColors.Highlight
-        DataGridViewCellStyle6.SelectionForeColor = System.Drawing.SystemColors.HighlightText
-        DataGridViewCellStyle6.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
-        Me.grdDataBlue.RowHeadersDefaultCellStyle = DataGridViewCellStyle6
+        DataGridViewCellStyle12.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle12.BackColor = System.Drawing.Color.LightSteelBlue
+        DataGridViewCellStyle12.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
+        DataGridViewCellStyle12.ForeColor = System.Drawing.SystemColors.WindowText
+        DataGridViewCellStyle12.SelectionBackColor = System.Drawing.SystemColors.Highlight
+        DataGridViewCellStyle12.SelectionForeColor = System.Drawing.SystemColors.HighlightText
+        DataGridViewCellStyle12.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
+        Me.grdDataBlue.RowHeadersDefaultCellStyle = DataGridViewCellStyle12
         Me.grdDataBlue.Size = New System.Drawing.Size(140, 153)
         Me.grdDataBlue.TabIndex = 30
         Me.grdDataBlue.TabStop = False
@@ -1020,15 +1038,15 @@ Partial Class Form2
         Me.Text = "Control"
         Me.pnButton.ResumeLayout(False)
         Me.pnButton.PerformLayout()
-        CType(Me.btnSet, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.btnNext, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.btnImage2, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.btnSave, System.ComponentModel.ISupportInitialize).EndInit()
         Me.GroupBox2.ResumeLayout(False)
         Me.GroupBox2.PerformLayout()
         CType(Me.btnImage1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.GroupBox1.ResumeLayout(False)
         Me.GroupBox1.PerformLayout()
+        CType(Me.btnSet, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.btnNext, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.btnSave, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.btnJoyUpdate, System.ComponentModel.ISupportInitialize).EndInit()
         Me.pnTop_Round_Team.ResumeLayout(False)
         Me.pnTop_Round_Team.PerformLayout()
@@ -1039,6 +1057,7 @@ Partial Class Form2
         Me.Panel1.ResumeLayout(False)
         Me.Panel1.PerformLayout()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Panel3.ResumeLayout(False)
         CType(Me.grdData_Red, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.grdDataBlue, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
@@ -1122,4 +1141,5 @@ Partial Class Form2
     Friend WithEvents btnBlue_P As System.Windows.Forms.Label
     Friend WithEvents Label6 As System.Windows.Forms.Label
     Friend WithEvents btnStart As System.Windows.Forms.Label
+    Friend WithEvents lblKeyshi_button As System.Windows.Forms.Label
 End Class
